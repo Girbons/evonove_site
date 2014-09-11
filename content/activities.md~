@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+{{ template "theme/partials/head.html" . }}
+  <body>
+    {{ template "theme/partials/navbar.html" . }}
+
+    <div class="container container-home">
+      <div class="row">
+         <h1>Activities</h1>
+        <div class="col-lg-12">
+
+                <ul class="posts list-unstyled">
+  {{ range .Data.Pages.ByDate.Reverse }}
+            {{ if eq .Type "activities" }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </li>
+            {{ end }}
+          {{ end }}
+</ul>
+        <div class="container container-home">
+         <ul class ="list-inline"><li><h1>Expertise</h1></li></ul>
+            <ul class="posts list-unstyled">
+          {{ range .Data.Pages.ByDate.Reverse }}
+            {{ if eq .Type "expertise" }}
+            <li>
+              <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+
+            </li>
+            {{ end }}
+          {{ end }}
+          </ul>
+          <ul class="list-inline">
+            <li><a href="https://github.com/masci"><i class="fa fa-github fa-2x"></i></a></li>
+            <li><a href="https://twitter.com/evonove"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="http://www.linkedin.com/in/masci"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
+            <li><a href="http://www.flickr.com/photos/evonovesrl/"><i class="fa fa-flickr fa-2x"></i></a></li>
+          </ul>
+         </div>
+
+        </div>
+   	
+
+
+      </div>
+      {{ template "theme/partials/footer.html" . }}
+    </div>
+    {{ template "theme/partials/js.html" . }}
+  </body>
+</html>
+

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Staffs on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/staff/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Alessandro Veracchi</title>
+      <link>http://localhost:1313/staff/aliex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/aliex/</guid>
+      <description>&lt;p&gt;Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.
+We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
+
+&lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
+I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Andrea Veracchi</title>
+      <link>http://localhost:1313/staff/andrea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/andrea/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
+
+&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Massimiliano Pippi</title>
+      <link>http://localhost:1313/staff/masci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/masci/</guid>
+      <description>&lt;p&gt;Software developer, Python lover, Dad.&lt;/p&gt;
+
+&lt;p&gt;I write Python and C++ code, maintain servers and services up and running, deploy web applications,
+integrate software components, write documentation, help making decisions about tools and technologies. I would
+definitely define myself as a troubleshooter.&lt;/p&gt;
+
+&lt;p&gt;As a long-time vegetarian, I currently hold the &lt;em&gt;Vegan Chef&lt;/em&gt; position at Evonove.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Emanuele Palazzetti</title>
+      <link>http://localhost:1313/staff/palazzem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/palazzem/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a software developer but, first of all, fan and supporter of everything turns around computer science, security and open source.
+I&amp;rsquo;m very enthusiastic of Python language which became my first choice during implementation phase of a project.&lt;/p&gt;
+
+&lt;p&gt;Even if Java was my old used language, I&amp;rsquo;ve never completely abandoned it and, nowadays, I used it during Android application development.
+My passions for programming, led me to take part as an active user on many association like LUG and GDG.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Federico Frenguelli</title>
+      <link>http://localhost:1313/staff/synasius/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/synasius/</guid>
+      <description>&lt;p&gt;Guess I should insert a bio &amp;hellip; but I have no time to waste!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

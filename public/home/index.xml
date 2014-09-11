@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Homes on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/home/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Callout</title>
+      <link>http://localhost:1313/home/callout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/callout/</guid>
+      <description>
+
+&lt;p&gt;.. |callout| image:: /img/tofu_logo.png&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;&lt;code&gt;Tofu, file storage made easy &amp;lt;http://tofu.st/&amp;gt;&lt;/code&gt;_&lt;/h1&gt;
+
+&lt;p&gt;|callout| Tofu is a file storage solution based on evonove&amp;rsquo;s own customers
+requirements. You can try the service and get 1Gb of disk space for your personal
+files, for free.&lt;/p&gt;
+
+&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot; target=&amp;quot;_blank&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;icon-shopping-cart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Get an account now&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Footer Navigation</title>
+      <link>http://localhost:1313/home/footer_navmenu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/footer_navmenu/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h3 class=&amp;quot;center-title&amp;quot;&amp;gt;Links&amp;lt;/h3&amp;gt;
+&amp;lt;ul class=&amp;quot;footer-navigate&amp;quot;&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/evonove&amp;quot;&amp;gt;Evonove on GitHub&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;EvoWiki&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot;&amp;gt;Tofu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/contacts/&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Footer About</title>
+      <link>http://localhost:1313/home/footer_about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/footer_about/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h4 class=&amp;quot;center-title&amp;quot;&amp;gt;About E9&amp;lt;/h4&amp;gt;
+&amp;lt;dl class=&amp;quot;dl-horizontal&amp;quot;&amp;gt;
+    &amp;lt;dt&amp;gt;Sector&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software and IT Infrastructures.&amp;lt;/dd&amp;gt;
+    &amp;lt;dt&amp;gt;Services&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software development, consultancy, formation, coworking, workshops, internships&amp;lt;/dd&amp;gt;
+&amp;lt;/dl&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contacts</title>
+      <link>http://localhost:1313/home/contacts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/contacts/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;col-wrapper&amp;quot;&amp;gt;
+    &amp;lt;div class=&amp;quot;row main-block&amp;quot;&amp;gt;
+
+        &amp;lt;div class=&amp;quot;contact-info span3&amp;quot;&amp;gt;
+            &amp;lt;h2&amp;gt;Evonove SRL&amp;lt;/h2&amp;gt;
+            &amp;lt;!-- COMPANY ADDRESS --&amp;gt;
+            &amp;lt;address&amp;gt;
+                Via Fra&#39; Filippo Longo 16/b,&amp;lt;br&amp;gt;
+                Magione (PG) - ITALY&amp;lt;br&amp;gt;
+                Phone: +39 075 843667&amp;lt;br&amp;gt;
+                Fax: +39 075 843667&amp;lt;br&amp;gt;
+                Email: &amp;lt;a href=&amp;quot;mailto:info@evonove.it&amp;quot;&amp;gt;info@evonove.it&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;
+                Web: &amp;lt;a href=&amp;quot;http://evonove.it&amp;quot;&amp;gt;evonove.it&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;
+                Twitter: &amp;lt;a href=&amp;quot;http://twitter.com/evonove&amp;quot;&amp;gt;@evonove&amp;lt;/a&amp;gt;
+            &amp;lt;/address&amp;gt;
+
+            &amp;lt;hr/&amp;gt;
+        &amp;lt;/div&amp;gt;
+
+        &amp;lt;div class=&amp;quot;span9&amp;quot;&amp;gt;
+            &amp;lt;!-- GOOGLE MAP --&amp;gt;
+            &amp;lt;iframe style=&amp;quot;width: 100%; height: 600px; border: none;&amp;quot; src=&amp;quot;https://maps.google.it/maps?f=q&amp;amp;amp;source=s_q&amp;amp;amp;hl=it&amp;amp;amp;geocode=&amp;amp;amp;q=evonove&amp;amp;amp;aq=&amp;amp;amp;sll=42.990899,12.578031&amp;amp;amp;sspn=3.945505,8.453979&amp;amp;amp;ie=UTF8&amp;amp;amp;hq=evonove&amp;amp;amp;hnear=&amp;amp;amp;t=m&amp;amp;amp;cid=12213368677978933014&amp;amp;amp;ll=43.192662,12.254562&amp;amp;amp;spn=0.225271,0.411301&amp;amp;amp;z=11&amp;amp;amp;iwloc=A&amp;amp;amp;output=embed&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;&amp;lt;a href=&amp;quot;https://maps.google.it/maps?f=q&amp;amp;amp;source=embed&amp;amp;amp;hl=it&amp;amp;amp;geocode=&amp;amp;amp;q=evonove&amp;amp;amp;aq=&amp;amp;amp;sll=42.990899,12.578031&amp;amp;amp;sspn=3.945505,8.453979&amp;amp;amp;ie=UTF8&amp;amp;amp;hq=evonove&amp;amp;amp;hnear=&amp;amp;amp;t=m&amp;amp;amp;cid=12213368677978933014&amp;amp;amp;ll=43.192662,12.254562&amp;amp;amp;spn=0.225271,0.411301&amp;amp;amp;z=11&amp;amp;amp;iwloc=A&amp;quot; style=&amp;quot;color:#0000FF;text-align:left&amp;quot;&amp;gt;Visualizzazione ingrandita della mappa&amp;lt;/a&amp;gt;&amp;lt;/small&amp;gt;
+        &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>http://localhost:1313/home/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/license/</guid>
+      <description>&lt;p&gt;.. |logo| image:: /img/cc-by-sa-3.0.png
+    :alt: cc-by-sa-3.0
+    :target: &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;
+    :class: quote-left&lt;/p&gt;
+
+&lt;p&gt;|logo| This work is licensed under a &lt;code&gt;Creative Commons
+Attribution-ShareAlike 3.0 Unported License &amp;lt;http://creativecommons.org/licenses/by-sa/3.0/&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://localhost:1313/home/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/home/homepage/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
+
+&lt;p&gt;We help our customers to build quality IT systems by designing and developing
+software, planning and managing infrastructures, training. We try to actively
+involve our customers in every step when delivering a project, from the design
+of the application to the final test. Companies with their own technical staff
+can temporarily hire part of our staff when specific know-how is needed during
+the development of a project.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

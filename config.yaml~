@@ -1,0 +1,4 @@
+---
+baseurl = "http://yourSiteHere"
+title = "my new hugo site"
+---
