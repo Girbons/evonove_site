@@ -327,27 +327,6 @@ Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it
     </item>
     
     <item>
-      <title>Home</title>
-      <link>http://localhost:1313/homepage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/homepage/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
-
-&lt;p&gt;We help our customers to build quality IT systems by designing and developing
-software, planning and managing infrastructures, training. We try to actively
-involve our customers in every step when delivering a project, from the design
-of the application to the final test. Companies with their own technical staff
-can temporarily hire part of our staff when specific know-how is needed during
-the development of a project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Rich Web Applications</title>
       <link>http://localhost:1313/expertise/webapps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -392,6 +371,43 @@ backend.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Home</title>
+      <link>http://localhost:1313/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/homepage/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
+
+&lt;p&gt;We help our customers to build quality IT systems by designing and developing
+software, planning and managing infrastructures, training. We try to actively
+involve our customers in every step when delivering a project, from the design
+of the application to the final test. Companies with their own technical staff
+can temporarily hire part of our staff when specific know-how is needed during
+the development of a project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>http://localhost:1313/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/license/</guid>
+      <description>&lt;p&gt;.. |logo| image:: /img/cc-by-sa-3.0.png
+    :alt: cc-by-sa-3.0
+    :target: &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;
+    :class: quote-left&lt;/p&gt;
+
+&lt;p&gt;|logo| This work is licensed under a &lt;code&gt;Creative Commons
+Attribution-ShareAlike 3.0 Unported License &amp;lt;http://creativecommons.org/licenses/by-sa/3.0/&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Alessandro Veracchi</title>
       <link>http://localhost:1313/staff/aliex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -402,18 +418,6 @@ We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
 
 &lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
 I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Andrea Veracchi</title>
-      <link>http://localhost:1313/staff/andrea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/andrea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
-
-&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
 </description>
     </item>
     
