@@ -24,18 +24,16 @@ I have a degree in Computer Engineering, but that was many years ago. Now I&amp;
     </item>
     
     <item>
-      <title>Massimiliano Pippi</title>
-      <link>http://localhost:1313/staff/masci/</link>
+      <title>Emanuele Palazzetti</title>
+      <link>http://localhost:1313/staff/palazzem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/staff/masci/</guid>
-      <description>&lt;p&gt;Software developer, Python lover, Dad.&lt;/p&gt;
+      <guid>http://localhost:1313/staff/palazzem/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a software developer but, first of all, fan and supporter of everything turns around computer science, security and open source.
+I&amp;rsquo;m very enthusiastic of Python language which became my first choice during implementation phase of a project.&lt;/p&gt;
 
-&lt;p&gt;I write Python and C++ code, maintain servers and services up and running, deploy web applications,
-integrate software components, write documentation, help making decisions about tools and technologies. I would
-definitely define myself as a troubleshooter.&lt;/p&gt;
-
-&lt;p&gt;As a long-time vegetarian, I currently hold the &lt;em&gt;Vegan Chef&lt;/em&gt; position at Evonove.&lt;/p&gt;
+&lt;p&gt;Even if Java was my old used language, I&amp;rsquo;ve never completely abandoned it and, nowadays, I used it during Android application development.
+My passions for programming, led me to take part as an active user on many association like LUG and GDG.&lt;/p&gt;
 </description>
     </item>
     
@@ -62,16 +60,18 @@ definitely define myself as a troubleshooter.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Emanuele Palazzetti</title>
-      <link>http://localhost:1313/staff/palazzem/</link>
+      <title>Massimiliano Pippi</title>
+      <link>http://localhost:1313/staff/masci/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/staff/palazzem/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a software developer but, first of all, fan and supporter of everything turns around computer science, security and open source.
-I&amp;rsquo;m very enthusiastic of Python language which became my first choice during implementation phase of a project.&lt;/p&gt;
+      <guid>http://localhost:1313/staff/masci/</guid>
+      <description>&lt;p&gt;Software developer, Python lover, Dad.&lt;/p&gt;
 
-&lt;p&gt;Even if Java was my old used language, I&amp;rsquo;ve never completely abandoned it and, nowadays, I used it during Android application development.
-My passions for programming, led me to take part as an active user on many association like LUG and GDG.&lt;/p&gt;
+&lt;p&gt;I write Python and C++ code, maintain servers and services up and running, deploy web applications,
+integrate software components, write documentation, help making decisions about tools and technologies. I would
+definitely define myself as a troubleshooter.&lt;/p&gt;
+
+&lt;p&gt;As a long-time vegetarian, I currently hold the &lt;em&gt;Vegan Chef&lt;/em&gt; position at Evonove.&lt;/p&gt;
 </description>
     </item>
     

@@ -10,42 +10,6 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
-      <title>Molecular Visualization</title>
-      <link>http://localhost:1313/expertise/molecular-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
-      <description>&lt;p&gt;.. |pymol| image:: /img/pymol2.png
-    :class: bordered-img quote-right&lt;/p&gt;
-
-&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
-particular focus on the field of molecular visualization, using open source
-tools and libraries like PyMol and VTK.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Qt</title>
-      <link>http://localhost:1313/expertise/qt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/qt/</guid>
-      <description>&lt;p&gt;.. |qtlogo| image:: /img/qt-logo.jpg
-    :alt: Qt logo
-    :class: quote-right bordered-img&lt;/p&gt;
-
-&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
-interfaces for desktop, embedded and mobile platforms. Qt also provides
-support for network programming, multi threading, database access.&lt;/p&gt;
-
-&lt;p&gt;Qt is our first choice when developing desktop applications or when high
-performances are a requirement. We have solid experience using Qt both in C++
-and Python programming languages and we can offer support even on existing
-projects.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Django</title>
       <link>http://localhost:1313/expertise/django/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -79,6 +43,42 @@ Read the docs: &lt;code&gt;&amp;lt;https://django-stored-messages.readthedocs.or
 
 &lt;p&gt;Currency conversion utilities for money.
 Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Qt</title>
+      <link>http://localhost:1313/expertise/qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/qt/</guid>
+      <description>&lt;p&gt;.. |qtlogo| image:: /img/qt-logo.jpg
+    :alt: Qt logo
+    :class: quote-right bordered-img&lt;/p&gt;
+
+&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
+interfaces for desktop, embedded and mobile platforms. Qt also provides
+support for network programming, multi threading, database access.&lt;/p&gt;
+
+&lt;p&gt;Qt is our first choice when developing desktop applications or when high
+performances are a requirement. We have solid experience using Qt both in C++
+and Python programming languages and we can offer support even on existing
+projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular Visualization</title>
+      <link>http://localhost:1313/expertise/molecular-visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
+      <description>&lt;p&gt;.. |pymol| image:: /img/pymol2.png
+    :class: bordered-img quote-right&lt;/p&gt;
+
+&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
+particular focus on the field of molecular visualization, using open source
+tools and libraries like PyMol and VTK.&lt;/p&gt;
 </description>
     </item>
     
