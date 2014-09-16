@@ -10,18 +10,6 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
-      <title>Andrea Veracchi</title>
-      <link>http://localhost:1313/staff/andrea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/andrea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
-
-&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Alessandro Veracchi</title>
       <link>http://localhost:1313/staff/aliex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -32,6 +20,18 @@ We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
 
 &lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
 I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Andrea Veracchi</title>
+      <link>http://localhost:1313/staff/andrea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/andrea/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
+
+&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
 </description>
     </item>
     
