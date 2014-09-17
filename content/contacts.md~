@@ -4,10 +4,12 @@ lang: en
 type: page
 date: 01-01-2013
 identifier: contacts
-type:content
+
 ---
 
-.. raw:: html
+{{ % highlight html %}}
+
+
 
     <div class="col-wrapper">
         <div class="row main-block">
@@ -34,3 +36,5 @@ type:content
             </div>
         </div>
     </div>
+{{ % /highlight html %}}
+

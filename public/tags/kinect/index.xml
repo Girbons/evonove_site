@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Kinect on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/kinect/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Progetto Kimol - Diario di Bordo - 1</title>
+      <link>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</guid>
+      <description>&lt;p&gt;Si è conclusa la prima settimana di lavoro su KiMol, il progetto sviluppato da
+uno studente dell&amp;rsquo;Università degli Studi di Perugia nell&amp;rsquo;ambito di un
+&lt;a href=&#34;/it/workshop/&#34;&gt;tirocinio esterno&lt;/a&gt; presso Evonove.&lt;/p&gt;
+
+&lt;p&gt;Riassumo brevemente per chi non abbia letto la
+&lt;code&gt;pagina del progetto nel wiki &amp;lt;http://wiki.evonove.it/Concepts/KiMol&amp;gt;&lt;/code&gt;&lt;em&gt;: si
+tratta dello sviluppo di un&amp;rsquo;interfaccia utente gesture based per
+&lt;code&gt;PyMol &amp;lt;http://www.pymol.org/&amp;gt;&lt;/code&gt;&lt;/em&gt;, un noto visualizzatore open source di
+strutture molecolari.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2011/foto-1.jpg
+    :alt: Kinect e Xtion sulla scrivania
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Abbiamo approfittato del recente ingresso in commercio della periferica
+&lt;code&gt;Xtion &amp;lt;http://www.asus.com/Multimedia/Motion_Sensor/Xtion_PRO/&amp;gt;&lt;/code&gt;_ da parte di
+Asus per affiancarla al Kinect di Microsoft come dispositivo di acquisizione
+(nella foto); l&amp;rsquo;idea è poter utilizzare indifferentemente l&amp;rsquo;una o l&amp;rsquo;altra
+periferica anche se al momento lo sviluppo è guidato dal Kinect.&lt;/p&gt;
+
+&lt;p&gt;Chi ha avuto esperienza con l&amp;rsquo;hacking del Kinect saprà che sono diverse le
+soluzioni a disposizione degli sviluppatori per interfacciarsi al dispositivo,
+recuperarne i dati ed elaborarli in modo da realizzare funzionalità di gesture
+tracking. Per il momento noi ci siamo affidati al progetto
+&lt;code&gt;OpenKinect &amp;lt;http://openkinect.org/wiki/Main_Page&amp;gt;&lt;/code&gt;_ per la parte acquisizione
+e ad &lt;code&gt;OpenCV &amp;lt;http://opencv.willowgarage.com/wiki/Welcome&amp;gt;&lt;/code&gt;_ per quella di
+elaborazione; i risultati sono incoraggianti e gran parte del merito va ai
+bindings Python per la libreria freenect che ci permettono una prototipazione
+rapida molto utile soprattutto in questa fase esplorativa delle potenzialità
+della periferica.&lt;/p&gt;
+
+&lt;p&gt;Mettere in piedi tutta la toolchain è stato abbastanza semplice e facilmente
+replicabile grazie alla configurazione di freenect, molto ben organizzata
+attraverso &lt;code&gt;CMake &amp;lt;http://www.cmake.org/&amp;gt;&lt;/code&gt;_ ed alla semplicità con cui reperire
+le dipendenze sulla distribuzione Fedora 15 con la quale è equipaggiata la
+macchina di riferimento per lo sviluppo del progetto.&lt;/p&gt;
+
+&lt;p&gt;Il prossimo step consiste nel comprendere al meglio i dati che vengono forniti
+dal Kinect attraverso freenect e sondare le potenzialità di OpenCV rispetto al
+progetto finale.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>libFreenect su Fedora</title>
+      <link>http://localhost:1313/blog/2011/libfreenect-su-fedora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/libfreenect-su-fedora/</guid>
+      <description>
+
+&lt;p&gt;OpenKinect è una community di appassionati dediti in particolare all&amp;rsquo;utilizzo di
+Microsoft Kinect in ambiente desktop attraverso strumenti open source.
+In particolare OpenKinect è responsabile dello sviluppo della libreria Freenect
+grazie alla quale è possibile accedere a molti dei dati che arrivano dal Kinect
+quando connesso ad un PC attraverso una porta USB. Freenect è una libreria
+multipiattaforma (Mac, Linux, Win) dotata di bindings Python; sebbene OpenKinect
+non ne fornisca pacchetti o distribuzioni binarie, compilare ed installare la
+libreria è abbastanza semplice, soprattutto in una distribuzione Fedora 15 con
+l&amp;rsquo;aiuto di Yum.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Prerequisiti&lt;/h2&gt;
+
+&lt;p&gt;Prima di procedere con la build della libreria abbiamo bisogno di installare
+alcuni strumenti e dipendenze, cosa che facciamo con yum:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install git cmake gcc gcc-c++ libXi libXi-devel libXmu libXmu-devel freeglut freeglut-devel libusb1-devel Cython
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fatto.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;libFreenect&lt;/h2&gt;
+
+&lt;p&gt;Possiamo recuperare facilmente una versione aggiornata dei sorgenti della
+libreria da GitHub:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/OpenKinect/libfreenect.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creiamo poi una directory che conterrà i files della build senza &amp;ldquo;sporcare&amp;rdquo; la
+directory dei sorgenti, ci spostiamo al suo interno e da lì invochiamo cmake:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir libfreenect_build &amp;amp;&amp;amp; cd libfreenect_build/
+ccmake ../libfreenect
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dall&amp;rsquo;interfaccia di CMake è importante abilitare il flag per la build dei
+bindings Python:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;BUILD_PYTHON: ON
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A questo punto non resta che procedere con l&amp;rsquo;invocazione di make per la build e
+l&amp;rsquo;installazione (quest&amp;rsquo;ultima dovrà essere effettuata con i privilegi di root
+nel caso non abbiate impostato la variabile INSTALL_PREFIX con un path su cui
+avete i permessi di scrittura).&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finito. Se la build è stata completata con successo potete verificare la
+corretta installazione direttamente con l&amp;rsquo;interprete Python. Se dalla shell il
+comando:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -c &amp;quot;import freenect&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;finisce senza produrre errori, libFreenect è correttamente installata nel
+vostro sistema.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

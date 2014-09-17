@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Android on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/android/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Android Workshop</title>
+      <link>http://localhost:1313/blog/2012/android-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
+      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
+per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
+appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
+Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
+sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
+di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
+i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DroidCon 2014, tutti a bordo!</title>
+      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
+      <description>&lt;p&gt;Dopo Amsterdam, Bangalore, Berlino, Brussels, Londra, Murcia e Tunisi la
+&lt;code&gt;Droidcon &amp;lt;http://droidcon.com/&amp;gt;&lt;/code&gt;_ sbarca in Italia, precisamente &lt;code&gt;a Torino &amp;lt;http://it.droidcon.com/2014/&amp;gt;&lt;/code&gt;_.
+Saranno due giorni di talk, workshop, esibizioni e anche una Hackaton, tutto dedicato ad uno dei
+sistemi operativi più diffusi nel pianeta: Android.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2014/droidcon.jpg
+    :alt: Droidcon Turin
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Alla Droidcon è possibile vedere Android calato in ogni possibile contesto, dai device mobili (ovviamente)
+le TV, le automobili, il gaming fino all&amp;rsquo;embedded. E noi saremo là proprio per questo: armato di una
+&lt;code&gt;Udoo board &amp;lt;http://www.udoo.org/&amp;gt;&lt;/code&gt;_ attaccata ad un rover motorizzato, &lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_
+mostrerà il potenziale di Android portandolo oltre il noto utilizzo sugli smartphone con il suo talk
+&lt;code&gt;Release the Kraken UDOO porta Android dove nessuno smartphone potrebbe arrivare &amp;lt;http://it.droidcon.com/2014/lineup/&amp;gt;&lt;/code&gt;&lt;em&gt;.
+La cosiddetta &lt;em&gt;Internet delle cose&lt;/em&gt; sembra continuare ad attrarre pubblico, sempre più appassionati
+vogliono sporcarsi le mani sull&amp;rsquo;hardware ed anche i media hanno colto appieno lo spirito della
+&lt;em&gt;Makers Revolution&lt;/em&gt;, come si evince anche da &lt;code&gt;questo articolo &amp;lt;http://nova.ilsole24ore.com/esperienze/android-piu-open&amp;gt;&lt;/code&gt;&lt;/em&gt;
+pubblicato nel supplemento online del Sole 24 Ore.
+Se volete saperne di più sull&amp;rsquo;avventura di Emanuele alla Droidcon potete leggere &lt;code&gt;questa intervista &amp;lt;http://www.techmate.it/droidcon/&amp;gt;&lt;/code&gt;_
+pubblicata da Techmate.it oltre che andare a sentire il suo talk ovviamente!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DroidCon 2014, all aboard!</title>
+      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
+      <description>&lt;p&gt;After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
+&lt;code&gt;Droidcon &amp;lt;http://droidcon.com/&amp;gt;&lt;/code&gt;_ arrives in Italy, &lt;code&gt;in Turin &amp;lt;http://it.droidcon.com/2014/&amp;gt;&lt;/code&gt;_.
+It&amp;rsquo;ll be two days of talks, workshops, showcases and even an Hackaton dedicated to one of the most
+widespread operating system in the world: Android.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2014/droidcon.jpg
+    :alt: Droidcon Turin
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;At Droidcon you can see Android in action in every field of application: mobile devices, of course,
+but even TV, cars, gaming and embedded systems. And we&amp;rsquo;ll be there just to cover the latter: with
+a &lt;code&gt;Udoo board &amp;lt;http://www.udoo.org/&amp;gt;&lt;/code&gt;_ attached to a custom motorized rover,
+&lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_ is going to show off Android&amp;rsquo;s potential pushing it beyond the
+comfort of mobile devices with the talk &lt;code&gt;Release the Kraken &amp;lt;http://it.droidcon.com/2014/lineup/&amp;gt;&lt;/code&gt;&lt;em&gt;.
+The Internet of Things seems to be very attractive these days, people want to get their hands dirty
+with the bare metal and media grasped the potential of the makers revolution, as you can see on
+&lt;code&gt;this article &amp;lt;http://nova.ilsole24ore.com/esperienze/android-piu-open&amp;gt;&lt;/code&gt;&lt;/em&gt; appeared on one of the
+most authoritative business newspaper (only available in italian).
+You can learn more on Emanuele&amp;rsquo;s adventure at the Droidcon in
+&lt;code&gt;this interview &amp;lt;http://www.techmate.it/droidcon/&amp;gt;&lt;/code&gt;_ (again, only in italian) published on the electronic
+magazine &lt;strong&gt;Techmate&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

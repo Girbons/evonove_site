@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Workshop on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/workshop/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Linux Day 2011 – Sabato 22 Ottobre</title>
+      <link>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</guid>
+      <description>
+
+&lt;p&gt;L&amp;rsquo;Associazione GNU/Linux User Group di Perugia organizza l&amp;rsquo;undicesimo
+appuntamento nazionale dedicato a GNU/Linux ed al Software Libero:
+il Linux Day 2011&lt;/p&gt;
+
+&lt;p&gt;Il Linux Day è una manifestazione nazionale articolata in eventi locali che ha
+lo scopo di promuovere GNU/Linux e il Software Libero, promosso da I.L.S. 
+(Italian Linux Society) e organizzato localmente dai LUG italiani e dagli altri
+gruppi che condividono le finalità della manifestazione. La prima edizione del
+Linux Day si è tenuta il &lt;em&gt;1 dicembre 2001&lt;/em&gt; in circa quaranta città sparse
+su tutto il territorio nazionale. Il numero delle città coinvolte è notevolmente
+cresciuto negli anni (150 città nel 2010) divenendo ormai un appuntamento
+immancabile nel panorama del software libero italiano, seguito dai media
+nazionali e locali e con grande partecipazione di pubblico.&lt;/p&gt;
+
+&lt;p&gt;La manifestazione, la cui partecipazione è gratuita, si terrà sabato 22 ottobre
+2011 a Magione all&amp;rsquo;interno dello Storico Palazzo ristrutturato della S.O.M.S. 
+(Società Operaia Mutuo Soccorso) che si trova in Piazza Giacomo Matteotti
+(&lt;code&gt;mappa: &amp;lt;http://evo9.it/maps.google.it/a&amp;gt;&lt;/code&gt;_).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Iscrizione&lt;/h2&gt;
+
+&lt;p&gt;Tutti coloro che intendono partecipare all&amp;rsquo;evento possono iscriversi tramite il
+seguente link: &lt;a title=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34;&gt;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android Workshop</title>
+      <link>http://localhost:1313/blog/2012/android-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
+      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
+per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
+appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
+Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
+sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
+di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
+i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

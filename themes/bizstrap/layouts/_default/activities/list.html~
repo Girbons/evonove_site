@@ -1,0 +1,39 @@
+ {{ partial "head.html" . }}
+<body>
+ {{ partial "header.html" . }}
+    <div class="content container">
+  <ul class="posts">
+      {{ range .Data.Pages }}
+      <li><span><a href="{{ .Permalink }}">{{ .Title }}</a></span></span></li>
+      {{ end }}
+  </ul>
+   <div class="main-content">
+    <div class="container">
+        <div class="row show-grid">
+            <div class="span12">
+                <div class="row show-grid clear-both">
+                    <!-- BEGIN LEFT-SIDEBAR -->
+                    <div id="left-sidebar" class="span3 sidebar">
+                        <!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+                        <div class="side-nav sidebar-block">
+                            <h2>Activities</h2>
+                            
+    <ul>
+        
+        <li class="active"><a href="/activities/consulting/">Consulting</a></li>
+        
+        <li class=""><a href="/activities/software/">Software</a></li>
+        
+        <li class=""><a href="/activities/workshop/">Workshop</a></li>
+        
+    </ul>
+
+                        </div>
+                    </div>
+                    <!-- END LEFT-SIDEBAR -->
+
+    </div>
+ {{ partial "footer.html" . }}
+ {{ partial "javascript.html" . }}
+  </body>
+</html>

@@ -8,10 +8,8 @@ image_link: http://placehold.it/1024x768.jpg
 identifier: software
 permalink: /activities/software/
 ---
+![code](/img/code.jpg)
 
-.. image:: /img/code.jpg
-    :alt: code
-    :class: bordered-img quote-right
 
 Evonove has experience in the field of software development, ranging from
 software requirements and design, coding, testing and deployment.

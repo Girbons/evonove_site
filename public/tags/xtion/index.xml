@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Xtion on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/xtion/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Progetto Kimol - Diario di Bordo - 1</title>
+      <link>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</guid>
+      <description>&lt;p&gt;Si è conclusa la prima settimana di lavoro su KiMol, il progetto sviluppato da
+uno studente dell&amp;rsquo;Università degli Studi di Perugia nell&amp;rsquo;ambito di un
+&lt;a href=&#34;/it/workshop/&#34;&gt;tirocinio esterno&lt;/a&gt; presso Evonove.&lt;/p&gt;
+
+&lt;p&gt;Riassumo brevemente per chi non abbia letto la
+&lt;code&gt;pagina del progetto nel wiki &amp;lt;http://wiki.evonove.it/Concepts/KiMol&amp;gt;&lt;/code&gt;&lt;em&gt;: si
+tratta dello sviluppo di un&amp;rsquo;interfaccia utente gesture based per
+&lt;code&gt;PyMol &amp;lt;http://www.pymol.org/&amp;gt;&lt;/code&gt;&lt;/em&gt;, un noto visualizzatore open source di
+strutture molecolari.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2011/foto-1.jpg
+    :alt: Kinect e Xtion sulla scrivania
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Abbiamo approfittato del recente ingresso in commercio della periferica
+&lt;code&gt;Xtion &amp;lt;http://www.asus.com/Multimedia/Motion_Sensor/Xtion_PRO/&amp;gt;&lt;/code&gt;_ da parte di
+Asus per affiancarla al Kinect di Microsoft come dispositivo di acquisizione
+(nella foto); l&amp;rsquo;idea è poter utilizzare indifferentemente l&amp;rsquo;una o l&amp;rsquo;altra
+periferica anche se al momento lo sviluppo è guidato dal Kinect.&lt;/p&gt;
+
+&lt;p&gt;Chi ha avuto esperienza con l&amp;rsquo;hacking del Kinect saprà che sono diverse le
+soluzioni a disposizione degli sviluppatori per interfacciarsi al dispositivo,
+recuperarne i dati ed elaborarli in modo da realizzare funzionalità di gesture
+tracking. Per il momento noi ci siamo affidati al progetto
+&lt;code&gt;OpenKinect &amp;lt;http://openkinect.org/wiki/Main_Page&amp;gt;&lt;/code&gt;_ per la parte acquisizione
+e ad &lt;code&gt;OpenCV &amp;lt;http://opencv.willowgarage.com/wiki/Welcome&amp;gt;&lt;/code&gt;_ per quella di
+elaborazione; i risultati sono incoraggianti e gran parte del merito va ai
+bindings Python per la libreria freenect che ci permettono una prototipazione
+rapida molto utile soprattutto in questa fase esplorativa delle potenzialità
+della periferica.&lt;/p&gt;
+
+&lt;p&gt;Mettere in piedi tutta la toolchain è stato abbastanza semplice e facilmente
+replicabile grazie alla configurazione di freenect, molto ben organizzata
+attraverso &lt;code&gt;CMake &amp;lt;http://www.cmake.org/&amp;gt;&lt;/code&gt;_ ed alla semplicità con cui reperire
+le dipendenze sulla distribuzione Fedora 15 con la quale è equipaggiata la
+macchina di riferimento per lo sviluppo del progetto.&lt;/p&gt;
+
+&lt;p&gt;Il prossimo step consiste nel comprendere al meglio i dati che vengono forniti
+dal Kinect attraverso freenect e sondare le potenzialità di OpenCV rispetto al
+progetto finale.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

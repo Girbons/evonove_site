@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Linux on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/linux/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Fedora 15 Release Party</title>
+      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux Day 2011 – Sabato 22 Ottobre</title>
+      <link>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</guid>
+      <description>
+
+&lt;p&gt;L&amp;rsquo;Associazione GNU/Linux User Group di Perugia organizza l&amp;rsquo;undicesimo
+appuntamento nazionale dedicato a GNU/Linux ed al Software Libero:
+il Linux Day 2011&lt;/p&gt;
+
+&lt;p&gt;Il Linux Day è una manifestazione nazionale articolata in eventi locali che ha
+lo scopo di promuovere GNU/Linux e il Software Libero, promosso da I.L.S. 
+(Italian Linux Society) e organizzato localmente dai LUG italiani e dagli altri
+gruppi che condividono le finalità della manifestazione. La prima edizione del
+Linux Day si è tenuta il &lt;em&gt;1 dicembre 2001&lt;/em&gt; in circa quaranta città sparse
+su tutto il territorio nazionale. Il numero delle città coinvolte è notevolmente
+cresciuto negli anni (150 città nel 2010) divenendo ormai un appuntamento
+immancabile nel panorama del software libero italiano, seguito dai media
+nazionali e locali e con grande partecipazione di pubblico.&lt;/p&gt;
+
+&lt;p&gt;La manifestazione, la cui partecipazione è gratuita, si terrà sabato 22 ottobre
+2011 a Magione all&amp;rsquo;interno dello Storico Palazzo ristrutturato della S.O.M.S. 
+(Società Operaia Mutuo Soccorso) che si trova in Piazza Giacomo Matteotti
+(&lt;code&gt;mappa: &amp;lt;http://evo9.it/maps.google.it/a&amp;gt;&lt;/code&gt;_).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Iscrizione&lt;/h2&gt;
+
+&lt;p&gt;Tutti coloro che intendono partecipare all&amp;rsquo;evento possono iscriversi tramite il
+seguente link: &lt;a title=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34;&gt;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>libFreenect su Fedora</title>
+      <link>http://localhost:1313/blog/2011/libfreenect-su-fedora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/libfreenect-su-fedora/</guid>
+      <description>
+
+&lt;p&gt;OpenKinect è una community di appassionati dediti in particolare all&amp;rsquo;utilizzo di
+Microsoft Kinect in ambiente desktop attraverso strumenti open source.
+In particolare OpenKinect è responsabile dello sviluppo della libreria Freenect
+grazie alla quale è possibile accedere a molti dei dati che arrivano dal Kinect
+quando connesso ad un PC attraverso una porta USB. Freenect è una libreria
+multipiattaforma (Mac, Linux, Win) dotata di bindings Python; sebbene OpenKinect
+non ne fornisca pacchetti o distribuzioni binarie, compilare ed installare la
+libreria è abbastanza semplice, soprattutto in una distribuzione Fedora 15 con
+l&amp;rsquo;aiuto di Yum.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Prerequisiti&lt;/h2&gt;
+
+&lt;p&gt;Prima di procedere con la build della libreria abbiamo bisogno di installare
+alcuni strumenti e dipendenze, cosa che facciamo con yum:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install git cmake gcc gcc-c++ libXi libXi-devel libXmu libXmu-devel freeglut freeglut-devel libusb1-devel Cython
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fatto.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;libFreenect&lt;/h2&gt;
+
+&lt;p&gt;Possiamo recuperare facilmente una versione aggiornata dei sorgenti della
+libreria da GitHub:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/OpenKinect/libfreenect.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creiamo poi una directory che conterrà i files della build senza &amp;ldquo;sporcare&amp;rdquo; la
+directory dei sorgenti, ci spostiamo al suo interno e da lì invochiamo cmake:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir libfreenect_build &amp;amp;&amp;amp; cd libfreenect_build/
+ccmake ../libfreenect
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dall&amp;rsquo;interfaccia di CMake è importante abilitare il flag per la build dei
+bindings Python:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;BUILD_PYTHON: ON
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A questo punto non resta che procedere con l&amp;rsquo;invocazione di make per la build e
+l&amp;rsquo;installazione (quest&amp;rsquo;ultima dovrà essere effettuata con i privilegi di root
+nel caso non abbiate impostato la variabile INSTALL_PREFIX con un path su cui
+avete i permessi di scrittura).&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finito. Se la build è stata completata con successo potete verificare la
+corretta installazione direttamente con l&amp;rsquo;interprete Python. Se dalla shell il
+comando:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -c &amp;quot;import freenect&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;finisce senza produrre errori, libFreenect è correttamente installata nel
+vostro sistema.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Release Party, il bilancio</title>
+      <link>http://localhost:1313/blog/2011/release-party-il-bilancio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/release-party-il-bilancio/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Ad una settimana dal Release Party di Fedora 15 &amp;amp;egrave; tempo di bilanci. L&#39;evento ha avuto un discreto successo, sia nei numeri (quasi tutto esaurito per gli spazi Evonove) sia nel merito, almeno a sentire i feedback positivi dei partecipanti. Per un report pi&amp;amp;ugrave; dettagliato &amp;lt;a href=&amp;quot;/admin/zinnia/entry/add/bit.ly/party_report&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;rimando all&#39;articolo&amp;lt;/a&amp;gt; (in inglese) del blog di Gianluca Sforna, promotore dell&#39;evento.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Da parte nostra, ci limitiamo ad alcune considerazioni in qualit&amp;amp;agrave; di ospiti e volontari dell&#39;organizzazione. La preparazione &amp;amp;egrave; stata pi&amp;amp;ugrave; dura del previsto, una quantit&amp;amp;agrave; di task tutto sommato semplici ma molto dispersivi ha impiegato parecchio del nostro tempo, lavorativo e non. Quando si opera su un territorio come il nostro dove l&#39;assenza di iniziative come questa &amp;amp;egrave; la norma non &amp;amp;egrave; semplicissimo avere un feedback attivo dai potenziali interessati, al punto che solo stimare le dimensioni di un rinfresco diventa un&#39;impresa. Abbiamo battuto social network, portali news locali, le bacheche dell&#39;ateneo per non parlare del passaparola e se da un lato non possiamo lamentarci, dall&#39;altro pensavamo di avere pi&amp;amp;ugrave; seguito. In ogni caso la disponibilit&amp;amp;agrave; degli enti locali si &amp;amp;egrave; rivelata pi&amp;amp;ugrave; ampia di quanto sperassimo e solo per un nostro errore sulla gestione delle tempistiche non abbiamo potuto sfruttare al meglio le possibilit&amp;amp;agrave; offerte ad esempio dal Comune di Magione, andr&amp;amp;agrave; per la prossima. Abbiamo apprezzato molto la risposta dei LUG fuori provincia, in particolare &amp;lt;a href=&amp;quot;http://www.ternignulug.org/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;quello di Terni&amp;lt;/a&amp;gt; di cui avevamo ospite anche un membro, speriamo questo rappresenti l&#39;inizio di una proficua collaborazione.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cosa ci &amp;amp;egrave; piaciuto:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;affluenza, record personale di Evonove&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;la formula del release party che sembra piacere molto agli utenti&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;l&#39;appoggio di enti locali sensibili alla materia&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;la soddisfazione che rimane dopo un evento ben riuscito&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Todo list per il prossimo evento:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;pianificare e formalizzare gli step organizzativi&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;avviare l&#39;organizzazione in largo anticipo&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;ottimizzare la promozione dell&#39;evento sui canali risultati pi&amp;amp;ugrave; efficaci&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;fare stalking sulle comunit&amp;amp;agrave; locali :-)&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;trovare volontari&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;gadgets, gadgets, gadgets...&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Un ringraziamento particolare va a Gianluca Sforna di Perugia e Michele Bursi di Arezzo che hanno dimostrato sul campo cosa vuol dire ricoprire il ruolo di&amp;amp;nbsp;Fedora Ambassador.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Per le foto &amp;lt;a href=&amp;quot;http://www.facebook.com/media/set/?set=a.217901141573564.57080.147327958630883&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;rimandiamo alla galleria&amp;lt;/a&amp;gt; sulla nostra pagina Facebook.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

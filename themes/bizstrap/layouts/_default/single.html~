@@ -1,10 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
+ {{ partial "head.html" . }}
 <body>
+ {{ partial "header.html" . }}
 
-</body>
+    <div class="content container">
+<div class="post">
+  <h1>{{ .Title }}</h1>
+  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+      {{ .Content }}
+</div>
+</div> 
+ {{ partial "footer.html" . }}
+ {{ partial "javascript.html" . }}
+
+  </body>
 </html>

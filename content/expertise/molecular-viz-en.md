@@ -10,9 +10,8 @@ identifier : molecular_viz
 frontpage : 2
 permalink : /expertise/molecular-visualization/
 ---
+![pymol](/img/pymol2.png)
 
-.. |pymol| image:: /img/pymol2.png
-    :class: bordered-img quote-right
 
 |pymol| We support our customers providing 3D programming consultancy with a
 particular focus on the field of molecular visualization, using open source

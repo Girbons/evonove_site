@@ -1,0 +1,33 @@
+ {{ partial "head.html" . }}
+<body>
+<div id="left-sidebar" class="span3 sidebar">
+<div class="side-nav sidebar-block">
+<h2>Activities</h2>
+<ul>
+<li class="">
+<a href="/activities/consulting/">Consulting</a>
+</li>
+<li class="active">
+<a href="/activities/software/">Software</a>
+</li>
+<li class="">
+<a href="/activities/workshop/">Workshop</a>
+</li>
+</ul>
+</div>
+</div>
+ {{ partial "header.html" . }}
+
+    <div class="content container">
+<div class="post">
+  <h1>{{ .Title }}</h1>
+
+      {{ .Content }}
+
+
+</div>
+</div>
+ {{ partial "footer.html" . }}
+ {{ partial "javascript.html" . }}
+  </body>
+</html>

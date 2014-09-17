@@ -7,7 +7,9 @@ identifier: contacts
 
 ---
 
-.. raw:: html
+{{ highlight html }}
+
+
 
     <div class="col-wrapper">
         <div class="row main-block">
@@ -34,3 +36,5 @@ identifier: contacts
             </div>
         </div>
     </div>
+{{ /highlight html }}
+

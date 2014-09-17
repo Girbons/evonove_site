@@ -1,0 +1,403 @@
+ 
+
+<head>
+
+        
+        <title>Django &#43; Jetty &#43; SPDY = blazing fast!</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="evonove" />
+        <meta name="robots" content="follow, index" />
+        
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <link rel="stylesheet" href="http://localhost:1313/rs-plugin/css/settings.css" media="screen">
+        <link rel="stylesheet" href="http://localhost:1313/css/rs-responsive.min.css" media="screen">
+        
+        <link rel="stylesheet" href="http://localhost:1313/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/custom.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/isotope.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/color_scheme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="http://localhost:1313/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/font-awesome-ie7.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/flexslider.min.css">
+        <link rel="stylesheet" href="http://localhost:1313/css/jquery.fancybox.min.css?v=2.1.0" type="text/css" media="screen">
+        
+        <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/IE-fix.css">
+
+        <link rel="icon" type="image/png" href="http://localhost:1313/img/favicon.ico">
+
+    <meta name="description" content="Say Hello to Evonove!
+=====================
+
+IT co..." />
+    <meta name="keywords" content="" />
+
+    </head>
+
+<body>
+ <header>
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="span4 logo">
+                        <a class="logo" href="/">
+                            <img alt="logo" title="bizstrap" src="/img/logo.png">
+                        </a>
+                    </div>
+
+                    
+                    <div class="span4 offset4">
+                        <p class="head_phone"><a href="tel:+39-075-843667"><i class="icon-phone"></i>&nbsp; (+39) 075 843667</a></p>
+                    </div>
+
+                    
+                    <div class="span pull-right">
+                        <div class="span3 pull-right">
+                            <ul class="socials unstyled">
+                                <li><a class="flickr" href="http://www.flickr.com/photos/evonovesrl/"></a></li>
+                                <li><a class="twitter" href="https://twitter.com/evonove"></a></li>
+                                <li><a class="facebook" href="https://www.facebook.com/evonovesrl"></a></li>
+                                <li><a class="linkedin" href="http://www.linkedin.com/company/evonove"></a></li>
+                                <li><a class="vimeo" href="http://vimeo.com/user11262087"></a></li>
+                                <li><a class="gplus" href="https://plus.google.com/111644060204650622285/"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <div class="buttons-container">
+                            </div>
+                            <div class="nav-collapse">
+                                <ul class="nav nav-pills">
+                                    <li class="single active">
+                                        <a href="/">
+                                            HOME<i>127.0.0.1</i>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                            ACTIVITIES<i>what we do</i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            
+                                            <li><a href="/activities/consulting/">Consulting</a></li>
+                                            
+                                            <li><a href="/activities/software/">Software</a></li>
+                                            
+                                            <li><a href="/activities/workshop/">Workshop</a></li>
+                                            
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                            EXPERTISE<i>what we can do</i>
+                                        </a>
+
+
+                                        <ul class="dropdown-menu">
+                                            
+                                            <li><a href="/expertise/django/">Django</a></li>
+                                            
+                                            <li><a href="/expertise/molecular-visualization/">Molecular Visualization</a></li>
+                                            
+                                            <li><a href="/expertise/qt/">Qt</a></li>
+                                            
+                                            <li><a href="/expertise/videomapping/">Videomapping</a></li>
+                                            
+                                            <li><a href="/expertise/webapps/">Rich Web Applications</a></li>
+                                            
+                                        </ul>
+
+                                    </li>
+
+
+                                    <li class="single">
+                                        <a class="single" href="/blog/">
+                                            BLOG<i>e9 techies</i>
+                                        </a>
+                                    </li>
+                                    <li class="single">
+                                        <a class="single" href="/staff/">
+                                            STAFF<i>about us</i>
+                                        </a>
+                                    </li>
+
+
+                                    <li class="single">
+                                        <a href="/contacts/">
+                                            CONTACTS<i>get in touch</i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</header>
+
+
+    <div class="content container">
+<div class="post">
+  <h1>Django &#43; Jetty &#43; SPDY = blazing fast!</h1>
+      
+
+<p>Nel novembre del 2009 fu redatto il primo draft di un nuovo protocollo di
+networking aperto chiamato SPDY il cui obiettivo primario era quello di ridurre
+la latenza di caricamento delle pagine web. Il raggiungimento delle specifiche
+tecniche stabilite doveva rispettare alcuni requisiti fondamentali: minimizzare
+la complessità di distribuzione del protocollo; evitare cambiamenti da parte
+degli sviluppatori delle pagine web affinché le modifiche dovessero essere fatte
+solo al client web ed al web server.</p>
+
+<h2 id="toc_0">Chi supporta SPDY?</h2>
+
+<p>Durante l’evoluzione del protocollo, che attualmente è stato preso come base
+per la redazione del primo draft dell’HTTP 2.0 ad opera del gruppo di lavoro
+IETF HTTP-bis, molti dei più noti web server si sono adattati in via
+sperimentale a questa nuova implementazione. Per citarne alcuni parliamo di
+Jetty, Apache (tramite mod_spdy), node.js e nginx.</p>
+
+<h2 id="toc_1">Perché Python non può sfruttare SPDY?</h2>
+
+<p>Per quanto riguarda il linguaggio Python ed il suo uso per sviluppare
+applicazioni web, la specifica PEP-333 stabilì l’utilizzo di WSGI come
+interfaccia standard tra il lato web server ed il lato applicazione / framework.
+WSGI non supporta attualmente SPDY pertanto il protocollo non può essere
+utilizzato nativamente con framework web quali Django.</p>
+
+<h2 id="toc_2">Django e Jython: prepararsi per Jetty</h2>
+
+<p>In attesa di un’evoluzione dell’attuale implementazione di WSGI è possibile
+integrare alcune tecnologie in modo da distribuire un’applicazione Django
+all’interno del web container Jetty. L’utilità di questo approccio è quello di
+sfruttare il supporto di Jetty a SPDY ed alla sua funzione push. Per raggiungere
+l’obiettivo è necessario utilizzare Jython ovvero un’implementazione del
+linguaggio Python scritto in Java. Di seguito si elencano i passaggi da seguire
+per configurare un’istanza Django all’interno di Jetty con abilitata la funzione
+SPDY push.</p>
+
+<p>Scaricare ed installare la versione stable di Jython (attualmente 2.5.3).
+Nonostante sia possibile creare e sviluppare l’applicazione Django direttamente
+in un virtualenv Python, durante la fase di deploy sarà necessario creare un
+nuovo virtualenv con Jython come interprete.</p>
+
+<p>Uno dei problemi da risolvere per eseguire Django su Jython è il suo ORM in
+quanto i backends che si collegano al database dipendono da librerie scritte
+in C. Per ovviare a questo è necessario installare l’estensione django-jython in
+modo da poter usufruire di una serie di tool e di tutti i backends zxJDBC per i
+database principali. Purtroppo l’attuale versione rilasciata (1.3.0) non ha un
+corretto supporto per Django 1.4. Tuttavia è possibile utilizzare l’ultima
+versione disponibile nel repository ufficiale
+(attualmente è il changeset e2c6ff29cd01) che include una serie di fix per il
+corretto funzionamento.</p>
+
+<p>Dopo aver installato l’estensione è necessario abilitarla tra i database
+backends e le INSTALLED_APPS di Django:</p>
+
+<p>.. sourcecode:: python</p>
+
+<pre><code>DATABASES = {
+    'default': {
+    'ENGINE': 'doj.backends.zxjdbc.postgresql',
+    [...]
+    }
+}
+
+INSTALLED_APPS = (
+    [...]
+    'doj',
+)
+</code></pre>
+
+<p>Questo abiliterà la possibilità di poter generare direttamente il package war
+con al suo interno Jython, Django, il driver JDBC scelto (bisogna specificare
+l’inclusione) e l’applicazione sviluppata.</p>
+
+<h2 id="toc_3">Deploy di Django su Jetty</h2>
+
+<p>La versione di Jetty utilizzata è la versione 8.1.8.v20121106 stable.
+Senza nessuna configurazione aggiuntiva è possibile fare il deploy del package
+war per poi richiedere a Jetty di servire l’applicazione.</p>
+
+<h2 id="toc_4">Django, Jetty e SPDY</h2>
+
+<p>Per servire una pagina con il protocollo SPDY è necessario aggiungere spdy tra
+le OPTIONS nel file start.ini. A quel punto aggiungere jetty-spdy.xml tra i file
+di configurazione da utilizzare. Come da specifica, qualora venga utilizzato
+SPDY su HTTPS (TLS), è richiesta l’attivazione dell’estensione TLS Next
+Protocol Negotiation (NPN). La JVM che eseguirà Jetty dovrà essere avviata
+utilizzando l’opzione non standard:</p>
+
+<p>.. sourcecode:: terminal</p>
+
+<pre><code>java -Xbootclasspath/p:&lt;path_to_npn_boot_jar&gt;
+</code></pre>
+
+<p>La versione utilizzata della libreria è la npn-boot-8.1.2.v20120308.jar.
+A questo punto sarà possibile farsi servire la pagina con il protocollo SPDY.</p>
+
+<h2 id="toc_5">Django, Jetty, SPDY e poi PUSH!</h2>
+
+<p>Sfruttando l’implementazione SPDY di Jetty è possibile usufruire della
+modalità server push così da ridurre notevolmente il numero di richieste fatte
+dal client per il recupero delle risorse. Per attivare in modo trasparente
+questa funzionalità è opportuno abilitare una pushStrategy nel file di
+configurazione di Jetty. Per migliorare il comportamento della push strategy,
+è possibile configurare due variabili nel file di configurazione:</p>
+
+<p>.. sourcecode:: xml</p>
+
+<pre><code>&lt;Set name=&quot;referrerPushPeriod&quot;&gt;15000&lt;/Set&gt;
+</code></pre>
+
+<p>definisce il tempo scaduto il quale Jetty smetterà di caricare in modalità push
+risorse associate alla risorsa principale richiesta;</p>
+
+<p>.. sourcecode:: xml</p>
+
+<pre><code>&lt;Set name=&quot;maxAssociatedResources&quot;&gt;32&lt;/Set&gt;
+</code></pre>
+
+<p>definisce il numero massimo di risorse da associare alla risorsa principale.
+Oltre questo numero le risorse saranno inviate secondo il protocollo SPDY senza push.
+Abilitata questa configurazione Django sarà servito in modalità SPDY-PUSH.</p>
+
+<h2 id="toc_6">Tirando le somme</h2>
+
+<p>Nonostante la vista sia stata costruita proprio per mettere in risalto le
+potenzialità di SPDY, di seguito elenchiamo i tempi di caricamento medi della
+pagina Django servita da Jetty:</p>
+
+<ul>
+<li>HTTP (1.1): <strong>7,63 secondi</strong></li>
+<li>SPDY/3: <strong>1,71 secondi</strong></li>
+<li>SPDY/3 (with push): <strong>1,55 secondi</strong></li>
+</ul>
+
+<p>I valori raccolti interessano dei test preliminari eseguiti in locale con un
+roundtrip delay di 200ms e non sono dei benchmark su dei casi d&rsquo;uso
+reale.</p>
+
+<h2 id="toc_7">Codice sorgente</h2>
+
+<p>Progetto, package war e configurazione Jetty: <a href="https://bitbucket.org/evonove/django-spdy/">https://bitbucket.org/evonove/django-spdy/</a></p>
+
+<p>Riferimenti</p>
+
+<ul>
+<li><a href="http://webtide.intalio.com/">http://webtide.intalio.com/</a></li>
+<li><a href="http://wiki.eclipse.org/Jetty">http://wiki.eclipse.org/Jetty</a></li>
+<li><a href="http://chromium.org/spdy">http://chromium.org/spdy</a></li>
+<li><a href="http://djangoproject.org">http://djangoproject.org</a></li>
+<li><a href="http://packages.python.org/django-jython/">http://packages.python.org/django-jython/</a></li>
+<li><a href="http://code.google.com/p/mod-spdy/">http://code.google.com/p/mod-spdy/</a></li>
+</ul>
+
+</div>
+</div> 
+ <footer id="footer">
+
+
+            <div class="footer-top"></div>
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row show-grid">
+                        <div class="span12">
+                            <div class="row show-grid">
+                                
+                                <div class="span4">
+                                    <img alt="" class="footer-logo" src="/img/grey_logo.png" />
+                                    
+                                    <address class="address">
+                                        <p><i class="icon-map-marker icon-large"></i>via Fra' Filippo Longo 16</p>
+                                        <p><i>&nbsp;</i>06063 - Magione (PG)</p>
+                                        <p><i class="icon-phone icon-large"></i>Phone: (+39) 075 843667</p>
+                                        <p><i class="icon-print icon-large"></i>Fax: (+39) 075 843667</p>
+                                    </address>
+                                </div>
+                                
+                                <div class="span4 footer-center">
+                                    <h5 class="center-title">About E9</h5>
+<dl class="dl-horizontal">
+    <dt>Sector</dt>
+    <dd>Software and IT Infrastructures.</dd>
+    <dt>Services</dt>
+    <dd>Software development, consultancy, formation, coworking, workshops, internships</dd>
+</dl>
+                                </div>
+                                
+                                <div class="span4 footer-right">
+                                    <h4 class="center-title">Links</h4>
+<ul class="footer-navigate">
+    <li><a href="/">Home</a></li>
+    <li><a href="https://github.com/evonove">Evonove on GitHub</a></li>
+    <li><a href="http://wiki.evonove.it">EvoWiki</a></li>
+    <li><a href="http://tofu.st">Tofu</a></li>
+    <li><a href="/contacts/">Contact</a></li>
+</ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row show-grid">
+                        
+                        <div class="span12">
+                            <p>
+                                Built with <a href="https://github.com/posativ/acrylamid">Acrylamid</a> v.0.7.7
+                                - Copyright 2014 Evonove SRL - P.I. IT03120810548
+                                - Source Code: <a href="https://github.com/evonove/evonove.it/commit/07ff32c27c0f42e9ead7cb862cdf6556f9613ce3">07ff32c</a>
+                                - Found a bug? <a href="https://github.com/evonove/evonove.it/issues">Report an issue</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </footer>
+
+         
+
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.migrate/1.2.1/jquery-migrate.min.js"></script>
+        <script  type="text/javascript" src="http://localhost:1313/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="http://localhost:1313/js/jquery.flexslider-min.js"></script>
+        <script type="text/javascript" src="http://localhost:1313/js/jquery.isotope.min.js"></script>
+        <script type="text/javascript" src="http://localhost:1313/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="http://localhost:1313/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	    <script type="text/javascript" src="http://localhost:1313/js/revolution.custom.min.js"></script>
+	    <script type="text/javascript" src="http://localhost:1313/js/custom.min.js"></script>
+        <script>
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-19911362-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+
+
+  <script>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

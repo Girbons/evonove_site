@@ -17,9 +17,6 @@
       <guid>http://localhost:1313/activities/consulting/</guid>
       <description>
 
-&lt;p&gt;{{ partial &amp;ldquo;head.html&amp;rdquo; . }}
-      {{ partial &amp;ldquo;header.html&amp;rdquo; . }}&lt;/p&gt;
-
 &lt;h2 id=&#34;toc_0&#34;&gt;System Administration&lt;/h2&gt;
 
 &lt;p&gt;We have years of experience in building secure and robust system in Linux/Unix
@@ -39,48 +36,9 @@ existing software systems.&lt;/p&gt;
 
 &lt;p&gt;We offer support for every aspect of SCM: our main tool for revision control is
 Git but we can help handle and migrate from and to other system like Mercurial
-or SVN.&lt;/p&gt;
-
-&lt;p&gt;.. image:: /img/rhce.png
-    :class: bordered-img&lt;/p&gt;
-
-&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; . }}&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Workshop</title>
-      <link>http://localhost:1313/activities/workshop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/activities/workshop/</guid>
-      <description>
-
-&lt;p&gt;The way Evonove grows ideas and projects.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Events&lt;/h2&gt;
-
-&lt;p&gt;The space at the 2nd floor is equipped with desks, chairs, whiteboards and a
-videoprojector - a nice environment where performing technical meetings,
-interactive tracks, seminars.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Training&lt;/h2&gt;
-
-&lt;p&gt;Evonove provides professional training on methodologies and technologies for
-companies and single professionals. Periodically Evonove hosts and organizes
-seminars about open source technologies free of charges.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Internships&lt;/h2&gt;
-
-&lt;p&gt;With the collaboration of the University of Perugia we offer internships for
-students and graduates in the field of Information Technology. Evonove
-encourages students to work on open source projects and supports them on
-the adoption of bleeding edge technologies.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Sponsorships&lt;/h2&gt;
-
-&lt;p&gt;Evonove endorses small projects in the open source world, in particular
-the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+or SVN.
+&lt;img src=&#34;/img/rhce.png&#34; alt=&#34;RHCE&#34; /&gt;
+&lt;/p&gt;
 </description>
     </item>
     
@@ -90,9 +48,8 @@ the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/activities/software/</guid>
-      <description>&lt;p&gt;.. image:: /img/code.jpg
-    :alt: code
-    :class: bordered-img quote-right&lt;/p&gt;
+      <description>&lt;p&gt;&lt;img src=&#34;/img/code.jpg&#34; alt=&#34;code&#34; /&gt;
+&lt;/p&gt;
 
 &lt;p&gt;Evonove has experience in the field of software development, ranging from
 software requirements and design, coding, testing and deployment.&lt;/p&gt;
@@ -159,128 +116,398 @@ the development process: code, time tracker, issue tracker.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Molecular Visualization</title>
-      <link>http://localhost:1313/expertise/molecular-visualization/</link>
+      <title>Progetto Kimol - Diario di Bordo - 1</title>
+      <link>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
-      <description>&lt;p&gt;.. |pymol| image:: /img/pymol2.png
-    :class: bordered-img quote-right&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</guid>
+      <description>&lt;p&gt;Si è conclusa la prima settimana di lavoro su KiMol, il progetto sviluppato da
+uno studente dell&amp;rsquo;Università degli Studi di Perugia nell&amp;rsquo;ambito di un
+&lt;a href=&#34;/it/workshop/&#34;&gt;tirocinio esterno&lt;/a&gt; presso Evonove.&lt;/p&gt;
 
-&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
-particular focus on the field of molecular visualization, using open source
-tools and libraries like PyMol and VTK.&lt;/p&gt;
+&lt;p&gt;Riassumo brevemente per chi non abbia letto la
+&lt;code&gt;pagina del progetto nel wiki &amp;lt;http://wiki.evonove.it/Concepts/KiMol&amp;gt;&lt;/code&gt;&lt;em&gt;: si
+tratta dello sviluppo di un&amp;rsquo;interfaccia utente gesture based per
+&lt;code&gt;PyMol &amp;lt;http://www.pymol.org/&amp;gt;&lt;/code&gt;&lt;/em&gt;, un noto visualizzatore open source di
+strutture molecolari.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2011/foto-1.jpg
+    :alt: Kinect e Xtion sulla scrivania
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Abbiamo approfittato del recente ingresso in commercio della periferica
+&lt;code&gt;Xtion &amp;lt;http://www.asus.com/Multimedia/Motion_Sensor/Xtion_PRO/&amp;gt;&lt;/code&gt;_ da parte di
+Asus per affiancarla al Kinect di Microsoft come dispositivo di acquisizione
+(nella foto); l&amp;rsquo;idea è poter utilizzare indifferentemente l&amp;rsquo;una o l&amp;rsquo;altra
+periferica anche se al momento lo sviluppo è guidato dal Kinect.&lt;/p&gt;
+
+&lt;p&gt;Chi ha avuto esperienza con l&amp;rsquo;hacking del Kinect saprà che sono diverse le
+soluzioni a disposizione degli sviluppatori per interfacciarsi al dispositivo,
+recuperarne i dati ed elaborarli in modo da realizzare funzionalità di gesture
+tracking. Per il momento noi ci siamo affidati al progetto
+&lt;code&gt;OpenKinect &amp;lt;http://openkinect.org/wiki/Main_Page&amp;gt;&lt;/code&gt;_ per la parte acquisizione
+e ad &lt;code&gt;OpenCV &amp;lt;http://opencv.willowgarage.com/wiki/Welcome&amp;gt;&lt;/code&gt;_ per quella di
+elaborazione; i risultati sono incoraggianti e gran parte del merito va ai
+bindings Python per la libreria freenect che ci permettono una prototipazione
+rapida molto utile soprattutto in questa fase esplorativa delle potenzialità
+della periferica.&lt;/p&gt;
+
+&lt;p&gt;Mettere in piedi tutta la toolchain è stato abbastanza semplice e facilmente
+replicabile grazie alla configurazione di freenect, molto ben organizzata
+attraverso &lt;code&gt;CMake &amp;lt;http://www.cmake.org/&amp;gt;&lt;/code&gt;_ ed alla semplicità con cui reperire
+le dipendenze sulla distribuzione Fedora 15 con la quale è equipaggiata la
+macchina di riferimento per lo sviluppo del progetto.&lt;/p&gt;
+
+&lt;p&gt;Il prossimo step consiste nel comprendere al meglio i dati che vengono forniti
+dal Kinect attraverso freenect e sondare le potenzialità di OpenCV rispetto al
+progetto finale.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Contacts</title>
-      <link>http://localhost:1313/contacts/</link>
+      <title>Fedora 15 Release Party</title>
+      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/contacts/</guid>
+      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
       <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;col-wrapper&amp;quot;&amp;gt;
-    &amp;lt;div class=&amp;quot;row main-block&amp;quot;&amp;gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Django &#43; Wordpress = EvoBlog</title>
+      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
+      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
+da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
+abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
+per alcuni clienti.&lt;/p&gt;
 
-        &amp;lt;div class=&amp;quot;contact-info span3&amp;quot;&amp;gt;
-            &amp;lt;h2&amp;gt;Evonove SRL&amp;lt;/h2&amp;gt;
-            &amp;lt;!-- COMPANY ADDRESS --&amp;gt;
-            &amp;lt;address&amp;gt;
-                Via Fra&#39; Filippo Longo 16/b,&amp;lt;br&amp;gt;
-                Magione (PG) - ITALY&amp;lt;br&amp;gt;
-                Phone: +39 075 843667&amp;lt;br&amp;gt;
-                Fax: +39 075 843667&amp;lt;br&amp;gt;
-                Email: &amp;lt;a href=&amp;quot;mailto:info@evonove.it&amp;quot;&amp;gt;info@evonove.it&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;
-                Web: &amp;lt;a href=&amp;quot;http://evonove.it&amp;quot;&amp;gt;evonove.it&amp;lt;/a&amp;gt;&amp;lt;br&amp;gt;
-                Twitter: &amp;lt;a href=&amp;quot;http://twitter.com/evonove&amp;quot;&amp;gt;@evonove&amp;lt;/a&amp;gt;
-            &amp;lt;/address&amp;gt;
+&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
+riuscito a trovare che implementi un blog, prendete ad esempio il codice che
+serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
+(a meno del caching che vi risparmio):&lt;/p&gt;
 
-            &amp;lt;hr/&amp;gt;
-        &amp;lt;/div&amp;gt;
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
 
-        &amp;lt;div class=&amp;quot;span9&amp;quot;&amp;gt;
-            &amp;lt;!-- GOOGLE MAP --&amp;gt;
-            &amp;lt;iframe style=&amp;quot;width: 100%; height: 600px; border: none;&amp;quot; src=&amp;quot;https://maps.google.it/maps?f=q&amp;amp;amp;source=s_q&amp;amp;amp;hl=it&amp;amp;amp;geocode=&amp;amp;amp;q=evonove&amp;amp;amp;aq=&amp;amp;amp;sll=42.990899,12.578031&amp;amp;amp;sspn=3.945505,8.453979&amp;amp;amp;ie=UTF8&amp;amp;amp;hq=evonove&amp;amp;amp;hnear=&amp;amp;amp;t=m&amp;amp;amp;cid=12213368677978933014&amp;amp;amp;ll=43.192662,12.254562&amp;amp;amp;spn=0.225271,0.411301&amp;amp;amp;z=11&amp;amp;amp;iwloc=A&amp;amp;amp;output=embed&amp;quot;&amp;gt;&amp;lt;/iframe&amp;gt;&amp;lt;br /&amp;gt;&amp;lt;small&amp;gt;&amp;lt;a href=&amp;quot;https://maps.google.it/maps?f=q&amp;amp;amp;source=embed&amp;amp;amp;hl=it&amp;amp;amp;geocode=&amp;amp;amp;q=evonove&amp;amp;amp;aq=&amp;amp;amp;sll=42.990899,12.578031&amp;amp;amp;sspn=3.945505,8.453979&amp;amp;amp;ie=UTF8&amp;amp;amp;hq=evonove&amp;amp;amp;hnear=&amp;amp;amp;t=m&amp;amp;amp;cid=12213368677978933014&amp;amp;amp;ll=43.192662,12.254562&amp;amp;amp;spn=0.225271,0.411301&amp;amp;amp;z=11&amp;amp;amp;iwloc=A&amp;quot; style=&amp;quot;color:#0000FF;text-align:left&amp;quot;&amp;gt;Visualizzazione ingrandita della mappa&amp;lt;/a&amp;gt;&amp;lt;/small&amp;gt;
-        &amp;lt;/div&amp;gt;
-    &amp;lt;/div&amp;gt;
+&lt;pre&gt;&lt;code&gt;def backend(entry):
+    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
+                        urllib2.quote(entry.get_absolute_url()))
+    try:
+        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
+            data=&#39;&#39;)
+    except Exception as e:
+        return &#39;&#39;
+    return json.loads(f.read())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
+sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
+riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
+aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
+(codice sorgente formattato). Le motivazioni dello switch sono quindi da
+ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
+inserire e modificare gli articoli ed il suo altissimo livello di
+SEO-friendlyness.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
+disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
+aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
+    % context[&#39;lang&#39;]
+feed = feedparser.parse(rss_url)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
+una serie di query al database di backend con una HTTP/GET fatta in localhost,
+non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
+termini di velocità di elaborazione della pagina.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google I/O 2011 Live @ Evonove</title>
+      <link>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Lo staff di Evonove invita tutti gli appassionati a seguire il Keynote di Google I/O 2011 il 10 Maggio presso il coworking space della nostra sede di Magione. L&#39;evento si aprir&amp;amp;agrave; con il Keynote alle ore 18.00 italiane, occasione per gustare un aperitivo diverso dal solito mentre sul maxischermo verr&amp;amp;agrave; proiettata la diretta streaming. Per partecipare &amp;amp;egrave; sufficiente darcene comunicazione attraverso la nostra pagina Facebook o inviandoci una mail oppure tramite un tweet @evonove.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Google I/O &amp;amp;egrave; la conferenza di riferimento per le nuove tecnologie che riguardano il Web, i dispositivi mobili e l&#39;enterprise. Giunti alla quarta edizione, l&#39;evento &amp;amp;egrave; ormai diventato un appuntamento tradizionale atteso da sviluppatori ed appassionati ansiosi di avere un assaggio di quello che vedremo sui nostri browser e smartphone nei prossimi mesi. &amp;lt;a href=&amp;quot;http://www.google.com/events/io/2011/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link alla pagina ufficiale dell&#39;evento&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;div style=&amp;quot;margin-left: 45%; margin-right: auto;&amp;quot;&amp;gt;
+&amp;lt;script src=&amp;quot;http://www.google.com/events/io/2011/static/js/iobadge.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
-      <title>Django</title>
-      <link>http://localhost:1313/expertise/django/</link>
+      <title>Hello World</title>
+      <link>http://localhost:1313/blog/2011/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/expertise/django/</guid>
+      <guid>http://localhost:1313/blog/2011/hello-world/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Inauguriamo il blog di Evonove con quella che è forse la più nota (per non dire l&#39;unica) locuzione informatica conosciuta al di fuori del nostro mondo, quello della programmazione software:
+&amp;lt;pre&amp;gt;print &#39;hello, world!&#39;&amp;lt;/pre&amp;gt;
+E tanto per chiarire quale sarà il tenore tecnico del blog, giusto due parole su quello che sta dietro a queste pagine.
+
+Il progetto è nato insieme alla stessa Evonove ma ha impiegato diverso tempo per venire alla luce. Complice il rincorrersi delle novità che riguardano il nostro lavoro, quella che doveva essere un&#39;unica pagina contenente il minimo indispensabile per consentire ai nostri clienti (attuali e potenziali) di raggiungerci attraverso il Web si è trasformata in una specie di parco giochi per il nostro staff.
+
+Prima l&#39;adozione di un CMS (perché sarebbe stato carino provarlo), poi di un engine per il blog (perché sarebbe stato carino integrarlo), poi una bella iniezione di Javascript (perché sarebbe stato carino aumentare l&#39;interattività). Poi abbiamo smesso di giustificarci ed abbiamo semplicemente continuato a fare quello che ci piace.
+
+Il risultato:
+&amp;lt;ul&amp;gt;
+    &amp;lt;li&amp;gt;Engine CMS basato su django-cms&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Engine Blog basato su django-zinnia&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Custom homepage basata su jQuery e django-cms&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Rendering delle icone via Raphaël Javascript Library&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;Tanto bel codice Python per il deployment&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+Nella speranza che i contenuti del blog piacciano, vi invitiamo ad abbonarvi ai nostri feed, riportarci qualche bug e magari far circolare un po&#39; la voce.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Linux Day 2011 – Sabato 22 Ottobre</title>
+      <link>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</guid>
       <description>
 
-&lt;p&gt;Django is a full stack, open source web framework written in Python
-finalized to the development of complex web applications.&lt;/p&gt;
+&lt;p&gt;L&amp;rsquo;Associazione GNU/Linux User Group di Perugia organizza l&amp;rsquo;undicesimo
+appuntamento nazionale dedicato a GNU/Linux ed al Software Libero:
+il Linux Day 2011&lt;/p&gt;
 
-&lt;p&gt;Evonove can help customers on planning and developing Django projects
-and is active in the community by releasing the most of the code with
-an open source license and participating in several open source projects.&lt;/p&gt;
+&lt;p&gt;Il Linux Day è una manifestazione nazionale articolata in eventi locali che ha
+lo scopo di promuovere GNU/Linux e il Software Libero, promosso da I.L.S. 
+(Italian Linux Society) e organizzato localmente dai LUG italiani e dagli altri
+gruppi che condividono le finalità della manifestazione. La prima edizione del
+Linux Day si è tenuta il &lt;em&gt;1 dicembre 2001&lt;/em&gt; in circa quaranta città sparse
+su tutto il territorio nazionale. Il numero delle città coinvolte è notevolmente
+cresciuto negli anni (150 città nel 2010) divenendo ormai un appuntamento
+immancabile nel panorama del software libero italiano, seguito dai media
+nazionali e locali e con grande partecipazione di pubblico.&lt;/p&gt;
 
-&lt;h2 id=&#34;toc_0&#34;&gt;Django OAuth Toolkit&lt;/h2&gt;
+&lt;p&gt;La manifestazione, la cui partecipazione è gratuita, si terrà sabato 22 ottobre
+2011 a Magione all&amp;rsquo;interno dello Storico Palazzo ristrutturato della S.O.M.S. 
+(Società Operaia Mutuo Soccorso) che si trova in Piazza Giacomo Matteotti
+(&lt;code&gt;mappa: &amp;lt;http://evo9.it/maps.google.it/a&amp;gt;&lt;/code&gt;_).&lt;/p&gt;
 
-&lt;p&gt;Django OAuth Toolkit can help you providing out of the box all the endpoints,
-data and logic needed to add OAuth2 capabilities to your Django projects.
-Django OAuth Toolkit makes extensive use of the excellent OAuthLib, so that
-everything is rfc-compliant.
-Read the docs: &lt;code&gt;&amp;lt;https://django-oauth-toolkit.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+&lt;h2 id=&#34;toc_0&#34;&gt;Iscrizione&lt;/h2&gt;
 
-&lt;h2 id=&#34;toc_1&#34;&gt;Django Stored Messages&lt;/h2&gt;
-
-&lt;p&gt;The app integrates smoothly with Django&amp;rsquo;s messages framework (django.contrib.messages),
-but users can decide which messages have to be stored on the database backend and kept
-available over sessions.
-Read the docs: &lt;code&gt;&amp;lt;https://django-stored-messages.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Django Money Rates&lt;/h2&gt;
-
-&lt;p&gt;Currency conversion utilities for money.
-Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+&lt;p&gt;Tutti coloro che intendono partecipare all&amp;rsquo;evento possono iscriversi tramite il
+seguente link: &lt;a title=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34;&gt;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Qt</title>
-      <link>http://localhost:1313/expertise/qt/</link>
+      <title>Projection Mapping</title>
+      <link>http://localhost:1313/blog/2011/projection-mapping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/expertise/qt/</guid>
-      <description>&lt;p&gt;.. |qtlogo| image:: /img/qt-logo.jpg
-    :alt: Qt logo
-    :class: quote-right bordered-img&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2011/projection-mapping/</guid>
+      <description>&lt;p&gt;In questi giorni stiamo lavorando ad un progetto piuttosto interessante
+commissionatoci da un cliente molto sensibile alle nuove tecnologie; ad una
+settimana dall&amp;rsquo;inizio siamo ancora al proof of concept, ma qualcosa già prende
+forma come si può osservare nel video.&lt;/p&gt;
 
-&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
-interfaces for desktop, embedded and mobile platforms. Qt also provides
-support for network programming, multi threading, database access.&lt;/p&gt;
+&lt;p&gt;.. youtube:: oY9kAVlTv00
+   :align: center
+   :height: 315
+   :width: 420&lt;/p&gt;
 
-&lt;p&gt;Qt is our first choice when developing desktop applications or when high
-performances are a requirement. We have solid experience using Qt both in C++
-and Python programming languages and we can offer support even on existing
-projects.&lt;/p&gt;
+&lt;p&gt;Il progetto finale vedrà una massiccia applicazione delle tecniche di projection
+mapping, nel video è stata utilizzata una semplice distorsione precalcolata
+delle singole immagini che vengono proiettate sulle superfici delle scatole ma
+stiamo lavorando a metodi che se da un lato presentano una complessità maggiore,
+dall&amp;rsquo;altro dovrebbero consentirci di produrre un risultato nettamente migliore.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Videomapping</title>
-      <link>http://localhost:1313/expertise/videomapping/</link>
+      <title>libFreenect su Fedora</title>
+      <link>http://localhost:1313/blog/2011/libfreenect-su-fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/expertise/videomapping/</guid>
-      <description>&lt;p&gt;Videomapping is a projection technique used to display images on irregular
-surfaces so they seem to emit light instead of receiving it, as they were real
-screens. Through this technique we can add value to shapes and surfaces,
-perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2011/libfreenect-su-fedora/</guid>
+      <description>
 
-&lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
-Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+&lt;p&gt;OpenKinect è una community di appassionati dediti in particolare all&amp;rsquo;utilizzo di
+Microsoft Kinect in ambiente desktop attraverso strumenti open source.
+In particolare OpenKinect è responsabile dello sviluppo della libreria Freenect
+grazie alla quale è possibile accedere a molti dei dati che arrivano dal Kinect
+quando connesso ad un PC attraverso una porta USB. Freenect è una libreria
+multipiattaforma (Mac, Linux, Win) dotata di bindings Python; sebbene OpenKinect
+non ne fornisca pacchetti o distribuzioni binarie, compilare ed installare la
+libreria è abbastanza semplice, soprattutto in una distribuzione Fedora 15 con
+l&amp;rsquo;aiuto di Yum.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Prerequisiti&lt;/h2&gt;
+
+&lt;p&gt;Prima di procedere con la build della libreria abbiamo bisogno di installare
+alcuni strumenti e dipendenze, cosa che facciamo con yum:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;yum install git cmake gcc gcc-c++ libXi libXi-devel libXmu libXmu-devel freeglut freeglut-devel libusb1-devel Cython
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Fatto.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;libFreenect&lt;/h2&gt;
+
+&lt;p&gt;Possiamo recuperare facilmente una versione aggiornata dei sorgenti della
+libreria da GitHub:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone git://github.com/OpenKinect/libfreenect.git
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Creiamo poi una directory che conterrà i files della build senza &amp;ldquo;sporcare&amp;rdquo; la
+directory dei sorgenti, ci spostiamo al suo interno e da lì invochiamo cmake:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;mkdir libfreenect_build &amp;amp;&amp;amp; cd libfreenect_build/
+ccmake ../libfreenect
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Dall&amp;rsquo;interfaccia di CMake è importante abilitare il flag per la build dei
+bindings Python:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;BUILD_PYTHON: ON
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A questo punto non resta che procedere con l&amp;rsquo;invocazione di make per la build e
+l&amp;rsquo;installazione (quest&amp;rsquo;ultima dovrà essere effettuata con i privilegi di root
+nel caso non abbiate impostato la variabile INSTALL_PREFIX con un path su cui
+avete i permessi di scrittura).&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;make &amp;amp;&amp;amp; make install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Finito. Se la build è stata completata con successo potete verificare la
+corretta installazione direttamente con l&amp;rsquo;interprete Python. Se dalla shell il
+comando:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: terminal&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;python -c &amp;quot;import freenect&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;finisce senza produrre errori, libFreenect è correttamente installata nel
+vostro sistema.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shorty è online</title>
+      <link>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;&lt;em&gt;, il progetto sviluppato durante l&amp;rsquo;internship di uno
+studente dell&amp;rsquo;Università degli Studi di Perugia qui in Evonove, è finalmente
+online. Si tratta di un URL shortner che tenta di superare alcune problematiche
+legate agli shortner in generale. Il progetto è rilasciato con licenza
+opensource BSD, il codice lo trovate su &lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Release Party, il bilancio</title>
+      <link>http://localhost:1313/blog/2011/release-party-il-bilancio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/release-party-il-bilancio/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Ad una settimana dal Release Party di Fedora 15 &amp;amp;egrave; tempo di bilanci. L&#39;evento ha avuto un discreto successo, sia nei numeri (quasi tutto esaurito per gli spazi Evonove) sia nel merito, almeno a sentire i feedback positivi dei partecipanti. Per un report pi&amp;amp;ugrave; dettagliato &amp;lt;a href=&amp;quot;/admin/zinnia/entry/add/bit.ly/party_report&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;rimando all&#39;articolo&amp;lt;/a&amp;gt; (in inglese) del blog di Gianluca Sforna, promotore dell&#39;evento.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Da parte nostra, ci limitiamo ad alcune considerazioni in qualit&amp;amp;agrave; di ospiti e volontari dell&#39;organizzazione. La preparazione &amp;amp;egrave; stata pi&amp;amp;ugrave; dura del previsto, una quantit&amp;amp;agrave; di task tutto sommato semplici ma molto dispersivi ha impiegato parecchio del nostro tempo, lavorativo e non. Quando si opera su un territorio come il nostro dove l&#39;assenza di iniziative come questa &amp;amp;egrave; la norma non &amp;amp;egrave; semplicissimo avere un feedback attivo dai potenziali interessati, al punto che solo stimare le dimensioni di un rinfresco diventa un&#39;impresa. Abbiamo battuto social network, portali news locali, le bacheche dell&#39;ateneo per non parlare del passaparola e se da un lato non possiamo lamentarci, dall&#39;altro pensavamo di avere pi&amp;amp;ugrave; seguito. In ogni caso la disponibilit&amp;amp;agrave; degli enti locali si &amp;amp;egrave; rivelata pi&amp;amp;ugrave; ampia di quanto sperassimo e solo per un nostro errore sulla gestione delle tempistiche non abbiamo potuto sfruttare al meglio le possibilit&amp;amp;agrave; offerte ad esempio dal Comune di Magione, andr&amp;amp;agrave; per la prossima. Abbiamo apprezzato molto la risposta dei LUG fuori provincia, in particolare &amp;lt;a href=&amp;quot;http://www.ternignulug.org/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;quello di Terni&amp;lt;/a&amp;gt; di cui avevamo ospite anche un membro, speriamo questo rappresenti l&#39;inizio di una proficua collaborazione.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Cosa ci &amp;amp;egrave; piaciuto:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;affluenza, record personale di Evonove&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;la formula del release party che sembra piacere molto agli utenti&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;l&#39;appoggio di enti locali sensibili alla materia&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;la soddisfazione che rimane dopo un evento ben riuscito&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Todo list per il prossimo evento:&amp;lt;/p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;pianificare e formalizzare gli step organizzativi&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;avviare l&#39;organizzazione in largo anticipo&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;ottimizzare la promozione dell&#39;evento sui canali risultati pi&amp;amp;ugrave; efficaci&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;fare stalking sulle comunit&amp;amp;agrave; locali :-)&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;trovare volontari&amp;lt;/li&amp;gt;
+&amp;lt;li&amp;gt;gadgets, gadgets, gadgets...&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&amp;lt;p&amp;gt;Un ringraziamento particolare va a Gianluca Sforna di Perugia e Michele Bursi di Arezzo che hanno dimostrato sul campo cosa vuol dire ricoprire il ruolo di&amp;amp;nbsp;Fedora Ambassador.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Per le foto &amp;lt;a href=&amp;quot;http://www.facebook.com/media/set/?set=a.217901141573564.57080.147327958630883&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;rimandiamo alla galleria&amp;lt;/a&amp;gt; sulla nostra pagina Facebook.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Django admin e permessi</title>
+      <link>http://localhost:1313/blog/2011/django-admin-e-permessi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-admin-e-permessi/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Capita che a volte framework come &amp;lt;strong&amp;gt;Django&amp;lt;/strong&amp;gt; e tool come il suo &#39;&amp;lt;em&amp;gt;admin site&#39;&amp;lt;/em&amp;gt;, ci vengano in mente come scelte per sviluppare velocemente dei CRUD. Tuttavia ci accorgiamo altrettanto velocemente che questo potente strumento propone delle soluzioni che non sempre si sposano con la nostra logica di business. E&#39; questo il caso dei permessi. L&#39;amministrazione di Django non ha il permesso &#39;&amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt;&#39;, o meglio: se un oggetto di buisiness &amp;amp;egrave; visibile da un utente dell&#39;admin site, questo ha anche la possbilit&amp;amp;agrave; di modificarlo.&amp;amp;nbsp;Nelle seguenti verr&amp;amp;agrave; introdotta una possibile soluzione per creare e utilizzare il permesso &amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt; all&#39;interno dell&#39;amministrazione di Django, semplificando cos&amp;amp;igrave; la gestione di tutti quegli oggetti su cui la sicurezza del nostro CRUD identifica un gruppo di utenze con il solo diritto di lettura.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;La soluzione suggerita ruota intorno alla classe Django che ha nome di &amp;lt;strong&amp;gt;Backend.&amp;lt;/strong&amp;gt; Questa, nelle ultime versioni di Django (v. 1.2), ha subito delle modifiche, dando allo sviluppatore la possibilit&amp;amp;agrave; di subentrare, meno intrusivamente ma pi&amp;amp;ugrave; efficacemente, nel flusso della sicurezza del framework: tanto da poter manipolare i permessi e renderli applicabili esclusivamente a determinati oggetti. Per dettagliare al meglio quali classi create e quali template personalizzare, si rimanda al wiki aziendale &amp;lt;strong&amp;gt;&amp;lt;a title=&amp;quot;wiki.evonove.it&amp;quot; href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;wiki.evonove.it&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt; nella sessione Django sotto la voce&amp;amp;nbsp;&amp;lt;a title=&amp;quot;CustomizeAdminSite&amp;quot; href=&amp;quot;http://wiki.evonove.it/Django/CustomizeAdminSite&amp;quot;&amp;gt;CustomizeAdminSite&amp;lt;/a&amp;gt;&amp;amp;nbsp;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Buona lettura, e se voleste perfezionare o sconvolgere o commentare l&#39;algoritmo proposto siete i ben venuti; sicuro non vi mancano gli strumenti&amp;amp;nbsp;per farlo&amp;amp;nbsp;(wiki, blog, email, ...) .&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android Workshop</title>
+      <link>http://localhost:1313/blog/2012/android-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
+      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
+per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
+appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
+Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
+sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
+di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
+i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projection Mapping @expocasa 2012</title>
+      <link>http://localhost:1313/blog/2012/projection-mapping-expocasa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/projection-mapping-expocasa/</guid>
+      <description>&lt;p&gt;Dal 3 all&amp;rsquo;11 Marzo 2012, all&amp;rsquo;interno della manifestazione Expo Casa tenutasi a
+Bastia Umbra (PG),  lo stand di &lt;code&gt;Veracchi Mobili &amp;lt;http://www.veracchimobili.com&amp;gt;&lt;/code&gt;_
+ha ospitato un&amp;rsquo;installazione di projection mapping che ha fatto da cornice
+all&amp;rsquo;esposizione dei propri elementi di arredo.&lt;/p&gt;
 
 &lt;p&gt;.. vimeo:: 40283798
    :align: center
@@ -289,152 +516,12 @@ Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it
    :noportrait:
    :nobyline:
    :notitle:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Footer About</title>
-      <link>http://localhost:1313/footer_about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/footer_about/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;h4 class=&amp;quot;center-title&amp;quot;&amp;gt;About E9&amp;lt;/h4&amp;gt;
-&amp;lt;dl class=&amp;quot;dl-horizontal&amp;quot;&amp;gt;
-    &amp;lt;dt&amp;gt;Sector&amp;lt;/dt&amp;gt;
-    &amp;lt;dd&amp;gt;Software and IT Infrastructures.&amp;lt;/dd&amp;gt;
-    &amp;lt;dt&amp;gt;Services&amp;lt;/dt&amp;gt;
-    &amp;lt;dd&amp;gt;Software development, consultancy, formation, coworking, workshops, internships&amp;lt;/dd&amp;gt;
-&amp;lt;/dl&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Footer Navigation</title>
-      <link>http://localhost:1313/footer_navmenu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/footer_navmenu/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h3 class=&amp;quot;center-title&amp;quot;&amp;gt;Links&amp;lt;/h3&amp;gt;
-&amp;lt;ul class=&amp;quot;footer-navigate&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/evonove&amp;quot;&amp;gt;Evonove on GitHub&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;EvoWiki&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot;&amp;gt;Tofu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/contacts/&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Home</title>
-      <link>http://localhost:1313/homepage/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/homepage/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
-
-&lt;p&gt;We help our customers to build quality IT systems by designing and developing
-software, planning and managing infrastructures, training. We try to actively
-involve our customers in every step when delivering a project, from the design
-of the application to the final test. Companies with their own technical staff
-can temporarily hire part of our staff when specific know-how is needed during
-the development of a project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rich Web Applications</title>
-      <link>http://localhost:1313/expertise/webapps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/webapps/</guid>
-      <description>
-
-&lt;p&gt;We make modern web applications with upstream technologies, leveraging HTML5 to
-build responsive layouts, suitable for desktops and mobile devices.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Java Backend&lt;/h1&gt;
-
-&lt;p&gt;We choose &lt;strong&gt;Seam&lt;/strong&gt; among the moltitude of Java framework for its original
-approach to the MVC pattern. Seam respects EJB3 specification and it encourage
-annotations over XML configurations, still using well known development tools
-like JSF, JPA/Hibernate and JAAS. Even if it&amp;rsquo;s basically a web framework, Seam
-glues together serveral technologies making the development of CRUD applications
-quick, easy and attractive. We like to call Seam the &lt;em&gt;autoframework&lt;/em&gt;: you write
-the models, she does the pleasure.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;Backend Python&lt;/h1&gt;
-
-&lt;p&gt;When building lightweight applications or RESTful APIs we use &lt;strong&gt;Flask&lt;/strong&gt;, a wsgi
-compliant, open source micro-framework extremely flexible, perfect for agile
-development.&lt;/p&gt;
-
-&lt;p&gt;For complex web applications we prefer &lt;strong&gt;Django&lt;/strong&gt;, a full stack web framework
-which comes with a number of tools that can satisfy almost every software
-requirement.&lt;/p&gt;
-
-&lt;p&gt;For developing intranets, DMS or complex web portals with specific requirements
-about user and roles management we use &lt;strong&gt;Plone&lt;/strong&gt;, an open source, enterprise
-level CMS particularly useful in such application fields.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_2&#34;&gt;Frontend&lt;/h1&gt;
-
-&lt;p&gt;We follow the living standard of HTML5 to build effective, modern and good looking
-web applications. When needed, we make use of MVC Javascript frameworks like
-&lt;strong&gt;EmberJS&lt;/strong&gt; and &lt;strong&gt;AngularJS&lt;/strong&gt; in conjunction with RESTful web services on the
-backend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>http://localhost:1313/license/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/license/</guid>
-      <description>&lt;p&gt;.. |logo| image:: /img/cc-by-sa-3.0.png
-    :alt: cc-by-sa-3.0
-    :target: &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;
-    :class: quote-left&lt;/p&gt;
-
-&lt;p&gt;|logo| This work is licensed under a &lt;code&gt;Creative Commons
-Attribution-ShareAlike 3.0 Unported License &amp;lt;http://creativecommons.org/licenses/by-sa/3.0/&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alessandro Veracchi</title>
-      <link>http://localhost:1313/staff/aliex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/aliex/</guid>
-      <description>&lt;p&gt;Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.
-We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
-
-&lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
-I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Andrea Veracchi</title>
-      <link>http://localhost:1313/staff/andrea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/andrea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
-
-&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
+&lt;p&gt;Il progetto, realizzato con la collaborazione della stessa Veracchi Mobili,
+ha visto l&amp;rsquo;impiego di varie tecniche di projection mapping: semplici ma efficaci
+distorsioni prospettiche insieme a più evoluti mapping su modelli 3D hanno
+accompagnato gli spettatori in un viaggio fra scenari irreali e simulazioni
+di combinazioni di tessuti e colori realmente disponibili a catalogo.&lt;/p&gt;
 </description>
     </item>
     

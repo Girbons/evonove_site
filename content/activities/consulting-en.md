@@ -7,8 +7,7 @@ image_link: http://placehold.it/1024x768.jpg
 identifier: consulting
 permalink: /activities/consulting/
 ---
-  {{ partial "head.html" . }}
-	  {{ partial "header.html" . }}
+ 
 
 System Administration
 ---------------------
@@ -30,8 +29,8 @@ Software Configuration Management
 We offer support for every aspect of SCM: our main tool for revision control is
 Git but we can help handle and migrate from and to other system like Mercurial
 or SVN.
+![RHCE](/img/rhce.png)
 
-.. image:: /img/rhce.png
-    :class: bordered-img
 
-  {{ partial "footer.html" . }}
+
+ 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Wordpress on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/wordpress/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Django &#43; Wordpress = EvoBlog</title>
+      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
+      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
+da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
+abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
+per alcuni clienti.&lt;/p&gt;
+
+&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
+riuscito a trovare che implementi un blog, prendete ad esempio il codice che
+serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
+(a meno del caching che vi risparmio):&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def backend(entry):
+    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
+                        urllib2.quote(entry.get_absolute_url()))
+    try:
+        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
+            data=&#39;&#39;)
+    except Exception as e:
+        return &#39;&#39;
+    return json.loads(f.read())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
+sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
+riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
+aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
+(codice sorgente formattato). Le motivazioni dello switch sono quindi da
+ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
+inserire e modificare gli articoli ed il suo altissimo livello di
+SEO-friendlyness.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
+disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
+aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
+    % context[&#39;lang&#39;]
+feed = feedparser.parse(rss_url)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
+una serie di query al database di backend con una HTTP/GET fatta in localhost,
+non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
+termini di velocità di elaborazione della pagina.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

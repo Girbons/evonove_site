@@ -10,10 +10,7 @@ identifier : qt
 frontpage : 5
 permalink : /expertise/qt/
 ---
-
-.. |qtlogo| image:: /img/qt-logo.jpg
-    :alt: Qt logo
-    :class: quote-right bordered-img
+![qtlogo](/img/qt-logo.jpg)
 
 |qtlogo| Qt is a development framework for the creation of applications and user
 interfaces for desktop, embedded and mobile platforms. Qt also provides

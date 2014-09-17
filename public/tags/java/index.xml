@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Java on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/java/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Android Workshop</title>
+      <link>http://localhost:1313/blog/2012/android-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
+      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
+per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
+appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
+Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
+sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
+di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
+i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

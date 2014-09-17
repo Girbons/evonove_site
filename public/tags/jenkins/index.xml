@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Jenkins on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/jenkins/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>Build Python desktop application with Jenkins</title>
+      <link>http://localhost:1313/blog/2013/build-python-desktop-application-with-jenkins/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013/build-python-desktop-application-with-jenkins/</guid>
+      <description>&lt;p&gt;We recently started using &lt;code&gt;Jenkins &amp;lt;http://jenkins-ci.org/&amp;gt;&lt;/code&gt;_, a well known system for Continuous Integration,
+and make it perform tasks like build and package multiplatform desktop
+applications.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re currently in charge of developing a desktop application written in &lt;strong&gt;Python&lt;/strong&gt; using the &lt;strong&gt;Qt framework&lt;/strong&gt;.
+Though small, the application is quite complex and has a lot of dependencies which is quite easy to satisfy on a local
+environment (provided that you&amp;rsquo;re not on Windows, but that&amp;rsquo;s another story).&lt;/p&gt;
+
+&lt;p&gt;There are several proprietary &lt;strong&gt;C/C++&lt;/strong&gt; libraries involved, and some of them are under active development, so we have to
+stay up to date with them and with the relative Python bindings. At an early stage of the development the environment
+was entirely hand crafted, so building and packaging the software with the right configuration was up to the single
+developer who wrote the first draft of the project.&lt;/p&gt;
+
+&lt;p&gt;The prototype was ok, so we started a refactoring of the codebase and assigned other resources to the project. Problems
+with the building environment arose almost instantly: not every developer works on the same configuration (and this is
+a choice) and maintaining different build scripts was not acceptable.&lt;/p&gt;
+
+&lt;p&gt;We needed a build system and we needed it fast, so we started reviewing all of these:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gnu Make&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Fabric &amp;lt;http://docs.fabfile.org/en/latest/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Paver &amp;lt;http://paver.github.io/paver/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;buildout &amp;lt;http://www.buildout.org/en/latest/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;CMake &amp;lt;http://www.cmake.org/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CMake seems the most flexible of the above (at least for a newcomer) and it was the only one which let us collect the code
+from several sources &lt;strong&gt;(CVS repos, git repos, source tarballs)&lt;/strong&gt; build it with different build systems &lt;strong&gt;(Make, QMake, distutils,
+custom scripts)&lt;/strong&gt;, make the executable with PyInstaller and create the archive to distribute. First issue solved:
+developers can now build the software with minimum effort and in a well defined and versioned environment&lt;/p&gt;
+
+&lt;p&gt;Now the real issue, beta tester started asking for packages for their own distributions/OSs - we needed a build
+system capable to run our CMake script on several machines, produce the software package and make it available for download
+somewhere on the internet.&lt;/p&gt;
+
+&lt;p&gt;Our requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;a turnkey solution&lt;/li&gt;
+&lt;li&gt;should be able to start and stop virtual machines inside our LAN&lt;/li&gt;
+&lt;li&gt;should be able to start and stop EC2 machines&lt;/li&gt;
+&lt;li&gt;can speak with cloud storaging systems (e.g. S3)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We briefly reviewed two products, Jenkins and &lt;code&gt;CDash &amp;lt;http://www.cdash.org/&amp;gt;&lt;/code&gt;_, and we ended up with &lt;strong&gt;Jenkins&lt;/strong&gt;
+basically for two reasons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;documentation&lt;/li&gt;
+&lt;li&gt;huge amount of very useful plugins&lt;/li&gt;
+&lt;li&gt;easy installation and maintaining&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;At the moment we have a master/slave installation on Jenkins running on a physical machine and several slave nodes with
+different Linux distributions (both physical and virtual) where the git repository containing the CMake builder is cloned,
+run, and the final product is actually produced. Jenkins can remotely control &lt;strong&gt;KVM&lt;/strong&gt; virtual machines, starting and stopping
+them depending on its needs. Artifacts produced by the builders (i.e. the tarballs containing the software package ready
+to be shipped) are collected and uploaded to a &lt;strong&gt;S3 bucket&lt;/strong&gt;, where authorized beta testers can download them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Feel free to drop here a comment&lt;/strong&gt; and share your experience, it&amp;rsquo;s never easy finding a best practice when the requirements
+are complex and not always well defined as they are in this case.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
