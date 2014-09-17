@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+  
+<body>
+{{ partial "header.html" . }}
+dfsogoisdajfàisd
+  {{ partial "footer.html" . }}
+</body>
+</html>

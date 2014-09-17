@@ -17,6 +17,9 @@
       <guid>http://localhost:1313/activities/consulting/</guid>
       <description>
 
+&lt;p&gt;{{ partial &amp;ldquo;head.html&amp;rdquo; . }}
+      {{ partial &amp;ldquo;header.html&amp;rdquo; . }}&lt;/p&gt;
+
 &lt;h2 id=&#34;toc_0&#34;&gt;System Administration&lt;/h2&gt;
 
 &lt;p&gt;We have years of experience in building secure and robust system in Linux/Unix
@@ -40,233 +43,105 @@ or SVN.&lt;/p&gt;
 
 &lt;p&gt;.. image:: /img/rhce.png
     :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;{{ partial &amp;ldquo;footer.html&amp;rdquo; . }}&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Home</title>
-      <link>http://localhost:1313/homepage/</link>
+      <title>Software</title>
+      <link>http://localhost:1313/activities/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/homepage/</guid>
-      <description>
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
-
-&lt;p&gt;We help our customers to build quality IT systems by designing and developing
-software, planning and managing infrastructures, training. We try to actively
-involve our customers in every step when delivering a project, from the design
-of the application to the final test. Companies with their own technical staff
-can temporarily hire part of our staff when specific know-how is needed during
-the development of a project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Emanuele Palazzetti</title>
-      <link>http://localhost:1313/staff/palazzem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/palazzem/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m a software developer but, first of all, fan and supporter of everything turns around computer science, security and open source.
-I&amp;rsquo;m very enthusiastic of Python language which became my first choice during implementation phase of a project.&lt;/p&gt;
-
-&lt;p&gt;Even if Java was my old used language, I&amp;rsquo;ve never completely abandoned it and, nowadays, I used it during Android application development.
-My passions for programming, led me to take part as an active user on many association like LUG and GDG.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Federico Frenguelli</title>
-      <link>http://localhost:1313/staff/synasius/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/synasius/</guid>
-      <description>&lt;p&gt;Guess I should insert a bio &amp;hellip; but I have no time to waste!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Massimiliano Pippi</title>
-      <link>http://localhost:1313/staff/masci/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/masci/</guid>
-      <description>&lt;p&gt;Software developer, Python lover, Dad.&lt;/p&gt;
-
-&lt;p&gt;I write Python and C++ code, maintain servers and services up and running, deploy web applications,
-integrate software components, write documentation, help making decisions about tools and technologies. I would
-definitely define myself as a troubleshooter.&lt;/p&gt;
-
-&lt;p&gt;As a long-time vegetarian, I currently hold the &lt;em&gt;Vegan Chef&lt;/em&gt; position at Evonove.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Andrea Veracchi</title>
-      <link>http://localhost:1313/staff/andrea/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/andrea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
-
-&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alessandro Veracchi</title>
-      <link>http://localhost:1313/staff/aliex/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/aliex/</guid>
-      <description>&lt;p&gt;Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.
-We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
-
-&lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
-I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>License</title>
-      <link>http://localhost:1313/license/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/license/</guid>
-      <description>&lt;p&gt;.. |logo| image:: /img/cc-by-sa-3.0.png
-    :alt: cc-by-sa-3.0
-    :target: &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;
-    :class: quote-left&lt;/p&gt;
-
-&lt;p&gt;|logo| This work is licensed under a &lt;code&gt;Creative Commons
-Attribution-ShareAlike 3.0 Unported License &amp;lt;http://creativecommons.org/licenses/by-sa/3.0/&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Videomapping</title>
-      <link>http://localhost:1313/expertise/videomapping/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/videomapping/</guid>
-      <description>&lt;p&gt;Videomapping is a projection technique used to display images on irregular
-surfaces so they seem to emit light instead of receiving it, as they were real
-screens. Through this technique we can add value to shapes and surfaces,
-perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
-
-&lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
-Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-
-&lt;p&gt;.. vimeo:: 40283798
-   :align: center
-   :height: 375
-   :width: 500
-   :noportrait:
-   :nobyline:
-   :notitle:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rich Web Applications</title>
-      <link>http://localhost:1313/expertise/webapps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/webapps/</guid>
-      <description>
-
-&lt;p&gt;We make modern web applications with upstream technologies, leveraging HTML5 to
-build responsive layouts, suitable for desktops and mobile devices.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Java Backend&lt;/h1&gt;
-
-&lt;p&gt;We choose &lt;strong&gt;Seam&lt;/strong&gt; among the moltitude of Java framework for its original
-approach to the MVC pattern. Seam respects EJB3 specification and it encourage
-annotations over XML configurations, still using well known development tools
-like JSF, JPA/Hibernate and JAAS. Even if it&amp;rsquo;s basically a web framework, Seam
-glues together serveral technologies making the development of CRUD applications
-quick, easy and attractive. We like to call Seam the &lt;em&gt;autoframework&lt;/em&gt;: you write
-the models, she does the pleasure.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;Backend Python&lt;/h1&gt;
-
-&lt;p&gt;When building lightweight applications or RESTful APIs we use &lt;strong&gt;Flask&lt;/strong&gt;, a wsgi
-compliant, open source micro-framework extremely flexible, perfect for agile
-development.&lt;/p&gt;
-
-&lt;p&gt;For complex web applications we prefer &lt;strong&gt;Django&lt;/strong&gt;, a full stack web framework
-which comes with a number of tools that can satisfy almost every software
-requirement.&lt;/p&gt;
-
-&lt;p&gt;For developing intranets, DMS or complex web portals with specific requirements
-about user and roles management we use &lt;strong&gt;Plone&lt;/strong&gt;, an open source, enterprise
-level CMS particularly useful in such application fields.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_2&#34;&gt;Frontend&lt;/h1&gt;
-
-&lt;p&gt;We follow the living standard of HTML5 to build effective, modern and good looking
-web applications. When needed, we make use of MVC Javascript frameworks like
-&lt;strong&gt;EmberJS&lt;/strong&gt; and &lt;strong&gt;AngularJS&lt;/strong&gt; in conjunction with RESTful web services on the
-backend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Footer Navigation</title>
-      <link>http://localhost:1313/footer_navmenu/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/footer_navmenu/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;h3 class=&amp;quot;center-title&amp;quot;&amp;gt;Links&amp;lt;/h3&amp;gt;
-&amp;lt;ul class=&amp;quot;footer-navigate&amp;quot;&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/evonove&amp;quot;&amp;gt;Evonove on GitHub&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;EvoWiki&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot;&amp;gt;Tofu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/contacts/&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
-&amp;lt;/ul&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Qt</title>
-      <link>http://localhost:1313/expertise/qt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/qt/</guid>
-      <description>&lt;p&gt;.. |qtlogo| image:: /img/qt-logo.jpg
-    :alt: Qt logo
-    :class: quote-right bordered-img&lt;/p&gt;
-
-&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
-interfaces for desktop, embedded and mobile platforms. Qt also provides
-support for network programming, multi threading, database access.&lt;/p&gt;
-
-&lt;p&gt;Qt is our first choice when developing desktop applications or when high
-performances are a requirement. We have solid experience using Qt both in C++
-and Python programming languages and we can offer support even on existing
-projects.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Molecular Visualization</title>
-      <link>http://localhost:1313/expertise/molecular-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
-      <description>&lt;p&gt;.. |pymol| image:: /img/pymol2.png
+      <guid>http://localhost:1313/activities/software/</guid>
+      <description>&lt;p&gt;.. image:: /img/code.jpg
+    :alt: code
     :class: bordered-img quote-right&lt;/p&gt;
 
-&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
-particular focus on the field of molecular visualization, using open source
-tools and libraries like PyMol and VTK.&lt;/p&gt;
+&lt;p&gt;Evonove has experience in the field of software development, ranging from
+software requirements and design, coding, testing and deployment.&lt;/p&gt;
+
+&lt;p&gt;Our techology solutions are entirely based on Open Source softwares and tools,
+which guarantees high quality code, a worldwide code contribution from the
+community and no license fees. We actively contribute to the development of
+open source products as well as releasing some of our softwares with open
+licenses.&lt;/p&gt;
+
+&lt;p&gt;Here follow some of the technologies currentrly in use at Evonove.&lt;/p&gt;
+
+&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row showgrid&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.. class:: span&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Backend development
+    - Django
+    - Flask
+    - Google App Engine
+    - JBoss Seam
+    - Plone CMS
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.. class:: span&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Mobile development
+    - Android
+    - Qt
+    - Mobile Web
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.. class:: span&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Rich User Interface
+    - Qt quick
+    - HTML5 + CSS3
+    - jQuery
+    - EmberJS
+    - YUI
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.. class:: span&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Database technologies
+    - Postgres
+    - MySql
+    - Sqlite
+    - SQLAlchemy
+    - Hibernate
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;We like to work transparently with our Customers, who can monitor every step of
+the development process: code, time tracker, issue tracker.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Callout</title>
+      <link>http://localhost:1313/callout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/callout/</guid>
+      <description>
+
+&lt;p&gt;.. |callout| image:: /img/tofu_logo.png&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;&lt;code&gt;Tofu, file storage made easy &amp;lt;http://tofu.st/&amp;gt;&lt;/code&gt;_&lt;/h1&gt;
+
+&lt;p&gt;|callout| Tofu is a file storage solution based on evonove&amp;rsquo;s own customers
+requirements. You can try the service and get 1Gb of disk space for your personal
+files, for free.&lt;/p&gt;
+
+&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot; target=&amp;quot;_blank&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;icon-shopping-cart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Get an account now&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -341,6 +216,212 @@ Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&a
     &amp;lt;/div&amp;gt;
 &amp;lt;/div&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular Visualization</title>
+      <link>http://localhost:1313/expertise/molecular-visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
+      <description>&lt;p&gt;.. |pymol| image:: /img/pymol2.png
+    :class: bordered-img quote-right&lt;/p&gt;
+
+&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
+particular focus on the field of molecular visualization, using open source
+tools and libraries like PyMol and VTK.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Videomapping</title>
+      <link>http://localhost:1313/expertise/videomapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/videomapping/</guid>
+      <description>&lt;p&gt;Videomapping is a projection technique used to display images on irregular
+surfaces so they seem to emit light instead of receiving it, as they were real
+screens. Through this technique we can add value to shapes and surfaces,
+perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
+
+&lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
+Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+
+&lt;p&gt;.. vimeo:: 40283798
+   :align: center
+   :height: 375
+   :width: 500
+   :noportrait:
+   :nobyline:
+   :notitle:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Footer About</title>
+      <link>http://localhost:1313/footer_about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/footer_about/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h4 class=&amp;quot;center-title&amp;quot;&amp;gt;About E9&amp;lt;/h4&amp;gt;
+&amp;lt;dl class=&amp;quot;dl-horizontal&amp;quot;&amp;gt;
+    &amp;lt;dt&amp;gt;Sector&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software and IT Infrastructures.&amp;lt;/dd&amp;gt;
+    &amp;lt;dt&amp;gt;Services&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software development, consultancy, formation, coworking, workshops, internships&amp;lt;/dd&amp;gt;
+&amp;lt;/dl&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Qt</title>
+      <link>http://localhost:1313/expertise/qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/qt/</guid>
+      <description>&lt;p&gt;.. |qtlogo| image:: /img/qt-logo.jpg
+    :alt: Qt logo
+    :class: quote-right bordered-img&lt;/p&gt;
+
+&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
+interfaces for desktop, embedded and mobile platforms. Qt also provides
+support for network programming, multi threading, database access.&lt;/p&gt;
+
+&lt;p&gt;Qt is our first choice when developing desktop applications or when high
+performances are a requirement. We have solid experience using Qt both in C++
+and Python programming languages and we can offer support even on existing
+projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Rich Web Applications</title>
+      <link>http://localhost:1313/expertise/webapps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/webapps/</guid>
+      <description>
+
+&lt;p&gt;We make modern web applications with upstream technologies, leveraging HTML5 to
+build responsive layouts, suitable for desktops and mobile devices.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Java Backend&lt;/h1&gt;
+
+&lt;p&gt;We choose &lt;strong&gt;Seam&lt;/strong&gt; among the moltitude of Java framework for its original
+approach to the MVC pattern. Seam respects EJB3 specification and it encourage
+annotations over XML configurations, still using well known development tools
+like JSF, JPA/Hibernate and JAAS. Even if it&amp;rsquo;s basically a web framework, Seam
+glues together serveral technologies making the development of CRUD applications
+quick, easy and attractive. We like to call Seam the &lt;em&gt;autoframework&lt;/em&gt;: you write
+the models, she does the pleasure.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_1&#34;&gt;Backend Python&lt;/h1&gt;
+
+&lt;p&gt;When building lightweight applications or RESTful APIs we use &lt;strong&gt;Flask&lt;/strong&gt;, a wsgi
+compliant, open source micro-framework extremely flexible, perfect for agile
+development.&lt;/p&gt;
+
+&lt;p&gt;For complex web applications we prefer &lt;strong&gt;Django&lt;/strong&gt;, a full stack web framework
+which comes with a number of tools that can satisfy almost every software
+requirement.&lt;/p&gt;
+
+&lt;p&gt;For developing intranets, DMS or complex web portals with specific requirements
+about user and roles management we use &lt;strong&gt;Plone&lt;/strong&gt;, an open source, enterprise
+level CMS particularly useful in such application fields.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_2&#34;&gt;Frontend&lt;/h1&gt;
+
+&lt;p&gt;We follow the living standard of HTML5 to build effective, modern and good looking
+web applications. When needed, we make use of MVC Javascript frameworks like
+&lt;strong&gt;EmberJS&lt;/strong&gt; and &lt;strong&gt;AngularJS&lt;/strong&gt; in conjunction with RESTful web services on the
+backend.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>http://localhost:1313/homepage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/homepage/</guid>
+      <description>
+
+&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
+
+&lt;p&gt;We help our customers to build quality IT systems by designing and developing
+software, planning and managing infrastructures, training. We try to actively
+involve our customers in every step when delivering a project, from the design
+of the application to the final test. Companies with their own technical staff
+can temporarily hire part of our staff when specific know-how is needed during
+the development of a project.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Footer Navigation</title>
+      <link>http://localhost:1313/footer_navmenu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/footer_navmenu/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;h3 class=&amp;quot;center-title&amp;quot;&amp;gt;Links&amp;lt;/h3&amp;gt;
+&amp;lt;ul class=&amp;quot;footer-navigate&amp;quot;&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/evonove&amp;quot;&amp;gt;Evonove on GitHub&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;EvoWiki&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot;&amp;gt;Tofu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/contacts/&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>http://localhost:1313/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/license/</guid>
+      <description>&lt;p&gt;.. |logo| image:: /img/cc-by-sa-3.0.png
+    :alt: cc-by-sa-3.0
+    :target: &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/3.0/&#34;&gt;http://creativecommons.org/licenses/by-sa/3.0/&lt;/a&gt;
+    :class: quote-left&lt;/p&gt;
+
+&lt;p&gt;|logo| This work is licensed under a &lt;code&gt;Creative Commons
+Attribution-ShareAlike 3.0 Unported License &amp;lt;http://creativecommons.org/licenses/by-sa/3.0/&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Andrea Veracchi</title>
+      <link>http://localhost:1313/staff/andrea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/andrea/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
+
+&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Alessandro Veracchi</title>
+      <link>http://localhost:1313/staff/aliex/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/aliex/</guid>
+      <description>&lt;p&gt;Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.
+We make little jewels, shining and functional: to make people happy.&lt;/p&gt;
+
+&lt;p&gt;I founded Python User Group of Perugia. There, I met wonderful people, who share with me passion on IT. Now they work with me in Evonove.
+I have a degree in Computer Engineering, but that was many years ago. Now I&amp;rsquo;m a simple Executive Chef in Evonove :)&lt;/p&gt;
 </description>
     </item>
     

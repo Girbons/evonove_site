@@ -62,6 +62,30 @@ tools and libraries like PyMol and VTK.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Videomapping</title>
+      <link>http://localhost:1313/expertise/videomapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/videomapping/</guid>
+      <description>&lt;p&gt;Videomapping is a projection technique used to display images on irregular
+surfaces so they seem to emit light instead of receiving it, as they were real
+screens. Through this technique we can add value to shapes and surfaces,
+perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
+
+&lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
+Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+
+&lt;p&gt;.. vimeo:: 40283798
+   :align: center
+   :height: 375
+   :width: 500
+   :noportrait:
+   :nobyline:
+   :notitle:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Qt</title>
       <link>http://localhost:1313/expertise/qt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -123,30 +147,6 @@ level CMS particularly useful in such application fields.&lt;/p&gt;
 web applications. When needed, we make use of MVC Javascript frameworks like
 &lt;strong&gt;EmberJS&lt;/strong&gt; and &lt;strong&gt;AngularJS&lt;/strong&gt; in conjunction with RESTful web services on the
 backend.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Videomapping</title>
-      <link>http://localhost:1313/expertise/videomapping/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/videomapping/</guid>
-      <description>&lt;p&gt;Videomapping is a projection technique used to display images on irregular
-surfaces so they seem to emit light instead of receiving it, as they were real
-screens. Through this technique we can add value to shapes and surfaces,
-perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
-
-&lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
-Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-
-&lt;p&gt;.. vimeo:: 40283798
-   :align: center
-   :height: 375
-   :width: 500
-   :noportrait:
-   :nobyline:
-   :notitle:&lt;/p&gt;
 </description>
     </item>
     

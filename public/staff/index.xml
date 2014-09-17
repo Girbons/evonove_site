@@ -10,6 +10,18 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
+      <title>Andrea Veracchi</title>
+      <link>http://localhost:1313/staff/andrea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/staff/andrea/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
+
+&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Alessandro Veracchi</title>
       <link>http://localhost:1313/staff/aliex/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -24,14 +36,12 @@ I have a degree in Computer Engineering, but that was many years ago. Now I&amp;
     </item>
     
     <item>
-      <title>Andrea Veracchi</title>
-      <link>http://localhost:1313/staff/andrea/</link>
+      <title>Federico Frenguelli</title>
+      <link>http://localhost:1313/staff/synasius/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/staff/andrea/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve always been a fan of economics. In 2012 I joined Evonove, and since then I take care of their administrative department.&lt;/p&gt;
-
-&lt;p&gt;Evonove is a young and vibrant, it&amp;rsquo;s a pleasure to be a part of the decisions taken for its development.&lt;/p&gt;
+      <guid>http://localhost:1313/staff/synasius/</guid>
+      <description>&lt;p&gt;Guess I should insert a bio &amp;hellip; but I have no time to waste!&lt;/p&gt;
 </description>
     </item>
     
@@ -48,16 +58,6 @@ integrate software components, write documentation, help making decisions about 
 definitely define myself as a troubleshooter.&lt;/p&gt;
 
 &lt;p&gt;As a long-time vegetarian, I currently hold the &lt;em&gt;Vegan Chef&lt;/em&gt; position at Evonove.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Federico Frenguelli</title>
-      <link>http://localhost:1313/staff/synasius/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/staff/synasius/</guid>
-      <description>&lt;p&gt;Guess I should insert a bio &amp;hellip; but I have no time to waste!&lt;/p&gt;
 </description>
     </item>
     

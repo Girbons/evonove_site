@@ -1,5 +1,9 @@
 ---
 baseurl = "http://yourSiteHere"
-title = "my new hugo site"
+title = "Evonove"
 date = false
+
+[paramas]
+    AuthorName="Girbons"
+
 ---

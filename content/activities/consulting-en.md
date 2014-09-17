@@ -7,6 +7,8 @@ image_link: http://placehold.it/1024x768.jpg
 identifier: consulting
 permalink: /activities/consulting/
 ---
+  {{ partial "head.html" . }}
+	  {{ partial "header.html" . }}
 
 System Administration
 ---------------------
@@ -31,3 +33,5 @@ or SVN.
 
 .. image:: /img/rhce.png
     :class: bordered-img
+
+  {{ partial "footer.html" . }}
