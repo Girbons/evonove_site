@@ -1,0 +1,77 @@
+{{ template "theme/_default/index.html" . }}
+
+
+    <div class="container">
+        <div class="row show-grid">
+            <div class="span12">
+                <div class="row show-grid clear-both">
+
+                    <div class="span9 main-column two-columns-right">
+                        <!-- BEGIN POSTS -->
+
+                        <div class="post-item">
+                            <h2><a href="{{entry.permalink}}"></a></h2>
+
+                            <div style="float:left;margin-right:15px;">
+                            <img alt="" src="" class="img-rounded thumbnail"/>
+                            </div>
+
+                            <div class="post-description justified">
+
+                            </div>
+
+                            <a class="post-more" href=""></a>
+                            <div class="post-item-panel">
+                                <ul>
+                                    <li class="date">
+                                        <p><i class="icon-calendar"></i></p>
+                                    </li>
+                                    <li><p><i class="icon-user"></i><a href="/staff/{{entry.author}}/{{env.lang | strip_default_lang(conf)}}">{{ entry.author }}</a></p></li>
+                                    <li><p><i class="icon-tags"></i>
+
+                                        <a href=""></a>
+
+                                    </p></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- END POSTS -->
+
+
+                        <div class="bs-docs-example">
+                            <ul class="pager">
+
+                                <li class="previous"><a href=""></a></li>
+
+
+                                <li class="next"><a href=""></a></li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div id="right-sidebar" class="span3 sidebar">
+                        <div class="tags-widget sidebar-block">
+                            <h2>Tags</h2>
+                            <ul>
+
+                                <li><p><i class="icon-tags"></i><a href="#">{{t}}</a></p></li>
+
+                            </ul>
+                        </div>
+                        <div class="text-widget sidebar-block">
+                            <h2></h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+    </div>
+

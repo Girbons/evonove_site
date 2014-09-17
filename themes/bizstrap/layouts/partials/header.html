@@ -1,0 +1,101 @@
+<header>
+            <div class="container">
+                <div class="row">
+                    <!-- HEADER: LOGO AREA -->
+                    <div class="span4 logo">
+                        <a class="logo" href="/">
+                            <img alt="logo" title="bizstrap" src="/img/logo.png">
+                        </a>
+                    </div>
+
+                    <!-- HEADER: PHONE NUMBER -->
+                    <div class="span4 offset4">
+                        <p class="head_phone"><a href="tel:+39-075-843667"><i class="icon-phone"></i>&nbsp; (+39) 075 843667</a></p>
+                    </div>
+
+                    <!-- HEADER: SOCIAL ICONS -->
+                    <div class="span pull-right">
+                        <div class="span3 pull-right">
+                            <ul class="socials unstyled">
+                                <li><a class="flickr" href="http://www.flickr.com/photos/evonovesrl/"></a></li>
+                                <li><a class="twitter" href="https://twitter.com/evonove"></a></li>
+                                <li><a class="facebook" href="https://www.facebook.com/evonovesrl"></a></li>
+                                <li><a class="linkedin" href="http://www.linkedin.com/company/evonove"></a></li>
+                                <li><a class="vimeo" href="http://vimeo.com/user11262087"></a></li>
+                                <li><a class="gplus" href="https://plus.google.com/111644060204650622285/"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- HEADER: PRIMARY SITE NAVIGATION -->
+            <div class="container">
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <div class="container">
+                            <div class="buttons-container">
+                            </div>
+                            <div class="nav-collapse">
+
+                                <ul class="nav nav-pills">
+                                    <li class="single active">
+                                        <a href="/">
+                                            HOME<i>127.0.0.1</i>
+                                        </a>
+                                    </li>
+
+
+
+
+                                    <li class="dropdown">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                            ACTIVITIES<i>what we do</i>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            {{ range .Site.Sections.activities }}
+                                            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+                                            {{end}}
+                                        </ul>
+                                    </li>
+
+                                    <li class="dropdown">
+
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="#menu1">
+                                            EXPERTISE<i>what we can do</i>
+                                        </a>
+
+
+                                        <ul class="dropdown-menu">
+                                            {{ range .Site.Sections.expertise }}
+                                            <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+                                            {{end}}
+                                        </ul>
+
+                                    </li>
+
+
+                                    <li class="single">
+                                        <a class="single" href="/blog/">
+                                            BLOG<i>e9 techies</i>
+                                        </a>
+                                    </li>
+                                    <li class="single">
+                                        <a class="single" href="/staff/">
+                                            STAFF<i>about us</i>
+                                        </a>
+                                    </li>
+
+
+                                    <li class="single">
+                                        <a href="/contacts/">
+                                            CONTACTS<i>get in touch</i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+</header>

@@ -1,0 +1,38 @@
+{{ template "theme/partials/index.html" . }}
+
+<head>
+
+        <!--  SEO STUFF START HERE -->
+        <title>{{ .Title }}</title>
+        <meta name="keywords" content="" />
+        <meta name="description" content="" />
+        <meta name="author" content="evonove" />
+        <meta name="robots" content="follow, index" />
+        <!--  SEO STUFF END -->
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--  revolution slider plugin : begin -->
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/rs-plugin/css/settings.css" media="screen">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/rs-responsive.min.css" media="screen">
+        <!--  revolution slider plugin : end -->
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/custom.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/isotope.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/color_scheme.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700,700italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/font-awesome-ie7.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/flexslider.min.css">
+        <link rel="stylesheet" href="{{ .Site.BaseUrl }}/css/jquery.fancybox.min.css?v=2.1.0" type="text/css" media="screen">
+        
+        <link rel="stylesheet" type="text/css" href="{{ .Site.BaseUrl }}/css/IE-fix.css">
+
+        <link rel="icon" type="image/png" href="{{ .Site.BaseUrl }}/img/favicon.ico">
+
+    <meta name="description" content="Say Hello to Evonove!
+=====================
+
+IT co..." />
+    <meta name="keywords" content="" />
+
+    </head>

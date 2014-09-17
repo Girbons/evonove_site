@@ -1,0 +1,11 @@
+{{ template "theme/_default/index.html" . }}
+
+
+    <meta name="description" content="{{ entry.description | e }}" />
+    <meta name="keywords" content="{{ entry.tags | join(', ') }}" />
+
+    <ul>
+
+        <li class="{% if e == entry %}active{% endif %}"><a href="{{ e.permalink }}">{{ e.title }}</a></li>
+
+    </ul>
