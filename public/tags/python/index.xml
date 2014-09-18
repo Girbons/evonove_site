@@ -104,6 +104,16 @@ Nella speranza che i contenuti del blog piacciano, vi invitiamo ad abbonarvi ai 
     </item>
     
     <item>
+      <title>incontro di Febbraio</title>
+      <link>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</guid>
+      <description>&lt;p&gt;Il codice servito da supporto alla chiaccherata sull&#39;utilizzo avanzato di PyQt &amp;egrave; disponibile su github &lt;a title=&#34;github&#34; href=&#34;https://github.com/masci/pypg_advancedqt&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>libFreenect su Fedora</title>
       <link>http://localhost:1313/blog/2011/libfreenect-su-fedora/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -181,72 +191,6 @@ comando:&lt;/p&gt;
 
 &lt;p&gt;finisce senza produrre errori, libFreenect è correttamente installata nel
 vostro sistema.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Django &#43; Wordpress = EvoBlog</title>
-      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
-      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
-da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
-abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
-per alcuni clienti.&lt;/p&gt;
-
-&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
-riuscito a trovare che implementi un blog, prendete ad esempio il codice che
-serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
-(a meno del caching che vi risparmio):&lt;/p&gt;
-
-&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def backend(entry):
-    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
-                        urllib2.quote(entry.get_absolute_url()))
-    try:
-        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
-            data=&#39;&#39;)
-    except Exception as e:
-        return &#39;&#39;
-    return json.loads(f.read())
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
-sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
-riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
-aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
-(codice sorgente formattato). Le motivazioni dello switch sono quindi da
-ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
-inserire e modificare gli articoli ed il suo altissimo livello di
-SEO-friendlyness.&lt;/p&gt;
-
-&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
-disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
-aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
-
-&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
-    % context[&#39;lang&#39;]
-feed = feedparser.parse(rss_url)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
-una serie di query al database di backend con una HTTP/GET fatta in localhost,
-non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
-termini di velocità di elaborazione della pagina.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>incontro di Febbraio</title>
-      <link>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</guid>
-      <description>&lt;p&gt;Il codice servito da supporto alla chiaccherata sull&#39;utilizzo avanzato di PyQt &amp;egrave; disponibile su github &lt;a title=&#34;github&#34; href=&#34;https://github.com/masci/pypg_advancedqt&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -435,6 +379,62 @@ trip delay and it isn&amp;rsquo;t a benchmark of real use cases.&lt;/p&gt;
     </item>
     
     <item>
+      <title>Django &#43; Wordpress = EvoBlog</title>
+      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
+      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
+da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
+abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
+per alcuni clienti.&lt;/p&gt;
+
+&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
+riuscito a trovare che implementi un blog, prendete ad esempio il codice che
+serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
+(a meno del caching che vi risparmio):&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def backend(entry):
+    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
+                        urllib2.quote(entry.get_absolute_url()))
+    try:
+        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
+            data=&#39;&#39;)
+    except Exception as e:
+        return &#39;&#39;
+    return json.loads(f.read())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
+sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
+riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
+aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
+(codice sorgente formattato). Le motivazioni dello switch sono quindi da
+ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
+inserire e modificare gli articoli ed il suo altissimo livello di
+SEO-friendlyness.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
+disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
+aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
+    % context[&#39;lang&#39;]
+feed = feedparser.parse(rss_url)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
+una serie di query al database di backend con una HTTP/GET fatta in localhost,
+non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
+termini di velocità di elaborazione della pagina.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Build Python desktop application with Jenkins</title>
       <link>http://localhost:1313/blog/2013/build-python-desktop-application-with-jenkins/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -502,120 +502,6 @@ to be shipped) are collected and uploaded to a &lt;strong&gt;S3 bucket&lt;/stron
 
 &lt;p&gt;&lt;strong&gt;Feel free to drop here a comment&lt;/strong&gt; and share your experience, it&amp;rsquo;s never easy finding a best practice when the requirements
 are complex and not always well defined as they are in this case.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Django OAuth Toolkit is out!</title>
-      <link>http://localhost:1313/blog/2013/django-oauth-toolkit-is-out/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2013/django-oauth-toolkit-is-out/</guid>
-      <description>
-
-&lt;p&gt;We just released the &lt;code&gt;latest version &amp;lt;https://pypi.python.org/pypi/django-oauth-toolkit/0.3.0&amp;gt;&lt;/code&gt;_ of Django OAuth Toolkit,
-a library to add OAuth goodies to Django projects. The project is under active development, at the moment it offers
-fully-featured and RFC6749 compliant OAuth2 providers implementation and it runs on Django 1.4, 1.5 and 1.6a1 with
-Python 2.7 and 3.3.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;A brief history&lt;/h1&gt;
-
-&lt;p&gt;Everything started when we found ourselves in the need to implement an OAuth2 provider for a Django web service.
-We happily use Django REST framework wherever we have to expose an API, and that was right the case. Django REST framework
-has built-in support for a third party Django app implementing OAuth providers but we shortly faced some issues and
-started to search for an alternative.&lt;/p&gt;
-
-&lt;p&gt;Digging around we stumbled upon this blog post from Daniel Greenfeld:
-&lt;code&gt;The sorry state of Python OAuth providers &amp;lt;http://pydanny.com/the-sorry-state-of-python-oauth-providers.html&amp;gt;&lt;/code&gt;_. Enough
-is enough but we were still not sure whether starting another project from scratch or not, when we met Daniel at the Django
-Circus in Warsaw. We talked shortly about the topic but he was very convincing and we started coding as soon as we came
-back at work.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;Why?&lt;/h1&gt;
-
-&lt;p&gt;We&amp;rsquo;re trying to involve other people in the project and usually this is the first question we&amp;rsquo;re asked: why another
-project? Instead of complaining about other projects, we usually list what we got so far and possibly other don&amp;rsquo;t have:
-features and goodies we strongly needed and now actually have.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;DRY&lt;/h2&gt;
-
-&lt;p&gt;We think &lt;code&gt;oauthlib &amp;lt;https://github.com/idan/oauthlib&amp;gt;&lt;/code&gt;_ is currently the state of the art OAuth library in the Python
-world. We choose to rely on a well documented, well supported and active project instead of write one on our own, with
-all the FUD of the case.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Documentation&lt;/h2&gt;
-
-&lt;p&gt;OAuth protocol can be quite mind boggling every here and there. We think writing good docs is mandatory when the code
-may be quite simple but the workflow heavily complicated. We are also putting a lot of efforts on writing tutorials, as
-one line of code worths thousand words (expecially with OAuth workflows :-).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_4&#34;&gt;Testing&lt;/h2&gt;
-
-&lt;p&gt;I&amp;rsquo;m not referring to Unit testing here (still we do our best to keep coverage over 95% ;-) but to some stuff users
-can actually use to test their applications on a real OAuth2 workflow. In some circumstances, OAuth2 applications need
-a companion to exchange tokens, provide authorizations and so on. We deployed an OAuth2 playground on Heroku to let
-users perform a roundtrip between their local apps and a real server (or client, depending on the case).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_5&#34;&gt;Timezone aware&lt;/h2&gt;
-
-&lt;p&gt;We strongly believe that if your dates and times are not timezone aware, they&amp;rsquo;re broken. That said.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_6&#34;&gt;Python 3&lt;/h2&gt;
-
-&lt;p&gt;On the neverending effort of porting our codebase to Python 3, we cannot rely anymore on libraries and tools which do
-not have at least any roadmap for the porting. Django OAuth Toolkit is alredy working with both Python 2.7 and 3.3.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_7&#34;&gt;Support&lt;/h2&gt;
-
-&lt;p&gt;We&amp;rsquo;re working hard on the project also because we&amp;rsquo;re using it internally in our company, so we can guarantee our full
-support on the middle term and hopefully longer, depending on the success it could be have in the Django world.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_8&#34;&gt;We want you!&lt;/h1&gt;
-
-&lt;p&gt;As any other Open Source project, we&amp;rsquo;re nothing without a community: any help is appreciated, code of course but also
-docs, testing and any kind of feedback. &lt;code&gt;Fork the project &amp;lt;https://github.com/evonove/django-oauth-toolkit&amp;gt;&lt;/code&gt;_,
-take a ride, fill some PRs!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DjangoCon Europe 2013 Wrap-up</title>
-      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
-      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
-it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
-
-&lt;p&gt;.. image:: /img/2013/circus.jpg
-    :alt: The Circus!
-    :align: center
-    :class: bordered-img&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
-I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
-
-&lt;p&gt;.. image:: /img/2013/food.jpg
-    :alt: Yummy!
-    :align: center
-    :class: bordered-img&lt;/p&gt;
-
-&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
-happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
-&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
-places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
-inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_ who arranged
-a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
-
-&lt;p&gt;.. image:: /img/2013/lighting.jpg
-    :alt: Emanuele on stage
-    :align: center
-    :class: bordered-img&lt;/p&gt;
-
-&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
-have been happened in case of rain :-).&lt;/p&gt;
 </description>
     </item>
     
@@ -782,6 +668,88 @@ reale.&lt;/p&gt;
     </item>
     
     <item>
+      <title>DjangoCon Europe 2013 Wrap-up</title>
+      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
+      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
+it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/circus.jpg
+    :alt: The Circus!
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
+I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/food.jpg
+    :alt: Yummy!
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
+happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
+&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
+places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
+inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_ who arranged
+a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/lighting.jpg
+    :alt: Emanuele on stage
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
+have been happened in case of rain :-).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DjangoCon Europe 2013 Wrap-up</title>
+      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
+      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
+it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/circus.jpg
+    :alt: The Circus!
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
+I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/food.jpg
+    :alt: Yummy!
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
+happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
+&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
+places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
+inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_ who arranged
+a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
+
+&lt;p&gt;.. image:: /img/2013/lighting.jpg
+    :alt: Emanuele on stage
+    :align: center
+    :class: bordered-img&lt;/p&gt;
+
+&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
+have been happened in case of rain :-).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Europython 2013 Wrap-up</title>
       <link>http://localhost:1313/blog/2013/europython-2013/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -830,43 +798,75 @@ and a lightning talk. We also managed to make a code sprint for
     </item>
     
     <item>
-      <title>DjangoCon Europe 2013 Wrap-up</title>
-      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
+      <title>Django OAuth Toolkit is out!</title>
+      <link>http://localhost:1313/blog/2013/django-oauth-toolkit-is-out/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
-      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
+      <guid>http://localhost:1313/blog/2013/django-oauth-toolkit-is-out/</guid>
+      <description>
 
-&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
-it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
+&lt;p&gt;We just released the &lt;code&gt;latest version &amp;lt;https://pypi.python.org/pypi/django-oauth-toolkit/0.3.0&amp;gt;&lt;/code&gt;_ of Django OAuth Toolkit,
+a library to add OAuth goodies to Django projects. The project is under active development, at the moment it offers
+fully-featured and RFC6749 compliant OAuth2 providers implementation and it runs on Django 1.4, 1.5 and 1.6a1 with
+Python 2.7 and 3.3.&lt;/p&gt;
 
-&lt;p&gt;.. image:: /img/2013/circus.jpg
-    :alt: The Circus!
-    :align: center
-    :class: bordered-img&lt;/p&gt;
+&lt;h1 id=&#34;toc_0&#34;&gt;A brief history&lt;/h1&gt;
 
-&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
-I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
+&lt;p&gt;Everything started when we found ourselves in the need to implement an OAuth2 provider for a Django web service.
+We happily use Django REST framework wherever we have to expose an API, and that was right the case. Django REST framework
+has built-in support for a third party Django app implementing OAuth providers but we shortly faced some issues and
+started to search for an alternative.&lt;/p&gt;
 
-&lt;p&gt;.. image:: /img/2013/food.jpg
-    :alt: Yummy!
-    :align: center
-    :class: bordered-img&lt;/p&gt;
+&lt;p&gt;Digging around we stumbled upon this blog post from Daniel Greenfeld:
+&lt;code&gt;The sorry state of Python OAuth providers &amp;lt;http://pydanny.com/the-sorry-state-of-python-oauth-providers.html&amp;gt;&lt;/code&gt;_. Enough
+is enough but we were still not sure whether starting another project from scratch or not, when we met Daniel at the Django
+Circus in Warsaw. We talked shortly about the topic but he was very convincing and we started coding as soon as we came
+back at work.&lt;/p&gt;
 
-&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
-happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
-&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
-places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
-inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;code&gt;Emanuele &amp;lt;/authors/palazzem&amp;gt;&lt;/code&gt;_ who arranged
-a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
+&lt;h1 id=&#34;toc_1&#34;&gt;Why?&lt;/h1&gt;
 
-&lt;p&gt;.. image:: /img/2013/lighting.jpg
-    :alt: Emanuele on stage
-    :align: center
-    :class: bordered-img&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;re trying to involve other people in the project and usually this is the first question we&amp;rsquo;re asked: why another
+project? Instead of complaining about other projects, we usually list what we got so far and possibly other don&amp;rsquo;t have:
+features and goodies we strongly needed and now actually have.&lt;/p&gt;
 
-&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
-have been happened in case of rain :-).&lt;/p&gt;
+&lt;h2 id=&#34;toc_2&#34;&gt;DRY&lt;/h2&gt;
+
+&lt;p&gt;We think &lt;code&gt;oauthlib &amp;lt;https://github.com/idan/oauthlib&amp;gt;&lt;/code&gt;_ is currently the state of the art OAuth library in the Python
+world. We choose to rely on a well documented, well supported and active project instead of write one on our own, with
+all the FUD of the case.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Documentation&lt;/h2&gt;
+
+&lt;p&gt;OAuth protocol can be quite mind boggling every here and there. We think writing good docs is mandatory when the code
+may be quite simple but the workflow heavily complicated. We are also putting a lot of efforts on writing tutorials, as
+one line of code worths thousand words (expecially with OAuth workflows :-).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_4&#34;&gt;Testing&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m not referring to Unit testing here (still we do our best to keep coverage over 95% ;-) but to some stuff users
+can actually use to test their applications on a real OAuth2 workflow. In some circumstances, OAuth2 applications need
+a companion to exchange tokens, provide authorizations and so on. We deployed an OAuth2 playground on Heroku to let
+users perform a roundtrip between their local apps and a real server (or client, depending on the case).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_5&#34;&gt;Timezone aware&lt;/h2&gt;
+
+&lt;p&gt;We strongly believe that if your dates and times are not timezone aware, they&amp;rsquo;re broken. That said.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_6&#34;&gt;Python 3&lt;/h2&gt;
+
+&lt;p&gt;On the neverending effort of porting our codebase to Python 3, we cannot rely anymore on libraries and tools which do
+not have at least any roadmap for the porting. Django OAuth Toolkit is alredy working with both Python 2.7 and 3.3.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_7&#34;&gt;Support&lt;/h2&gt;
+
+&lt;p&gt;We&amp;rsquo;re working hard on the project also because we&amp;rsquo;re using it internally in our company, so we can guarantee our full
+support on the middle term and hopefully longer, depending on the success it could be have in the Django world.&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_8&#34;&gt;We want you!&lt;/h1&gt;
+
+&lt;p&gt;As any other Open Source project, we&amp;rsquo;re nothing without a community: any help is appreciated, code of course but also
+docs, testing and any kind of feedback. &lt;code&gt;Fork the project &amp;lt;https://github.com/evonove/django-oauth-toolkit&amp;gt;&lt;/code&gt;_,
+take a ride, fill some PRs!&lt;/p&gt;
 </description>
     </item>
     

@@ -43,6 +43,42 @@ or SVN.
     </item>
     
     <item>
+      <title>Workshop</title>
+      <link>http://localhost:1313/activities/workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/activities/workshop/</guid>
+      <description>
+
+&lt;p&gt;The way Evonove grows ideas and projects.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Events&lt;/h2&gt;
+
+&lt;p&gt;The space at the 2nd floor is equipped with desks, chairs, whiteboards and a
+videoprojector - a nice environment where performing technical meetings,
+interactive tracks, seminars.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Training&lt;/h2&gt;
+
+&lt;p&gt;Evonove provides professional training on methodologies and technologies for
+companies and single professionals. Periodically Evonove hosts and organizes
+seminars about open source technologies free of charges.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Internships&lt;/h2&gt;
+
+&lt;p&gt;With the collaboration of the University of Perugia we offer internships for
+students and graduates in the field of Information Technology. Evonove
+encourages students to work on open source projects and supports them on
+the adoption of bleeding edge technologies.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_3&#34;&gt;Sponsorships&lt;/h2&gt;
+
+&lt;p&gt;Evonove endorses small projects in the open source world, in particular
+the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Software</title>
       <link>http://localhost:1313/activities/software/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -104,42 +140,6 @@ Database technologies
 &lt;p&gt;&lt;/div&gt;
 We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Workshop</title>
-      <link>http://localhost:1313/activities/workshop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/activities/workshop/</guid>
-      <description>
-
-&lt;p&gt;The way Evonove grows ideas and projects.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Events&lt;/h2&gt;
-
-&lt;p&gt;The space at the 2nd floor is equipped with desks, chairs, whiteboards and a
-videoprojector - a nice environment where performing technical meetings,
-interactive tracks, seminars.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Training&lt;/h2&gt;
-
-&lt;p&gt;Evonove provides professional training on methodologies and technologies for
-companies and single professionals. Periodically Evonove hosts and organizes
-seminars about open source technologies free of charges.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Internships&lt;/h2&gt;
-
-&lt;p&gt;With the collaboration of the University of Perugia we offer internships for
-students and graduates in the field of Information Technology. Evonove
-encourages students to work on open source projects and supports them on
-the adoption of bleeding edge technologies.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_3&#34;&gt;Sponsorships&lt;/h2&gt;
-
-&lt;p&gt;Evonove endorses small projects in the open source world, in particular
-the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
 </description>
     </item>
     
