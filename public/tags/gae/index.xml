@@ -10,20 +10,6 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
-      <title>Shorty è online</title>
-      <link>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</guid>
-      <description>&lt;p&gt;&lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;&lt;em&gt;, il progetto sviluppato durante l&amp;rsquo;internship di uno
-studente dell&amp;rsquo;Università degli Studi di Perugia qui in Evonove, è finalmente
-online. Si tratta di un URL shortner che tenta di superare alcune problematiche
-legate agli shortner in generale. Il progetto è rilasciato con licenza
-opensource BSD, il codice lo trovate su &lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Shorty is online</title>
       <link>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -34,6 +20,20 @@ of Perugia during his internship here at Evonove is finally online.
 It&amp;rsquo;s basically an URL shortner with some enhancing features released with a
 BSD license. For more details, get it on
 &lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shorty è online</title>
+      <link>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</guid>
+      <description>&lt;p&gt;&lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;&lt;em&gt;, il progetto sviluppato durante l&amp;rsquo;internship di uno
+studente dell&amp;rsquo;Università degli Studi di Perugia qui in Evonove, è finalmente
+online. Si tratta di un URL shortner che tenta di superare alcune problematiche
+legate agli shortner in generale. Il progetto è rilasciato con licenza
+opensource BSD, il codice lo trovate su &lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
 </description>
     </item>
     

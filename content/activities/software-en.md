@@ -22,47 +22,45 @@ licenses.
 
 Here follow some of the technologies currentrly in use at Evonove.
 
-.. raw:: html
-
-    <div class="row showgrid">
-
-.. class:: span
-
-    Backend development
+<div class="row showgrid">
+<div span>
+Backend development
         - Django
         - Flask
         - Google App Engine
         - JBoss Seam
         - Plone CMS
+</div>
 
-.. class:: span
+<div span>
 
-    Mobile development
+Mobile development
         - Android
         - Qt
         - Mobile Web
+</div>
 
-.. class:: span
+<div span>
 
-    Rich User Interface
+Rich User Interface
         - Qt quick
         - HTML5 + CSS3
         - jQuery
         - EmberJS
         - YUI
+</div>
 
-.. class:: span
+<div span>
 
-    Database technologies
+Database technologies
         - Postgres
         - MySql
         - Sqlite
         - SQLAlchemy
         - Hibernate
 
-.. raw:: html
+</div>
 
-    </div>
-
+</div>
 We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.

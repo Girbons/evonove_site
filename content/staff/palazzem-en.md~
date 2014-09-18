@@ -1,17 +1,19 @@
 ---
-title: Emanuele Palazzetti
+titles: Emanuele Palazzetti
 lang: en
 identifier: palazzem
 slug: palazzem
 date: 01-01-2013
-type: page
 email: emanuele.palazzetti@evonove.it
 jobtitle: Roast Chef
 experience: Python and Android developer
 quote:
-twitter: palazzem
-github: emanuele-palazzetti
-gplus: 115332375324663066387
+twitter: https://twitter.com/palazzem
+github: https://github.com/palazzem
+gplus: https://plus.google.com/+EmanuelePalazzetti/posts
+type: staff
+image: https://www.gravatar.com/avatar/e26277bcebce1550b759a14d8463e35a?s=250&d=http://beta.evonove.it/img/placeholder_60_60.png
+permalink: /staff/palazzem
 ---
 
 I'm a software developer but, first of all, fan and supporter of everything turns around computer science, security and open source.

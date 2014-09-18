@@ -10,7 +10,10 @@ experience: Python and Java developer
 quote: Argimo a tribblè con Fabio
 twitter: Aliex75
 github: AlessandroVeracchi
-gplus: 102956713060030684424
+gplus: "102956713060030684424"
+type: staff
+image: https://www.gravatar.com/avatar/e4e4b10b53885bb86638f3084ef049f9?s=250&d=http://beta.evonove.it/img/placeholder_60_60.pnga
+description: "Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.We make little jewels, shining and functional to make people happy."
 ---
 
 Currently I am a Java and Python developer and software marketer at the IT company I founded in Perugia with a my friend in 2010, Evonove. Evonove was a new start point, changing my way to look at IT world completely.

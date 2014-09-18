@@ -9,9 +9,7 @@ identifier: software
 permalink: /activities/software/
 ---
 ![code](/img/code.jpg)
-.. image:: /img/code.jpg
-    :alt: code
-    :class: bordered-img quote-right
+
 
 Evonove has experience in the field of software development, ranging from
 software requirements and design, coding, testing and deployment.
@@ -24,47 +22,37 @@ licenses.
 
 Here follow some of the technologies currentrly in use at Evonove.
 
-.. raw:: html
-
-    <div class="row showgrid">
-
-.. class:: span
-
-    Backend development
+<div class="row showgrid">
+<div span>
+Backend development
         - Django
         - Flask
         - Google App Engine
         - JBoss Seam
         - Plone CMS
-
-.. class:: span
-
-    Mobile development
+</div>
+<div span>
+Mobile development
         - Android
         - Qt
         - Mobile Web
-
-.. class:: span
-
-    Rich User Interface
+</div>
+<div span>
+Rich User Interface
         - Qt quick
         - HTML5 + CSS3
         - jQuery
         - EmberJS
         - YUI
-
-.. class:: span
-
-    Database technologies
+</div>
+<div span>
+Database technologies
         - Postgres
         - MySql
         - Sqlite
         - SQLAlchemy
         - Hibernate
-
-.. raw:: html
-
-    </div>
-
+</div>
+</div>
 We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.

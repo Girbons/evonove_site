@@ -10,6 +10,19 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
+      <title>Fedora 15 Release Party</title>
+      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Progetto Kimol - Diario di Bordo - 1</title>
       <link>http://localhost:1313/blog/2011/progetto-kimol-diario-di-bordo-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -56,19 +69,6 @@ macchina di riferimento per lo sviluppo del progetto.&lt;/p&gt;
 &lt;p&gt;Il prossimo step consiste nel comprendere al meglio i dati che vengono forniti
 dal Kinect attraverso freenect e sondare le potenzialità di OpenCV rispetto al
 progetto finale.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Fedora 15 Release Party</title>
-      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

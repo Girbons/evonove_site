@@ -47,21 +47,6 @@ Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&a
     </item>
     
     <item>
-      <title>Molecular Visualization</title>
-      <link>http://localhost:1313/expertise/molecular-visualization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/pymol2.png&#34; alt=&#34;pymol&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
-particular focus on the field of molecular visualization, using open source
-tools and libraries like PyMol and VTK.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Qt</title>
       <link>http://localhost:1313/expertise/qt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -78,6 +63,21 @@ support for network programming, multi threading, database access.&lt;/p&gt;
 performances are a requirement. We have solid experience using Qt both in C++
 and Python programming languages and we can offer support even on existing
 projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Molecular Visualization</title>
+      <link>http://localhost:1313/expertise/molecular-visualization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/molecular-visualization/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/pymol2.png&#34; alt=&#34;pymol&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;|pymol| We support our customers providing 3D programming consultancy with a
+particular focus on the field of molecular visualization, using open source
+tools and libraries like PyMol and VTK.&lt;/p&gt;
 </description>
     </item>
     

@@ -7,7 +7,7 @@
         <!-- THE LINE AT THE VERY TOP OF THE PAGE -->
         <div class="top_line"></div>
         <!-- HEADER AREA -->
-         {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
         <!-- MAIN CONTENT AREA -->
         <div class="main-content">
     <div class="container">
@@ -65,38 +65,36 @@
                     <!-- MAIN CONTENT AREA: REDESIGN CUSTOM - HERO BLOCK 1 (TEXT BLOCK)] -->
                     <div class="span6 home-block hero-block-1">
                         <div class="section" id="say-hello-to-evonove">
-<h2>Say Hello to Evonove!</h2>
-<div class="section" id="it-consulting-for-small-and-medium-enterprises">
-<h3>IT consulting for small and medium enterprises.</h3>
-<p>We help our customers to build quality IT systems by designing and developing
-software, planning and managing infrastructures, training. We try to actively
-involve our customers in every step when delivering a project, from the design
-of the application to the final test. Companies with their own technical staff
-can temporarily hire part of our staff when specific know-how is needed during
-the development of a project.</p>
-</div>
-</div>
-
+                            <h2>Say Hello to Evonove!</h2>
+                                <div class="section" id="it-consulting-for-small-and-medium-enterprises">
+                                        <h3>IT consulting for small and medium enterprises.</h3>
+                                        <p>We help our customers to build quality IT systems by designing and developing
+                                        software, planning and managing infrastructures, training. We try to actively
+                                        involve our customers in every step when delivering a project, from the design
+                                        of the application to the final test. Companies with their own technical staff
+                                        can temporarily hire part of our staff when specific know-how is needed during
+                                        the development of a project.</p>
+                                </div>
+                        </div>
                     </div>
 
                     <!-- MAIN CONTENT AREA: SPACER BETWEEN HERO BLOCK 1 AND HEREO BLOCK 2 -->
-                    <div class="span1"></div>
-
+                <div class="span1"></div>
                     <!-- MAIN CONTENT AREA: bizstrap CUSTOM - HERO BLOCK 2 -->
                     <div class="span5 home-block">
                         <div class="grey-box hero-block-2">
                             <div class="section" id="id1">
-<h2><a class="reference external" href="http://tofu.st/">Tofu, file storage made easy</a></h2>
-<p><img alt="callout" src="/img/tofu_logo.png" /> Tofu is a file storage solution based on evonove's own customers
-requirements. You can try the service and get 1Gb of disk space for your personal
-files, for free.</p>
-<a href="http://tofu.st" target="_blank" class="btn btn-warning"><i class="icon-shopping-cart"></i>Get an account now</a></div>
-
+                                <h2><a class="reference external" href="http://tofu.st/">Tofu, file storage made easy</a></h2>
+                                <p><img alt="callout" src="/img/tofu_logo.png" /> Tofu is a file storage solution based on evonove's own customers
+                                    requirements. You can try the service and get 1Gb of disk space for your personal
+                                    files, for free.
+                                </p>
+                                  <a href="http://tofu.st" target="_blank" class="btn btn-warning"><i class="icon-shopping-cart"></i>Get an account now</a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
         <hr>
 
@@ -110,9 +108,9 @@ files, for free.</p>
                                 <img alt="" src="/img/hero_java.png" />
                             </div>
                         <div class="section" id="java">
-<h2>Java</h2>
-<p>Web and Mobile development done right.</p>
-</div>
+                            <h2>Java</h2>
+                            <p>Web and Mobile development done right.</p>
+                        </div>
 
                     </div>
 
@@ -121,9 +119,9 @@ files, for free.</p>
                                 <img alt="" src="/img/hero_javascript.png" />
                             </div>
                         <div class="section" id="javascript">
-<h2>Javascript</h2>
-<p>Frontend developers on the way!</p>
-</div>
+                            <h2>Javascript</h2>
+                            <p>Frontend developers on the way!</p>
+                        </div>
 
                     </div>
 
@@ -132,11 +130,10 @@ files, for free.</p>
                                 <img alt="" src="/img/hero_opensource.png" />
                             </div>
                         <div class="section" id="open-source">
-<h2>Open Source</h2>
-<p>We try releasing in the wild as much of our work as we can, as well as contributing to other open source projects.
-Check out our activity on <a class="reference external" href="https://github.com/evonove">GitHub!</a></p>
-</div>
-
+                            <h2>Open Source</h2>
+                            <p>We try releasing in the wild as much of our work as we can, as well as contributing to other open source projects.
+                            Check out our activity on <a class="reference external" href="https://github.com/evonove">GitHub!</a></p>
+                        </div>
                     </div>
 
                     <div class="span3">
@@ -144,9 +141,9 @@ Check out our activity on <a class="reference external" href="https://github.com
                                 <img alt="" src="/img/hero_python.png" />
                             </div>
                         <div class="section" id="python">
-<h2>Python</h2>
-<p>Our personal Swiss Army knife.</p>
-</div>
+                               <h2>Python</h2>
+                                <p>Our personal Swiss Army knife.</p>
+                        </div>
 
                     </div>
 
@@ -156,7 +153,6 @@ Check out our activity on <a class="reference external" href="https://github.com
         </div>
 
         <!-- MAIN CONTENT AREA: Expertise block -->
-
         <div class="portfolio-grid-1 main-block">
             <div class="title-wrapper">
                 <h2>Expertise</h2>
@@ -165,22 +161,16 @@ Check out our activity on <a class="reference external" href="https://github.com
             <div id="home_responsive" class="row show-grid isotope" style="position: relative; overflow: hidden; height: 360px;">
                 <!-- Expertise -->
                 {{ range .Site.Sections.expertise }}
-                <div class="span3 medium hp-wrapper isotope-item">
-                    <a class="top-link" href="#"><img alt="" style="width: 220px; height: 340px;" src="{{ .Page.Params.image }}"></a>
-                    <div class="bottom-block">
-                        <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
-                        <p>Living surfaces</p>
-                    </div>
-                 </div>
-
-            {{end}}
+                     <div class="span3 medium hp-wrapper isotope-item">
+                        <a class="top-link" href="#"><img alt="" style="width: 220px; height: 340px;" src="{{ .Page.Params.image }}"></a>
+                        <div class="bottom-block">
+                            <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a>
+                            <p>Living surfaces</p>
+                        </div>
+                     </div>
+                {{end}}
             </div>
         </div>
-
-
-
-
-
         <!-- MAIN CONTENT AREA: bizstrap CUSTOM - RECENT POSTS BLOCK (ORIGINALLY DESIGNED FOR HOME PAGE) -->
         <div class="main-block block-posts">
             <div class="title-wrapper">
@@ -200,8 +190,8 @@ Check out our activity on <a class="reference external" href="https://github.com
                             <a class="block-post-title" href="/blog/2014/droidcon-2014/">DroidCon 2014, all aboard!</a>
                             <p class="block-post-date">04 Feb 2014</p>
                             <p class="block-post-content"><p>After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
-<a class="reference external" href="http://droidcon.com/">Droidcon</a> arrives in Italy, <a class="reference external" href="http://it.droidcon.com/2014/">in Turin</a>.
-It'll ...</p>
+                                <a class="reference external" href="http://droidcon.com/">Droidcon</a> arrives in Italy, <a class="reference external" href="http://it.droidcon.com/2014/">in Turin</a>.
+                                It'll ...</p>
 
                             <a class="block-post-more" href="/blog/2014/droidcon-2014/">Continue Reading&nbsp;&raquo;</a>
                         </div>
@@ -216,9 +206,8 @@ It'll ...</p>
                             <a class="block-post-title" href="/blog/2013/build-python-desktop-application-with-jenkins/">Build Python desktop application with Jenkins</a>
                             <p class="block-post-date">24 Jul 2013</p>
                             <p class="block-post-content"><p>We recently started using <a class="reference external" href="http://jenkins-ci.org/">Jenkins</a>, a well known system for Continuous Integration,
-and make it perform tasks like build and package multiplatform desktop
-applications.</p>
-<p>We're ...</p>
+                                and make it perform tasks like build and package multiplatform desktop applications.</p>
+                                <p>We're ...</p>
 
                             <a class="block-post-more" href="/blog/2013/build-python-desktop-application-with-jenkins/">Continue Reading&nbsp;&raquo;</a>
                         </div>
@@ -233,8 +222,8 @@ applications.</p>
                             <a class="block-post-title" href="/blog/2013/europython-2013/">Europython 2013 Wrap-up</a>
                             <p class="block-post-date">09 Jul 2013</p>
                             <p class="block-post-content"><p>Right back from the EuroPython conference, the last in Florence before moving to Berlin for the next two years.
-It was a pretty long week, a lot of talks, people, dinners, cocktails, beers, barbecues, sprints... I just want to
-thank the organizers, ...</p>
+                                It was a pretty long week, a lot of talks, people, dinners, cocktails, beers, barbecues, sprints... I just want to
+                                thank the organizers, ...</p>
 
                             <a class="block-post-more" href="/blog/2013/europython-2013/">Continue Reading&nbsp;&raquo;</a>
                         </div>
@@ -249,18 +238,15 @@ thank the organizers, ...</p>
                             <a class="block-post-title" href="/blog/2013/django-oauth-toolkit-is-out/">Django OAuth Toolkit is out!</a>
                             <p class="block-post-date">13 Jun 2013</p>
                             <p class="block-post-content"><p>We just released the <a class="reference external" href="https://pypi.python.org/pypi/django-oauth-toolkit/0.3.0">latest version</a> of Django OAuth Toolkit,
-a library to add OAuth goodies to Django projects. The project is under active development, ...</p>
-
-                            <a class="block-post-more" href="/blog/2013/django-oauth-toolkit-is-out/">Continue Reading&nbsp;&raquo;</a>
+                                a library to add OAuth goodies to Django projects. The project is under active development, ...</p>
+                             <a class="block-post-more" href="/blog/2013/django-oauth-toolkit-is-out/">Continue Reading&nbsp;&raquo;</a>
                         </div>
 
                     </div>
                 </div>
             </div>
         </div>
-
         <hr>
-
     </div>
 </div>
         <!-- END MAIN CONTENT AREA -->
@@ -268,7 +254,6 @@ a library to add OAuth goodies to Django projects. The project is under active d
         <!-- FOOTER STARTS HERE -->
          {{ partial "footer.html" . }}
         <!-- END FOOTER -->
-
         <!-- Placed at the end of the document so the pages load faster -->
 {{ partial "javascript.html" . }}
     </body>

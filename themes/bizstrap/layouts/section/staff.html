@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+  {{ partial "head.html" . }}
+    <!-- END HEAD  -->
+    <body>
+        <!-- THE LINE AT THE VERY TOP OF THE PAGE -->
+        <div class="top_line"></div>
+        <!-- HEADER AREA -->
+         {{ partial "header.html" . }}
+
+ <!-- BEGIN MAIN/PRIMARY CONTENT AREA -->
+<div class="main-content">
+    <div class="container">
+        <div class="span main-column">
+            <h1>Staff</h1>
+            <p>You know, Evonove is made of people!</p>
+            {{ range .Site.Sections.staff }}
+		<div class="row show-grid team-member">
+                    <div class="span3 photo">
+                        <div class="bordered-img"><img alt="" src="{{ .Page.Params.image }}"></div>
+                    </div>
+                    <div class="span6">
+                        <h2><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></h2>
+                        <h4>{{ .Page.Params.jobtitle }}</h4>
+                        <p class="experience"><em>{{ .Page.Params.experience }} </em></p>
+			<p/><p>{{ .Page.Description }}</p><p/>
+                    </div>
+                    <div class="member-divider"></div>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+    <!-- FOOTER STARTS HERE -->
+     {{ partial "footer.html" . }}
+    <!-- END FOOTER -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    {{ partial "javascript.html" . }}
+    </body>
+</html>

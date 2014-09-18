@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>Pypg on  </title>
+      <generator uri="https://hugo.spf13.com">Hugo</generator>
+    <link>http://localhost:1313/tags/pypg/index.xml/</link>
+    
+    
+    
+    <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
+    
+    <item>
+      <title>incontro di Febbraio</title>
+      <link>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</guid>
+      <description>&lt;p&gt;Il codice servito da supporto alla chiaccherata sull&#39;utilizzo avanzato di PyQt &amp;egrave; disponibile su github &lt;a title=&#34;github&#34; href=&#34;https://github.com/masci/pypg_advancedqt&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -62,55 +62,47 @@ licenses.&lt;/p&gt;
 
 &lt;p&gt;Here follow some of the technologies currentrly in use at Evonove.&lt;/p&gt;
 
-&lt;p&gt;.. raw:: html&lt;/p&gt;
+&lt;div class=&#34;row showgrid&#34;&gt;
+&lt;div span&gt;
+Backend development
+        - Django
+        - Flask
+        - Google App Engine
+        - JBoss Seam
+        - Plone CMS
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row showgrid&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Mobile development
+        - Android
+        - Qt
+        - Mobile Web
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;Backend development
-    - Django
-    - Flask
-    - Google App Engine
-    - JBoss Seam
-    - Plone CMS
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Rich User Interface
+        - Qt quick
+        - HTML5 + CSS3
+        - jQuery
+        - EmberJS
+        - YUI
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;Mobile development
-    - Android
-    - Qt
-    - Mobile Web
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Database technologies
+        - Postgres
+        - MySql
+        - Sqlite
+        - SQLAlchemy
+        - Hibernate
 
-&lt;pre&gt;&lt;code&gt;Rich User Interface
-    - Qt quick
-    - HTML5 + CSS3
-    - jQuery
-    - EmberJS
-    - YUI
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Database technologies
-    - Postgres
-    - MySql
-    - Sqlite
-    - SQLAlchemy
-    - Hibernate
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We like to work transparently with our Customers, who can monitor every step of
+&lt;p&gt;&lt;/div&gt;
+We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.&lt;/p&gt;
 </description>
     </item>

@@ -9,8 +9,11 @@ jobtitle: Vegan Chef
 experience: Geeky Troubleshooter
 quote: Ray, when someone asks you if you're a god, you say "YES"!
 twitter: maxpippi
-gplus: 108169144912465121257
+gplus: "108169144912465121257"
 github: masci
+type: staff
+image: https://www.gravatar.com/avatar/aee59cb61d6561244163f490aec50939?s=250&d=http://beta.evonove.it/img/placeholder_60_60.png
+description: Software developer, Python lover, Dad.
 ---
 
 Software developer, Python lover, Dad.

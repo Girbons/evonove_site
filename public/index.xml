@@ -62,56 +62,93 @@ licenses.&lt;/p&gt;
 
 &lt;p&gt;Here follow some of the technologies currentrly in use at Evonove.&lt;/p&gt;
 
-&lt;p&gt;.. raw:: html&lt;/p&gt;
+&lt;div class=&#34;row showgrid&#34;&gt;
+&lt;div span&gt;
+Backend development
+        - Django
+        - Flask
+        - Google App Engine
+        - JBoss Seam
+        - Plone CMS
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;row showgrid&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Mobile development
+        - Android
+        - Qt
+        - Mobile Web
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;Backend development
-    - Django
-    - Flask
-    - Google App Engine
-    - JBoss Seam
-    - Plone CMS
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Rich User Interface
+        - Qt quick
+        - HTML5 + CSS3
+        - jQuery
+        - EmberJS
+        - YUI
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;Mobile development
-    - Android
-    - Qt
-    - Mobile Web
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div span&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
+Database technologies
+        - Postgres
+        - MySql
+        - Sqlite
+        - SQLAlchemy
+        - Hibernate
 
-&lt;pre&gt;&lt;code&gt;Rich User Interface
-    - Qt quick
-    - HTML5 + CSS3
-    - jQuery
-    - EmberJS
-    - YUI
-&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
-&lt;p&gt;.. class:: span&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Database technologies
-    - Postgres
-    - MySql
-    - Sqlite
-    - SQLAlchemy
-    - Hibernate
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;We like to work transparently with our Customers, who can monitor every step of
+&lt;p&gt;&lt;/div&gt;
+We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Django admin e permessi</title>
+      <link>http://localhost:1313/blog/2011/django-admin-e-permessi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-admin-e-permessi/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Capita che a volte framework come &amp;lt;strong&amp;gt;Django&amp;lt;/strong&amp;gt; e tool come il suo &#39;&amp;lt;em&amp;gt;admin site&#39;&amp;lt;/em&amp;gt;, ci vengano in mente come scelte per sviluppare velocemente dei CRUD. Tuttavia ci accorgiamo altrettanto velocemente che questo potente strumento propone delle soluzioni che non sempre si sposano con la nostra logica di business. E&#39; questo il caso dei permessi. L&#39;amministrazione di Django non ha il permesso &#39;&amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt;&#39;, o meglio: se un oggetto di buisiness &amp;amp;egrave; visibile da un utente dell&#39;admin site, questo ha anche la possbilit&amp;amp;agrave; di modificarlo.&amp;amp;nbsp;Nelle seguenti verr&amp;amp;agrave; introdotta una possibile soluzione per creare e utilizzare il permesso &amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt; all&#39;interno dell&#39;amministrazione di Django, semplificando cos&amp;amp;igrave; la gestione di tutti quegli oggetti su cui la sicurezza del nostro CRUD identifica un gruppo di utenze con il solo diritto di lettura.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;La soluzione suggerita ruota intorno alla classe Django che ha nome di &amp;lt;strong&amp;gt;Backend.&amp;lt;/strong&amp;gt; Questa, nelle ultime versioni di Django (v. 1.2), ha subito delle modifiche, dando allo sviluppatore la possibilit&amp;amp;agrave; di subentrare, meno intrusivamente ma pi&amp;amp;ugrave; efficacemente, nel flusso della sicurezza del framework: tanto da poter manipolare i permessi e renderli applicabili esclusivamente a determinati oggetti. Per dettagliare al meglio quali classi create e quali template personalizzare, si rimanda al wiki aziendale &amp;lt;strong&amp;gt;&amp;lt;a title=&amp;quot;wiki.evonove.it&amp;quot; href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;wiki.evonove.it&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt; nella sessione Django sotto la voce&amp;amp;nbsp;&amp;lt;a title=&amp;quot;CustomizeAdminSite&amp;quot; href=&amp;quot;http://wiki.evonove.it/Django/CustomizeAdminSite&amp;quot;&amp;gt;CustomizeAdminSite&amp;lt;/a&amp;gt;&amp;amp;nbsp;.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Buona lettura, e se voleste perfezionare o sconvolgere o commentare l&#39;algoritmo proposto siete i ben venuti; sicuro non vi mancano gli strumenti&amp;amp;nbsp;per farlo&amp;amp;nbsp;(wiki, blog, email, ...) .&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fedora 15 Release Party</title>
+      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google I/O 2011 Live @ Evonove</title>
+      <link>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Lo staff di Evonove invita tutti gli appassionati a seguire il Keynote di Google I/O 2011 il 10 Maggio presso il coworking space della nostra sede di Magione. L&#39;evento si aprir&amp;amp;agrave; con il Keynote alle ore 18.00 italiane, occasione per gustare un aperitivo diverso dal solito mentre sul maxischermo verr&amp;amp;agrave; proiettata la diretta streaming. Per partecipare &amp;amp;egrave; sufficiente darcene comunicazione attraverso la nostra pagina Facebook o inviandoci una mail oppure tramite un tweet @evonove.&amp;lt;/p&amp;gt;
+&amp;lt;p&amp;gt;Google I/O &amp;amp;egrave; la conferenza di riferimento per le nuove tecnologie che riguardano il Web, i dispositivi mobili e l&#39;enterprise. Giunti alla quarta edizione, l&#39;evento &amp;amp;egrave; ormai diventato un appuntamento tradizionale atteso da sviluppatori ed appassionati ansiosi di avere un assaggio di quello che vedremo sui nostri browser e smartphone nei prossimi mesi. &amp;lt;a href=&amp;quot;http://www.google.com/events/io/2011/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link alla pagina ufficiale dell&#39;evento&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
+&amp;lt;div style=&amp;quot;margin-left: 45%; margin-right: auto;&amp;quot;&amp;gt;
+&amp;lt;script src=&amp;quot;http://www.google.com/events/io/2011/static/js/iobadge.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -166,92 +203,6 @@ progetto finale.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Fedora 15 Release Party</title>
-      <link>http://localhost:1313/blog/2011/fedora-15-release-party/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/fedora-15-release-party/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;In occasione del rilascio della distribuzione Linux Fedora, giunta alla versione 15, Evonove ospiter&amp;amp;agrave; Sabato 11 Giugno un Release Party, evento al quale sono invitati tutti i curiosi ed appassionati. Trovate il programma e tutti i dettagli dell&#39;evento a &amp;lt;a title=&amp;quot;Fedora Release Party&amp;quot; href=&amp;quot;http://morefedora.blogspot.com/2011/05/fedora-15-il-party.html&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;questo link&amp;lt;/a&amp;gt;. Se pensate di partecipare, volete collaborare o semplicemente volete ricevere altri dettagli sull&#39;evento man mano che saranno disponibili, lasciate il vostro nome ed email in&amp;amp;nbsp;&amp;lt;a href=&amp;quot;http://bit.ly/f15_party&amp;quot;&amp;gt;questo modulo&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Django &#43; Wordpress = EvoBlog</title>
-      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
-      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
-da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
-abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
-per alcuni clienti.&lt;/p&gt;
-
-&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
-riuscito a trovare che implementi un blog, prendete ad esempio il codice che
-serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
-(a meno del caching che vi risparmio):&lt;/p&gt;
-
-&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;def backend(entry):
-    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
-                        urllib2.quote(entry.get_absolute_url()))
-    try:
-        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
-            data=&#39;&#39;)
-    except Exception as e:
-        return &#39;&#39;
-    return json.loads(f.read())
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
-sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
-riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
-aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
-(codice sorgente formattato). Le motivazioni dello switch sono quindi da
-ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
-inserire e modificare gli articoli ed il suo altissimo livello di
-SEO-friendlyness.&lt;/p&gt;
-
-&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
-disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
-aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
-
-&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
-    % context[&#39;lang&#39;]
-feed = feedparser.parse(rss_url)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
-una serie di query al database di backend con una HTTP/GET fatta in localhost,
-non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
-termini di velocità di elaborazione della pagina.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Google I/O 2011 Live @ Evonove</title>
-      <link>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/google-io-2011-live-evonove/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Lo staff di Evonove invita tutti gli appassionati a seguire il Keynote di Google I/O 2011 il 10 Maggio presso il coworking space della nostra sede di Magione. L&#39;evento si aprir&amp;amp;agrave; con il Keynote alle ore 18.00 italiane, occasione per gustare un aperitivo diverso dal solito mentre sul maxischermo verr&amp;amp;agrave; proiettata la diretta streaming. Per partecipare &amp;amp;egrave; sufficiente darcene comunicazione attraverso la nostra pagina Facebook o inviandoci una mail oppure tramite un tweet @evonove.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Google I/O &amp;amp;egrave; la conferenza di riferimento per le nuove tecnologie che riguardano il Web, i dispositivi mobili e l&#39;enterprise. Giunti alla quarta edizione, l&#39;evento &amp;amp;egrave; ormai diventato un appuntamento tradizionale atteso da sviluppatori ed appassionati ansiosi di avere un assaggio di quello che vedremo sui nostri browser e smartphone nei prossimi mesi. &amp;lt;a href=&amp;quot;http://www.google.com/events/io/2011/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Link alla pagina ufficiale dell&#39;evento&amp;lt;/a&amp;gt;.&amp;lt;/p&amp;gt;
-&amp;lt;div style=&amp;quot;margin-left: 45%; margin-right: auto;&amp;quot;&amp;gt;
-&amp;lt;script src=&amp;quot;http://www.google.com/events/io/2011/static/js/iobadge.js&amp;quot; type=&amp;quot;text/javascript&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;/div&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello World</title>
       <link>http://localhost:1313/blog/2011/hello-world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -277,64 +228,6 @@ Il risultato:
 &amp;lt;/ul&amp;gt;
 Nella speranza che i contenuti del blog piacciano, vi invitiamo ad abbonarvi ai nostri feed, riportarci qualche bug e magari far circolare un po&#39; la voce.
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Linux Day 2011 – Sabato 22 Ottobre</title>
-      <link>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</guid>
-      <description>
-
-&lt;p&gt;L&amp;rsquo;Associazione GNU/Linux User Group di Perugia organizza l&amp;rsquo;undicesimo
-appuntamento nazionale dedicato a GNU/Linux ed al Software Libero:
-il Linux Day 2011&lt;/p&gt;
-
-&lt;p&gt;Il Linux Day è una manifestazione nazionale articolata in eventi locali che ha
-lo scopo di promuovere GNU/Linux e il Software Libero, promosso da I.L.S. 
-(Italian Linux Society) e organizzato localmente dai LUG italiani e dagli altri
-gruppi che condividono le finalità della manifestazione. La prima edizione del
-Linux Day si è tenuta il &lt;em&gt;1 dicembre 2001&lt;/em&gt; in circa quaranta città sparse
-su tutto il territorio nazionale. Il numero delle città coinvolte è notevolmente
-cresciuto negli anni (150 città nel 2010) divenendo ormai un appuntamento
-immancabile nel panorama del software libero italiano, seguito dai media
-nazionali e locali e con grande partecipazione di pubblico.&lt;/p&gt;
-
-&lt;p&gt;La manifestazione, la cui partecipazione è gratuita, si terrà sabato 22 ottobre
-2011 a Magione all&amp;rsquo;interno dello Storico Palazzo ristrutturato della S.O.M.S. 
-(Società Operaia Mutuo Soccorso) che si trova in Piazza Giacomo Matteotti
-(&lt;code&gt;mappa: &amp;lt;http://evo9.it/maps.google.it/a&amp;gt;&lt;/code&gt;_).&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Iscrizione&lt;/h2&gt;
-
-&lt;p&gt;Tutti coloro che intendono partecipare all&amp;rsquo;evento possono iscriversi tramite il
-seguente link: &lt;a title=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34;&gt;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projection Mapping</title>
-      <link>http://localhost:1313/blog/2011/projection-mapping/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/projection-mapping/</guid>
-      <description>&lt;p&gt;In questi giorni stiamo lavorando ad un progetto piuttosto interessante
-commissionatoci da un cliente molto sensibile alle nuove tecnologie; ad una
-settimana dall&amp;rsquo;inizio siamo ancora al proof of concept, ma qualcosa già prende
-forma come si può osservare nel video.&lt;/p&gt;
-
-&lt;p&gt;.. youtube:: oY9kAVlTv00
-   :align: center
-   :height: 315
-   :width: 420&lt;/p&gt;
-
-&lt;p&gt;Il progetto finale vedrà una massiccia applicazione delle tecniche di projection
-mapping, nel video è stata utilizzata una semplice distorsione precalcolata
-delle singole immagini che vengono proiettate sulle superfici delle scatole ma
-stiamo lavorando a metodi che se da un lato presentano una complessità maggiore,
-dall&amp;rsquo;altro dovrebbero consentirci di produrre un risultato nettamente migliore.&lt;/p&gt;
 </description>
     </item>
     
@@ -420,16 +313,156 @@ vostro sistema.&lt;/p&gt;
     </item>
     
     <item>
-      <title>Shorty è online</title>
+      <title>Linux Day 2011 – Sabato 22 Ottobre</title>
+      <link>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/linux-day-2011-sabato-22-ottobre/</guid>
+      <description>
+
+&lt;p&gt;L&amp;rsquo;Associazione GNU/Linux User Group di Perugia organizza l&amp;rsquo;undicesimo
+appuntamento nazionale dedicato a GNU/Linux ed al Software Libero:
+il Linux Day 2011&lt;/p&gt;
+
+&lt;p&gt;Il Linux Day è una manifestazione nazionale articolata in eventi locali che ha
+lo scopo di promuovere GNU/Linux e il Software Libero, promosso da I.L.S. 
+(Italian Linux Society) e organizzato localmente dai LUG italiani e dagli altri
+gruppi che condividono le finalità della manifestazione. La prima edizione del
+Linux Day si è tenuta il &lt;em&gt;1 dicembre 2001&lt;/em&gt; in circa quaranta città sparse
+su tutto il territorio nazionale. Il numero delle città coinvolte è notevolmente
+cresciuto negli anni (150 città nel 2010) divenendo ormai un appuntamento
+immancabile nel panorama del software libero italiano, seguito dai media
+nazionali e locali e con grande partecipazione di pubblico.&lt;/p&gt;
+
+&lt;p&gt;La manifestazione, la cui partecipazione è gratuita, si terrà sabato 22 ottobre
+2011 a Magione all&amp;rsquo;interno dello Storico Palazzo ristrutturato della S.O.M.S. 
+(Società Operaia Mutuo Soccorso) che si trova in Piazza Giacomo Matteotti
+(&lt;code&gt;mappa: &amp;lt;http://evo9.it/maps.google.it/a&amp;gt;&lt;/code&gt;_).&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Iscrizione&lt;/h2&gt;
+
+&lt;p&gt;Tutti coloro che intendono partecipare all&amp;rsquo;evento possono iscriversi tramite il
+seguente link: &lt;a title=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34; rel=&#34;nofollow&#34;&gt;&lt;a href=&#34;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&#34;&gt;http://www.perugiagnulug.org/linux-day/linux-day-2011#iscrizione&lt;/a&gt;&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Django &#43; Wordpress = EvoBlog</title>
+      <link>http://localhost:1313/blog/2011/django-wordpress-evoblog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/django-wordpress-evoblog/</guid>
+      <description>&lt;p&gt;Ho appena terminato lo switch dell&amp;rsquo;engine che sta dietro al nostro blog:
+da django-blog-zinnia siamo passati a Wordpress, prodotto che nell&amp;rsquo;ultimo anno
+abbiamo avuto modo di vedere in dettaglio durante lo sviluppo di integrazioni
+per alcuni clienti.&lt;/p&gt;
+
+&lt;p&gt;Zinnia è un ottimo prodotto e sicuramente la migliore app Django che sono
+riuscito a trovare che implementi un blog, prendete ad esempio il codice che
+serve ad utilizzare &lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;_ come shortener per gli articoli
+(a meno del caching che vi risparmio):&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;def backend(entry):
+    url = &#39;%s%s&#39; % (Site.objects.get_current().domain,
+                        urllib2.quote(entry.get_absolute_url()))
+    try:
+        f = urllib2.urlopen(&amp;quot;http://www.evo9.it/api/short/%s&amp;quot; % url,
+            data=&#39;&#39;)
+    except Exception as e:
+        return &#39;&#39;
+    return json.loads(f.read())
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;E&amp;rsquo; stato altrettanto semplice integrare i contenuti del blog nella homepage del
+sito, realizzata con un&amp;rsquo;applicazione Django custom.  Tutto questo però non
+riesce a bilanciare le difficoltà di gestione (ad esempio) delle immagini, degli
+aggiornamenti, dei contenuti evoluti che a volte vorremmo mettere negli articoli
+(codice sorgente formattato). Le motivazioni dello switch sono quindi da
+ricercarsi esclusivamente nella facilità con cui Wordpress ci permette di
+inserire e modificare gli articoli ed il suo altissimo livello di
+SEO-friendlyness.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;integrazione con Django è stata realizzata utilizzando i feed RSS messi a
+disposizione da Wordpress, che in questo contesto eccelle. Si tratta di
+aggiungere qualcosa del genere alle viste esistenti:&lt;/p&gt;
+
+&lt;p&gt;.. sourcecode:: python&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;rss_url = &#39;http://www.evonove.it/blog/%s/category/front-page/feed/&#39;
+    % context[&#39;lang&#39;]
+feed = feedparser.parse(rss_url)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;I feed vengono recuperati e parsati dalla libreria feedparser: ho barattato
+una serie di query al database di backend con una HTTP/GET fatta in localhost,
+non ho ancora fatto i benchmark ma ad occhio non mi pare di aver perso nulla in
+termini di velocità di elaborazione della pagina.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Projection Mapping</title>
+      <link>http://localhost:1313/blog/2011/projection-mapping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/projection-mapping/</guid>
+      <description>&lt;p&gt;In questi giorni stiamo lavorando ad un progetto piuttosto interessante
+commissionatoci da un cliente molto sensibile alle nuove tecnologie; ad una
+settimana dall&amp;rsquo;inizio siamo ancora al proof of concept, ma qualcosa già prende
+forma come si può osservare nel video.&lt;/p&gt;
+
+&lt;p&gt;.. youtube:: oY9kAVlTv00
+   :align: center
+   :height: 315
+   :width: 420&lt;/p&gt;
+
+&lt;p&gt;Il progetto finale vedrà una massiccia applicazione delle tecniche di projection
+mapping, nel video è stata utilizzata una semplice distorsione precalcolata
+delle singole immagini che vengono proiettate sulle superfici delle scatole ma
+stiamo lavorando a metodi che se da un lato presentano una complessità maggiore,
+dall&amp;rsquo;altro dovrebbero consentirci di produrre un risultato nettamente migliore.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>incontro di Febbraio</title>
+      <link>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2011/pypg-incontro-di-febbraio/</guid>
+      <description>&lt;p&gt;Il codice servito da supporto alla chiaccherata sull&#39;utilizzo avanzato di PyQt &amp;egrave; disponibile su github &lt;a title=&#34;github&#34; href=&#34;https://github.com/masci/pypg_advancedqt&#34; target=&#34;_blank&#34;&gt;qui&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shorty is online</title>
       <link>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/blog/2011/shorty-e-online/shorty-e-online/</guid>
-      <description>&lt;p&gt;&lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;&lt;em&gt;, il progetto sviluppato durante l&amp;rsquo;internship di uno
-studente dell&amp;rsquo;Università degli Studi di Perugia qui in Evonove, è finalmente
-online. Si tratta di un URL shortner che tenta di superare alcune problematiche
-legate agli shortner in generale. Il progetto è rilasciato con licenza
-opensource BSD, il codice lo trovate su &lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;code&gt;Shorty &amp;lt;http://evo9.it&amp;gt;&lt;/code&gt;&lt;em&gt;, a project developed by a student from the University
+of Perugia during his internship here at Evonove is finally online.
+It&amp;rsquo;s basically an URL shortner with some enhancing features released with a
+BSD license. For more details, get it on
+&lt;code&gt;bitbucket &amp;lt;http://forge.evonove.it/shorty/overview&amp;gt;&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Android Workshop</title>
+      <link>http://localhost:1313/blog/2012/android-workshop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
+      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
+per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
+appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
+Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
+sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
+di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
+i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
 </description>
     </item>
     
@@ -464,64 +497,6 @@ opensource BSD, il codice lo trovate su &lt;code&gt;bitbucket &amp;lt;http://for
 &amp;lt;p&amp;gt;Un ringraziamento particolare va a Gianluca Sforna di Perugia e Michele Bursi di Arezzo che hanno dimostrato sul campo cosa vuol dire ricoprire il ruolo di&amp;amp;nbsp;Fedora Ambassador.&amp;lt;/p&amp;gt;
 &amp;lt;p&amp;gt;Per le foto &amp;lt;a href=&amp;quot;http://www.facebook.com/media/set/?set=a.217901141573564.57080.147327958630883&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;rimandiamo alla galleria&amp;lt;/a&amp;gt; sulla nostra pagina Facebook.&amp;lt;/p&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Django admin e permessi</title>
-      <link>http://localhost:1313/blog/2011/django-admin-e-permessi/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2011/django-admin-e-permessi/</guid>
-      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;p&amp;gt;Capita che a volte framework come &amp;lt;strong&amp;gt;Django&amp;lt;/strong&amp;gt; e tool come il suo &#39;&amp;lt;em&amp;gt;admin site&#39;&amp;lt;/em&amp;gt;, ci vengano in mente come scelte per sviluppare velocemente dei CRUD. Tuttavia ci accorgiamo altrettanto velocemente che questo potente strumento propone delle soluzioni che non sempre si sposano con la nostra logica di business. E&#39; questo il caso dei permessi. L&#39;amministrazione di Django non ha il permesso &#39;&amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt;&#39;, o meglio: se un oggetto di buisiness &amp;amp;egrave; visibile da un utente dell&#39;admin site, questo ha anche la possbilit&amp;amp;agrave; di modificarlo.&amp;amp;nbsp;Nelle seguenti verr&amp;amp;agrave; introdotta una possibile soluzione per creare e utilizzare il permesso &amp;lt;em&amp;gt;view&amp;lt;/em&amp;gt; all&#39;interno dell&#39;amministrazione di Django, semplificando cos&amp;amp;igrave; la gestione di tutti quegli oggetti su cui la sicurezza del nostro CRUD identifica un gruppo di utenze con il solo diritto di lettura.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;La soluzione suggerita ruota intorno alla classe Django che ha nome di &amp;lt;strong&amp;gt;Backend.&amp;lt;/strong&amp;gt; Questa, nelle ultime versioni di Django (v. 1.2), ha subito delle modifiche, dando allo sviluppatore la possibilit&amp;amp;agrave; di subentrare, meno intrusivamente ma pi&amp;amp;ugrave; efficacemente, nel flusso della sicurezza del framework: tanto da poter manipolare i permessi e renderli applicabili esclusivamente a determinati oggetti. Per dettagliare al meglio quali classi create e quali template personalizzare, si rimanda al wiki aziendale &amp;lt;strong&amp;gt;&amp;lt;a title=&amp;quot;wiki.evonove.it&amp;quot; href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;wiki.evonove.it&amp;lt;/a&amp;gt;&amp;lt;/strong&amp;gt; nella sessione Django sotto la voce&amp;amp;nbsp;&amp;lt;a title=&amp;quot;CustomizeAdminSite&amp;quot; href=&amp;quot;http://wiki.evonove.it/Django/CustomizeAdminSite&amp;quot;&amp;gt;CustomizeAdminSite&amp;lt;/a&amp;gt;&amp;amp;nbsp;.&amp;lt;/p&amp;gt;
-&amp;lt;p&amp;gt;Buona lettura, e se voleste perfezionare o sconvolgere o commentare l&#39;algoritmo proposto siete i ben venuti; sicuro non vi mancano gli strumenti&amp;amp;nbsp;per farlo&amp;amp;nbsp;(wiki, blog, email, ...) .&amp;lt;/p&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Android Workshop</title>
-      <link>http://localhost:1313/blog/2012/android-workshop/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2012/android-workshop/</guid>
-      <description>&lt;p&gt;Si è concluso in mattinata il workshop sullo sviluppo di applicazioni mobili
-per sistema operativo Android organizzato dal &lt;code&gt;Perugia GTUG &amp;lt;http://perugia.gtugs.org&amp;gt;&lt;/code&gt;_, il gruppo di
-appassionati di tecnologie Google localizzato nei dintorni del capoluogo umbro.
-Abbiamo avuto il piacere di ospitare l&amp;rsquo;evento negli spazi della nostra nuova
-sede e vista la professionalità dei relatori e l&amp;rsquo;alto contenuto tecnico speriamo
-di ospitare altre iniziative di questo genere nei prossimi mesi. Trovate tutti
-i dettagli nel sito del GTUG e la galleria fotografica nella pagina G+ del gruppo.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Projection Mapping @expocasa 2012</title>
-      <link>http://localhost:1313/blog/2012/projection-mapping-expocasa/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2012/projection-mapping-expocasa/</guid>
-      <description>&lt;p&gt;Dal 3 all&amp;rsquo;11 Marzo 2012, all&amp;rsquo;interno della manifestazione Expo Casa tenutasi a
-Bastia Umbra (PG),  lo stand di &lt;code&gt;Veracchi Mobili &amp;lt;http://www.veracchimobili.com&amp;gt;&lt;/code&gt;_
-ha ospitato un&amp;rsquo;installazione di projection mapping che ha fatto da cornice
-all&amp;rsquo;esposizione dei propri elementi di arredo.&lt;/p&gt;
-
-&lt;p&gt;.. vimeo:: 40283798
-   :align: center
-   :height: 375
-   :width: 500
-   :noportrait:
-   :nobyline:
-   :notitle:&lt;/p&gt;
-
-&lt;p&gt;Il progetto, realizzato con la collaborazione della stessa Veracchi Mobili,
-ha visto l&amp;rsquo;impiego di varie tecniche di projection mapping: semplici ma efficaci
-distorsioni prospettiche insieme a più evoluti mapping su modelli 3D hanno
-accompagnato gli spettatori in un viaggio fra scenari irreali e simulazioni
-di combinazioni di tessuti e colori realmente disponibili a catalogo.&lt;/p&gt;
 </description>
     </item>
     

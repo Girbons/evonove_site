@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- HEAD -->
+  {{ partial "head.html" . }}
+    <!-- END HEAD  -->
+    <body>
+        <!-- THE LINE AT THE VERY TOP OF THE PAGE -->
+        <div class="top_line"></div>
+        <!-- HEADER AREA -->
+  {{ partial "header.html" . }}
+
+        <!-- MAIN CONTENT AREA -->
+        <div class="main-content">
+    <div class="container">
+        <div class="clear_both"></div>
+        <div class="row show-frid col-wrapper">
+            <div class="span8">
+                <h1>{{ .Title }}</h1>
+                <p>{{.Content }}</p>
+            </div>
+            <div class="span1"></div>
+
+            <div class="span3 portfolio-details">
+                <div class="bordered-img"><img alt="" src="{{ .Params.image }}"></div>
+                <br />
+                <ul class="item-details">
+                    <li>
+                        <h4>{{.Params.jobtitle }}</h4>
+                    </li>
+                    <li>
+                        <em>{{ .Params.experience }}</em>
+                    </li>
+
+                     <li>
+                        <i class="icon-twitter"></i><a href="http://twitter.com/{{ .Params.twitter }}">@{{ .Params.twitter }}</a>
+                    </li>
+                    
+
+                    
+                    <li>
+                        <i class="icon-github"></i><a href="http://github.com/{{ .Params.github }}">{{ .Params.github }}</a>
+                    </li>
+                    
+		    <li>
+                        <i class="icon-google-plus"></i><a href="https://plus.google.com/{{ .Params.gplus }}">{{ .Params.gplus }}</a>
+                    </li>
+                    
+                </ul>
+
+                <br />
+		<blockquote><p>{{ .Params.quote }}</p></blockquote>
+                
+            </div>
+        </div>
+    </div>
+</div>
+        <!-- END MAIN CONTENT AREA -->
+
+<!-- FOOTER START HERE --> 
+         {{ partial "footer.html" . }}
+        <!-- END FOOTER -->
+
+        <!-- Placed at the end of the document so the pages load faster -->
+{{ partial "javascript.html" . }}
+        
+    </body>
+</html>
