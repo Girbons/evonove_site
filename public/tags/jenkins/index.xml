@@ -15,7 +15,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
       <guid>http://localhost:1313/blog/2013/build-python-desktop-application-with-jenkins/</guid>
-      <description>&lt;p&gt;We recently started using &lt;code&gt;Jenkins &amp;lt;http://jenkins-ci.org/&amp;gt;&lt;/code&gt;_, a well known system for Continuous Integration,
+      <description>&lt;p&gt;We recently started using &lt;a href=&#34;http://jenkins-ci.org/&#34;&gt;Jenkins&lt;/a&gt;, a well known system for Continuous Integration,
 and make it perform tasks like build and package multiplatform desktop
 applications.&lt;/p&gt;
 
@@ -36,10 +36,10 @@ a choice) and maintaining different build scripts was not acceptable.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Gnu Make&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Fabric &amp;lt;http://docs.fabfile.org/en/latest/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Paver &amp;lt;http://paver.github.io/paver/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;buildout &amp;lt;http://www.buildout.org/en/latest/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CMake &amp;lt;http://www.cmake.org/&amp;gt;&lt;/code&gt;_&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docs.fabfile.org/en/latest/&#34;&gt;Fabric&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://paver.github.io/paver/&#34;&gt;Paver&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.buildout.org/en/latest/&#34;&gt;buildout&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cmake.org/&#34;&gt;CMake&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;CMake seems the most flexible of the above (at least for a newcomer) and it was the only one which let us collect the code
@@ -60,7 +60,7 @@ somewhere on the internet.&lt;/p&gt;
 &lt;li&gt;can speak with cloud storaging systems (e.g. S3)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We briefly reviewed two products, Jenkins and &lt;code&gt;CDash &amp;lt;http://www.cdash.org/&amp;gt;&lt;/code&gt;_, and we ended up with &lt;strong&gt;Jenkins&lt;/strong&gt;
+&lt;p&gt;We briefly reviewed two products, Jenkins and &lt;a href=&#34;http://www.cdash.org/&#34;&gt;CDash&lt;/a&gt;, and we ended up with &lt;strong&gt;Jenkins&lt;/strong&gt;
 basically for two reasons:&lt;/p&gt;
 
 &lt;ul&gt;

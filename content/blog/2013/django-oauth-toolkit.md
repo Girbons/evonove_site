@@ -1,7 +1,7 @@
 ---
 lang: en
 title: Django OAuth Toolkit is out!
-date: 13.06.2013, 08:19
+date: 13-06-2013
 identifier: django-oauth-toolkit-is-out
 slug: django-oauth-toolkit-is-out
 author: masci
@@ -10,7 +10,7 @@ image: /img/2013/oauthLogo.png
 intro.maxparagraphs: 2
 ---
 
-We just released the `latest version <https://pypi.python.org/pypi/django-oauth-toolkit/0.3.0>`_ of Django OAuth Toolkit,
+We just released the [latest version](https://pypi.python.org/pypi/django-oauth-toolkit/0.3.0) of Django OAuth Toolkit,
 a library to add OAuth goodies to Django projects. The project is under active development, at the moment it offers
 fully-featured and RFC6749 compliant OAuth2 providers implementation and it runs on Django 1.4, 1.5 and 1.6a1 with
 Python 2.7 and 3.3.
@@ -24,7 +24,7 @@ has built-in support for a third party Django app implementing OAuth providers b
 started to search for an alternative.
 
 Digging around we stumbled upon this blog post from Daniel Greenfeld:
-`The sorry state of Python OAuth providers <http://pydanny.com/the-sorry-state-of-python-oauth-providers.html>`_. Enough
+[The sorry state of Python OAuth providers](http://pydanny.com/the-sorry-state-of-python-oauth-providers.html). Enough
 is enough but we were still not sure whether starting another project from scratch or not, when we met Daniel at the Django
 Circus in Warsaw. We talked shortly about the topic but he was very convincing and we started coding as soon as we came
 back at work.
@@ -39,7 +39,7 @@ features and goodies we strongly needed and now actually have.
 DRY
 ---
 
-We think `oauthlib <https://github.com/idan/oauthlib>`_ is currently the state of the art OAuth library in the Python
+We think [oauthlib](https://github.com/idan/oauthlib) is currently the state of the art OAuth library in the Python
 world. We choose to rely on a well documented, well supported and active project instead of write one on our own, with
 all the FUD of the case.
 
@@ -79,5 +79,5 @@ We want you!
 ============
 
 As any other Open Source project, we're nothing without a community: any help is appreciated, code of course but also
-docs, testing and any kind of feedback. `Fork the project <https://github.com/evonove/django-oauth-toolkit>`_,
+docs, testing and any kind of feedback. [Fork the project](https://github.com/evonove/django-oauth-toolkit),
 take a ride, fill some PRs!

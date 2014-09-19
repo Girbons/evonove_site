@@ -1,14 +1,45 @@
  {{ partial "head.html" . }}
 <body>
  {{ partial "header.html" . }}
+<!-- MAIN CONTENT AREA -->
+        <div class="main-content">
+    <div class="container">
+        <div class="row show-grid">
+            <div class="span12">
+                <div class="row show-grid clear-both">
+                    <!-- BEGIN LEFT-SIDEBAR -->
+                    <div id="left-sidebar" class="span3 sidebar">
+                        <!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+                        <div class="side-nav sidebar-block">
 
-    <div class="content container">
-<div class="post">
-  <h1>{{ .Title }}</h1>
-  <span class="post-date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-      {{ .Content }}
+                            <h2>Expertise</h2>
+
+    <ul>
+        {{ range .Site.Sections.expertise }}	
+        <li class=""><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+        
+   	{{end}}
+    </ul>
+
+                        </div>
+                    </div>
+                    <!-- END LEFT-SIDEBAR -->
+
+                    <!-- BEGIN ARTICLE CONTENT AREA -->
+                    <div class="span9 main-column two-columns-left">
+                        <h1>{{ .Title }}</h1>
+      				{{ .Content }}
+                    <!-- END ARTICLE CONTENT AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </div>
 </div>
-</div>
+        <!-- END MAIN CONTENT AREA -->
+
  {{ partial "footer.html" . }}
  {{ partial "javascript.html" . }}
   </body>

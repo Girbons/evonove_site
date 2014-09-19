@@ -1,4 +1,4 @@
- 
+
 
 <head>
 
@@ -37,8 +37,10 @@ IT co..." />
 
     </head>
 
-<body>
- <header>
+    <body>
+        <header>
+<div class="top_line"></div>
+
             <div class="container">
                 <div class="row">
                     
@@ -107,13 +109,13 @@ IT co..." />
 
                                         <ul class="dropdown-menu">
                                             
-                                            <li><a href="/expertise/molecular-visualization/">Molecular Visualization</a></li>
-                                            
-                                            <li><a href="/expertise/qt/">Qt</a></li>
-                                            
                                             <li><a href="/expertise/django/">Django</a></li>
                                             
+                                            <li><a href="/expertise/molecular-visualization/">Molecular Visualization</a></li>
+                                            
                                             <li><a href="/expertise/videomapping/">Videomapping</a></li>
+                                            
+                                            <li><a href="/expertise/qt/">Qt</a></li>
                                             
                                             <li><a href="/expertise/webapps/">Rich Web Applications</a></li>
                                             
@@ -147,53 +149,83 @@ IT co..." />
             </div>
 </header>
 
-
-    <div class="content container">
-<div class="post">
-  <h1>Europython 2013 Wrap-up</h1>
-      
+        <div class="main-content">
+            <div class="content container">
+                <div class="span12">
+                    <div class="row show-grid clear-both">
+                      <div class="span9 main-column two-columns-right">
+                        <h1>Europython 2013 Wrap-up</h1>
+                            
 
 <p>Right back from the EuroPython conference, the last in Florence before moving to Berlin for the next two years.
 It was a pretty long week, a lot of talks, people, dinners, cocktails, beers, barbecues, sprints&hellip; I just want to
 thank the organizers, the wifi guys, the cable guy, the personnel from the hotel, all the nice people I met and
 the speakers, in particular those from evonove, who made a great job on contributing with a regular talk, a training
 and a lightning talk. We also managed to make a code sprint for
-<code>Django OAuth Toolkit &lt;http://github.com/evonove/django-oauth-toolkit&gt;</code>_ on Saturday, right after the goodbye party
+<a href="http://github.com/evonove/django-oauth-toolkit">Django OAuth Toolkit</a> on Saturday, right after the goodbye party
 (kudos for us :-)</p>
 
-<p>Here are the recordings of the talks provided by <code>Emanuele &lt;/authors/palazzem&gt;</code>_ and <code>Federico &lt;/authors/synasius&gt;</code>_:</p>
+<p>Here are the recordings of the talks provided by <a href="/staff/palazzem">Emanuele</a> and <a href="/staff/synasius">Federico</a>:</p>
 
 <h1 id="toc_0">Speed up your Django apps with Jython and SPDY</h1>
 
-<p>.. youtube:: DD1zLltB1RQ
-   :align: center</p>
+<div class="embed video-player">
+<iframe class="youtube-player center-block" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/DD1zLltB1RQ" allowfullscreen frameborder="0">
+</iframe>
+</div>
 
 <hr />
 
 <h1 id="toc_1">An intro to Blender modeling and scripting</h1>
 
-<p>.. youtube:: 4e6z3Ada00I
-   :align: center</p>
+<div class="embed video-player">
+<iframe class="youtube-player center-block" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/4e6z3Ada00I" allowfullscreen frameborder="0">
+</iframe>
+</div>
 
 <hr />
 
-<p>.. youtube:: U1K19GoLMuk
-   :align: center</p>
+<div class="embed video-player">
+<iframe class="youtube-player center-block" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/U1K19GoLMuk" allowfullscreen frameborder="0">
+</iframe>
+</div>
 
 <hr />
 
 <h1 id="toc_2">An intro to Blender modeling and scripting - Reprise</h1>
 
-<p>.. youtube:: 96WoCShO3i0
-   :align: center</p>
+<div class="embed video-player">
+<iframe class="youtube-player center-block" type="text/html" width="640" height="385" src="http://www.youtube.com/embed/96WoCShO3i0" allowfullscreen frameborder="0">
+</iframe>
+</div>
 
 <p>And the lightning talks:</p>
 
-<p><a href="http://youtu.be/iUNbgNuN0qY?t=1h9m32s">http://youtu.be/iUNbgNuN0qY?t=1h9m32s</a></p>
+<p><a href="http://youtu.be/iUNbgNuN0qY?t=1h9m32s">youtube</a></p>
 
-</div>
-</div> 
- <footer id="footer">
+                         <div class="post-socials">
+                            <h2>Social Share</h2>
+                            
+                            <div class="addthis_toolbox addthis_default_style ">
+                                <a class="addthis_button_preferred_1"></a>
+                                <a class="addthis_button_preferred_2"></a>
+                                <a class="addthis_button_preferred_3"></a>
+                                <a class="addthis_button_preferred_4"></a>
+                                <a class="addthis_button_compact"></a>
+                                <a class="addthis_counter addthis_bubble_style"></a>
+                            </div>
+                            <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-503f5c291ae38f65"></script>
+
+                            
+                         </div>
+
+                      </div>
+                </div>
+            </div>
+    </div>
+
+
+     <footer id="footer">
 
 
             <div class="footer-top"></div>
@@ -258,7 +290,7 @@ and a lightning talk. We also managed to make a code sprint for
 
         </footer>
 
-         
+             
 
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.migrate/1.2.1/jquery-migrate.min.js"></script>
@@ -281,8 +313,7 @@ and a lightning talk. We also managed to make a code sprint for
             })();
         </script>
 
-
-  <script>document.write('<script src="http://'
+    <script>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'
         + 'script>')</script></body>

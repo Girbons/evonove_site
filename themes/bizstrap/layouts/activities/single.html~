@@ -1,32 +1,45 @@
  {{ partial "head.html" . }}
 <body>
-<div id="left-sidebar" class="span3 sidebar">
-<div class="side-nav sidebar-block">
-<h2>Activities</h2>
-<ul>
-<li class="">
-<a href="/activities/consulting/">Consulting</a>
-</li>
-<li class="active">
-<a href="/activities/software/">Software</a>
-</li>
-<li class="">
-<a href="/activities/workshop/">Workshop</a>
-</li>
-</ul>
-</div>
-</div>
  {{ partial "header.html" . }}
+<!-- MAIN CONTENT AREA -->
+        <div class="main-content">
+    <div class="container">
+        <div class="row show-grid">
+            <div class="span12">
+                <div class="row show-grid clear-both">
+                    <!-- BEGIN LEFT-SIDEBAR -->
+                    <div id="left-sidebar" class="span3 sidebar">
+                        <!-- LEFT-SIDEBAR: SIDEBAR NAVIGATION -->
+                        <div class="side-nav sidebar-block">
 
-    <div class="content container">
-<div class="post">
-  <h1>{{ .Title }}</h1>
+                            <h2>Expertise</h2>
 
-      {{ .Content }}
+    <ul>
+        {{ range .Site.Sections.activities }}	
+        <li class=""><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+        
+   	{{end}}
+    </ul>
 
+                        </div>
+                    </div>
+                    <!-- END LEFT-SIDEBAR -->
 
+                    <!-- BEGIN ARTICLE CONTENT AREA -->
+                    <div class="span9 main-column two-columns-left">
+                        <h1>{{ .Title }}</h1>
+      				{{ .Content }}
+                    <!-- END ARTICLE CONTENT AREA -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </div>
 </div>
-</div>
+        <!-- END MAIN CONTENT AREA -->
+
  {{ partial "footer.html" . }}
  {{ partial "javascript.html" . }}
   </body>

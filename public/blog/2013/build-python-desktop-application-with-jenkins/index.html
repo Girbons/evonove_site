@@ -1,4 +1,4 @@
- 
+
 
 <head>
 
@@ -37,8 +37,10 @@ IT co..." />
 
     </head>
 
-<body>
- <header>
+    <body>
+        <header>
+<div class="top_line"></div>
+
             <div class="container">
                 <div class="row">
                     
@@ -107,13 +109,13 @@ IT co..." />
 
                                         <ul class="dropdown-menu">
                                             
-                                            <li><a href="/expertise/molecular-visualization/">Molecular Visualization</a></li>
-                                            
-                                            <li><a href="/expertise/qt/">Qt</a></li>
-                                            
                                             <li><a href="/expertise/django/">Django</a></li>
                                             
+                                            <li><a href="/expertise/molecular-visualization/">Molecular Visualization</a></li>
+                                            
                                             <li><a href="/expertise/videomapping/">Videomapping</a></li>
+                                            
+                                            <li><a href="/expertise/qt/">Qt</a></li>
                                             
                                             <li><a href="/expertise/webapps/">Rich Web Applications</a></li>
                                             
@@ -147,11 +149,13 @@ IT co..." />
             </div>
 </header>
 
-
-    <div class="content container">
-<div class="post">
-  <h1>Build Python desktop application with Jenkins</h1>
-      <p>We recently started using <code>Jenkins &lt;http://jenkins-ci.org/&gt;</code>_, a well known system for Continuous Integration,
+        <div class="main-content">
+            <div class="content container">
+                <div class="span12">
+                    <div class="row show-grid clear-both">
+                      <div class="span9 main-column two-columns-right">
+                        <h1>Build Python desktop application with Jenkins</h1>
+                            <p>We recently started using <a href="http://jenkins-ci.org/">Jenkins</a>, a well known system for Continuous Integration,
 and make it perform tasks like build and package multiplatform desktop
 applications.</p>
 
@@ -172,10 +176,10 @@ a choice) and maintaining different build scripts was not acceptable.</p>
 
 <ul>
 <li>Gnu Make</li>
-<li><code>Fabric &lt;http://docs.fabfile.org/en/latest/&gt;</code>_</li>
-<li><code>Paver &lt;http://paver.github.io/paver/&gt;</code>_</li>
-<li><code>buildout &lt;http://www.buildout.org/en/latest/&gt;</code>_</li>
-<li><code>CMake &lt;http://www.cmake.org/&gt;</code>_</li>
+<li><a href="http://docs.fabfile.org/en/latest/">Fabric</a></li>
+<li><a href="http://paver.github.io/paver/">Paver</a></li>
+<li><a href="http://www.buildout.org/en/latest/">buildout</a></li>
+<li><a href="http://www.cmake.org/">CMake</a></li>
 </ul>
 
 <p>CMake seems the most flexible of the above (at least for a newcomer) and it was the only one which let us collect the code
@@ -196,7 +200,7 @@ somewhere on the internet.</p>
 <li>can speak with cloud storaging systems (e.g. S3)</li>
 </ul>
 
-<p>We briefly reviewed two products, Jenkins and <code>CDash &lt;http://www.cdash.org/&gt;</code>_, and we ended up with <strong>Jenkins</strong>
+<p>We briefly reviewed two products, Jenkins and <a href="http://www.cdash.org/">CDash</a>, and we ended up with <strong>Jenkins</strong>
 basically for two reasons:</p>
 
 <ul>
@@ -214,9 +218,29 @@ to be shipped) are collected and uploaded to a <strong>S3 bucket</strong>, where
 <p><strong>Feel free to drop here a comment</strong> and share your experience, it&rsquo;s never easy finding a best practice when the requirements
 are complex and not always well defined as they are in this case.</p>
 
-</div>
-</div> 
- <footer id="footer">
+                         <div class="post-socials">
+                            <h2>Social Share</h2>
+                            
+                            <div class="addthis_toolbox addthis_default_style ">
+                                <a class="addthis_button_preferred_1"></a>
+                                <a class="addthis_button_preferred_2"></a>
+                                <a class="addthis_button_preferred_3"></a>
+                                <a class="addthis_button_preferred_4"></a>
+                                <a class="addthis_button_compact"></a>
+                                <a class="addthis_counter addthis_bubble_style"></a>
+                            </div>
+                            <script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-503f5c291ae38f65"></script>
+
+                            
+                         </div>
+
+                      </div>
+                </div>
+            </div>
+    </div>
+
+
+     <footer id="footer">
 
 
             <div class="footer-top"></div>
@@ -281,7 +305,7 @@ are complex and not always well defined as they are in this case.</p>
 
         </footer>
 
-         
+             
 
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.0.3/jquery-2.0.3.min.js"></script>
         <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.migrate/1.2.1/jquery-migrate.min.js"></script>
@@ -304,8 +328,7 @@ are complex and not always well defined as they are in this case.</p>
             })();
         </script>
 
-
-  <script>document.write('<script src="http://'
+    <script>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'
         + 'script>')</script></body>

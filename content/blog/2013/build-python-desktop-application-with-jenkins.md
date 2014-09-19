@@ -1,6 +1,6 @@
 ---
 title: Build Python desktop application with Jenkins
-date: 24.07.2013, 14:38
+date: "24-07-2013"
 lang: en
 identifier: build-python-desktop-application-with-jenkins
 slug: build-python-desktop-application-with-jenkins
@@ -9,7 +9,7 @@ tags: [python,Qt,Jenkins]
 intro.maxparagraphs: 2
 ---
 
-We recently started using `Jenkins <http://jenkins-ci.org/>`_, a well known system for Continuous Integration,
+We recently started using [Jenkins](http://jenkins-ci.org/), a well known system for Continuous Integration,
 and make it perform tasks like build and package multiplatform desktop
 applications.
 
@@ -29,10 +29,10 @@ a choice) and maintaining different build scripts was not acceptable.
 We needed a build system and we needed it fast, so we started reviewing all of these:
 
  * Gnu Make
- * `Fabric <http://docs.fabfile.org/en/latest/>`_
- * `Paver <http://paver.github.io/paver/>`_
- * `buildout <http://www.buildout.org/en/latest/>`_
- * `CMake <http://www.cmake.org/>`_
+ * [Fabric](http://docs.fabfile.org/en/latest/)
+ * [Paver](http://paver.github.io/paver/)
+ * [buildout](http://www.buildout.org/en/latest/)
+ * [CMake](http://www.cmake.org/)
 
 CMake seems the most flexible of the above (at least for a newcomer) and it was the only one which let us collect the code
 from several sources **(CVS repos, git repos, source tarballs)** build it with different build systems **(Make, QMake, distutils,
@@ -50,7 +50,7 @@ Our requirements:
  * should be able to start and stop EC2 machines
  * can speak with cloud storaging systems (e.g. S3)
 
-We briefly reviewed two products, Jenkins and `CDash <http://www.cdash.org/>`_, and we ended up with **Jenkins**
+We briefly reviewed two products, Jenkins and [CDash](http://www.cdash.org/), and we ended up with **Jenkins**
 basically for two reasons:
 
  * documentation

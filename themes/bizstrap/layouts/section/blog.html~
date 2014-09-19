@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="it">
+    <!-- HEAD -->
+  {{ partial "head.html" . }}
+    <!-- END HEAD  -->
+    <body>
+
+        <!-- HEADER AREA -->
+         {{ partial "header.html" . }}
+        <!-- end header area -->
+
+        <!-- MAIN CONTENT AREA -->
+<div id="right-sidebar" class="span3 sidebar">
+                        <div class="tags-widget sidebar-block">
+                            <h2>Tags</h2>
+
+                            <ul>
+                                <li><p><i class="icon-tags"></i><a href="#"></a></p></li>
+                            </ul>
+
+                        </div>
+                        <div class="text-widget sidebar-block">
+   </div>
+                    </div>
+
+ <div class="main-content">
+    <div class="container">
+
+        <div class="row show-grid">
+            <div class="span12">
+                <div class="row show-grid clear-both">
+                    {{ range first 5 .Data.Pages.ByDate.Reverse }}
+                        {{ if eq .Type "blog" }}
+                    <div class="span9 main-column two-columns-right">
+                        <!-- BEGIN POSTS -->
+
+                        <div class="post-item">
+
+                            <h2><a href="{{ .RelPermalink }}/">{{ .Title }}</a></h2>
+
+                            <div style="float:left;margin-right:15px;">
+                            <img alt="" src="{{ .Params.image }}" class="img-rounded thumbnail"/>
+                            </div>
+
+                            <div class="post-description justified">
+                                <p>{{ .Content }}</p>
+                            </div>
+
+                            <a class="post-more" href="{{ .RelPermalink}}">Continue Reading&nbsp;&raquo;</a>
+                            <div class="post-item-panel">
+                                <ul>
+                                    <li class="date">
+                                        <p><i class="icon-calendar"></i>{{ .Params.date }}</p>
+                                    </li>
+                                    <li><p><i class="icon-user"></i><a href="/staff/{{ .Params.author }}">{{ .Params.author }}</a></p></li>
+                                    <li><p><i class="icon-tags"></i>
+
+                                        <a href="">android</a>,
+
+                                        <a href="">udoo</a>
+                                    </p></li>
+                                </ul>
+                            </div>
+ 				          </div>
+
+
+                        <!-- END POSTS -->
+
+
+
+
+                        <div class="bs-docs-example">
+                            <ul class="pager">
+
+
+                            </ul>
+                        </div>
+                    </div>
+                     {{end}}
+                   {{end}}
+                    <div id="right-sidebar" class="span3 sidebar">
+                        <div class="tags-widget sidebar-block">
+                            <h2>Tags</h2>
+
+                            <ul>
+                                <li><p><i class="icon-tags"></i><a href="#"></a></p></li>
+                            </ul>
+
+                        </div>
+                        <div class="text-widget sidebar-block">
+                            <h2>License</h2>
+                            <p><p><a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/"></a> This work is licensed under a <a class="reference external" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+Attribution-ShareAlike 3.0 Unported License</a>.
+                     
+                </div>
+
+            </div>
+
+        </div>
+<li class="previous"><a href="/blog/page/2/">← Older</a></li>
+        <hr>
+
+    </div>
+</div>
+        <!-- END MAIN CONTENT AREA -->
+        <!-- FOOTER STARTS HERE -->
+        {{ partial "footer.html" . }}
+        <!-- END FOOTER -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        {{ partial "javascript.html" . }}
+    </body>
+</html>

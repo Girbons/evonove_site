@@ -39,6 +39,8 @@ IT co..." />
 
 <body>
  <header>
+<div class="top_line"></div>
+
             <div class="container">
                 <div class="row">
                     
@@ -91,9 +93,9 @@ IT co..." />
                                             
                                             <li><a href="/activities/consulting/">Consulting</a></li>
                                             
-                                            <li><a href="/activities/workshop/">Workshop</a></li>
-                                            
                                             <li><a href="/activities/software/">Software</a></li>
+                                            
+                                            <li><a href="/activities/workshop/">Workshop</a></li>
                                             
                                         </ul>
                                     </li>
@@ -203,8 +205,6 @@ Django support.</p>
 <p>To enable django-jython module it’s necessary to edit database backends and
 Django INSTALLED_APPS:</p>
 
-<p>.. sourcecode:: python</p>
-
 <pre><code>DATABASES = {
     'default': {
     'ENGINE': 'doj.backends.zxjdbc.postgresql',
@@ -237,8 +237,6 @@ be used. As defined by SPDY protocol if SPDY over HTTPS (TLS) is used, the Next
 Procol Negotiation (NPN) library is required. The JVM should be started with
 non-standard option:</p>
 
-<p>.. sourcecode:: terminal</p>
-
 <pre><code>java -Xbootclasspath/p:&lt;path_to_npn_boot_jar&gt;
 </code></pre>
 
@@ -253,15 +251,11 @@ To enable transparent push feature a pushStrategy should be activated inside
 Jetty configuration file. To improve the behaviour of a push strategy two
 variables must be set:</p>
 
-<p>.. sourcecode:: xml</p>
-
 <pre><code>&lt;Set name=&quot;referrerPushPeriod&quot;&gt;15000&lt;/Set&gt;
 </code></pre>
 
 <p>define a delay after which Jetty will stop to load in push mode associated
 resources of a main request;</p>
-
-<p>.. sourcecode:: xml</p>
 
 <pre><code>&lt;Set name=&quot;maxAssociatedResources&quot;&gt;32&lt;/Set&gt;
 </code></pre>
