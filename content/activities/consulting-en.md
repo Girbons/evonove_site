@@ -27,8 +27,9 @@ existing software systems.
 Software Configuration Management
 ---------------------------------
 We offer support for every aspect of SCM: our main tool for revision control is
-Git but we can help handle and migrate from and to other system like Mercurial
-or SVN.
+Git but we can help handle and migrate from and to other system like Mercurial or SVN.
+
+----------------------
 ![RHCE](/img/rhce.png)
 
 

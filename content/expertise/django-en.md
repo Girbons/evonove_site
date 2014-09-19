@@ -25,7 +25,7 @@ Django OAuth Toolkit can help you providing out of the box all the endpoints,
 data and logic needed to add OAuth2 capabilities to your Django projects. 
 Django OAuth Toolkit makes extensive use of the excellent OAuthLib, so that 
 everything is rfc-compliant.
-Read the docs: `<https://django-oauth-toolkit.readthedocs.org/>`_
+[Read the docs](https://django-oauth-toolkit.readthedocs.org/)
 
 Django Stored Messages
 ----------------------
@@ -33,10 +33,10 @@ Django Stored Messages
 The app integrates smoothly with Django's messages framework (django.contrib.messages), 
 but users can decide which messages have to be stored on the database backend and kept 
 available over sessions.
-Read the docs: `<https://django-stored-messages.readthedocs.org/>`_
+[Read the docs](https://django-stored-messages.readthedocs.org/)
 
 Django Money Rates
 ------------------
 
 Currency conversion utilities for money.
-Read the docs: `<https://django-money-rates.readthedocs.org/>`_
+[Read the docs](https://django-money-rates.readthedocs.org/)

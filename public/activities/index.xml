@@ -35,9 +35,11 @@ existing software systems.&lt;/p&gt;
 &lt;h2 id=&#34;toc_2&#34;&gt;Software Configuration Management&lt;/h2&gt;
 
 &lt;p&gt;We offer support for every aspect of SCM: our main tool for revision control is
-Git but we can help handle and migrate from and to other system like Mercurial
-or SVN.
-&lt;img src=&#34;/img/rhce.png&#34; alt=&#34;RHCE&#34; /&gt;
+Git but we can help handle and migrate from and to other system like Mercurial or SVN.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/rhce.png&#34; alt=&#34;RHCE&#34; /&gt;
 &lt;/p&gt;
 </description>
     </item>
@@ -74,7 +76,7 @@ the adoption of bleeding edge technologies.&lt;/p&gt;
 &lt;h2 id=&#34;toc_3&#34;&gt;Sponsorships&lt;/h2&gt;
 
 &lt;p&gt;Evonove endorses small projects in the open source world, in particular
-the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+the &lt;a href=&#34;http://pypg.org&#34;&gt;Python User Group of Perugia&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -107,17 +109,13 @@ Backend development
         - JBoss Seam
         - Plone CMS
 &lt;/div&gt;
-
 &lt;div span&gt;
-
 Mobile development
         - Android
         - Qt
         - Mobile Web
 &lt;/div&gt;
-
 &lt;div span&gt;
-
 Rich User Interface
         - Qt quick
         - HTML5 + CSS3
@@ -125,20 +123,17 @@ Rich User Interface
         - EmberJS
         - YUI
 &lt;/div&gt;
-
 &lt;div span&gt;
-
 Database technologies
         - Postgres
         - MySql
         - Sqlite
         - SQLAlchemy
         - Hibernate
-
+&lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;/div&gt;
-We like to work transparently with our Customers, who can monitor every step of
+&lt;p&gt;We like to work transparently with our Customers, who can monitor every step of
 the development process: code, time tracker, issue tracker.&lt;/p&gt;
 </description>
     </item>

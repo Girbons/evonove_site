@@ -37,4 +37,4 @@ Sponsorships
 ------------
 
 Evonove endorses small projects in the open source world, in particular
-the `Python User Group of Perugia <http://pypg.org>`_.
+the [Python User Group of Perugia](http://pypg.org).

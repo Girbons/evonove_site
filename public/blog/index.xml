@@ -10,6 +10,34 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
+      <title>DroidCon 2014, all aboard!</title>
+      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
+      <description>&lt;p&gt;After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
+&lt;a href=&#34;http://droidcon.com/&#34;&gt;Droidcon&lt;/a&gt; arrives in Italy, &lt;a href=&#34;http://it.droidcon.com/2014/&#34;&gt;in Turin&lt;/a&gt;.
+It&amp;rsquo;ll be two days of talks, workshops, showcases and even an Hackaton dedicated to one of the most
+widespread operating system in the world: Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2014/droidcon.jpg&#34; alt=&#34;droidcon&#34; /&gt;
+
+At Droidcon you can see Android in action in every field of application: mobile devices, of course,
+but even TV, cars, gaming and embedded systems. And we&amp;rsquo;ll be there just to cover the latter: with
+a &lt;a href=&#34;http://www.udoo.org/&#34;&gt;Udoo board&lt;/a&gt; attached to a custom motorized rover,
+&lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; is going to show off Android&amp;rsquo;s potential pushing it beyond the
+comfort of mobile devices with the talk &lt;a href=&#34;http://it.droidcon.com/2014/lineup/&#34;&gt;Release the Kraken&lt;/a&gt;
+The Internet of Things seems to be very attractive these days, people want to get their hands dirty
+with the bare metal and media grasped the potential of the makers revolution, as you can see on
+&lt;a href=&#34;http://nova.ilsole24ore.com/esperienze/android-piu-open&#34;&gt;this article&lt;/a&gt;appeared on one of the
+most authoritative business newspaper (only available in italian).
+You can learn more on Emanuele&amp;rsquo;s adventure at the Droidcon in
+&lt;a href=&#34;http://www.techmate.it/droidcon/&#34;&gt;this interview&lt;/a&gt;(again, only in italian) published on the electronic
+magazine &lt;strong&gt;Techmate&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Europython 2013 Wrap-up</title>
       <link>http://localhost:1313/blog/2013/europython-2013/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -62,69 +90,6 @@ and a lightning talk. We also managed to make a code sprint for
 &lt;p&gt;And the lightning talks:&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://youtu.be/iUNbgNuN0qY?t=1h9m32s&#34;&gt;youtube&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DroidCon 2014, all aboard!</title>
-      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
-      <description>&lt;p&gt;After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
-&lt;a href=&#34;http://droidcon.com/&#34;&gt;Droidcon&lt;/a&gt; arrives in Italy, &lt;a href=&#34;http://it.droidcon.com/2014/&#34;&gt;in Turin&lt;/a&gt;.
-It&amp;rsquo;ll be two days of talks, workshops, showcases and even an Hackaton dedicated to one of the most
-widespread operating system in the world: Android.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2014/droidcon.jpg&#34; alt=&#34;droidcon&#34; /&gt;
-
-At Droidcon you can see Android in action in every field of application: mobile devices, of course,
-but even TV, cars, gaming and embedded systems. And we&amp;rsquo;ll be there just to cover the latter: with
-a &lt;a href=&#34;http://www.udoo.org/&#34;&gt;Udoo board&lt;/a&gt; attached to a custom motorized rover,
-&lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; is going to show off Android&amp;rsquo;s potential pushing it beyond the
-comfort of mobile devices with the talk &lt;a href=&#34;http://it.droidcon.com/2014/lineup/&#34;&gt;Release the Kraken&lt;/a&gt;
-The Internet of Things seems to be very attractive these days, people want to get their hands dirty
-with the bare metal and media grasped the potential of the makers revolution, as you can see on
-&lt;a href=&#34;http://nova.ilsole24ore.com/esperienze/android-piu-open&#34;&gt;this article&lt;/a&gt;appeared on one of the
-most authoritative business newspaper (only available in italian).
-You can learn more on Emanuele&amp;rsquo;s adventure at the Droidcon in
-&lt;a href=&#34;http://www.techmate.it/droidcon/&#34;&gt;this interview&lt;/a&gt;(again, only in italian) published on the electronic
-magazine &lt;strong&gt;Techmate&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DjangoCon Europe 2013 Wrap-up</title>
-      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
-      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
-it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/circus.jpg&#34; alt=&#34;circus&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
-I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/food.jpg&#34; alt=&#34;food&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
-happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
-&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
-places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
-inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; who arranged
-a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/lighting.jpg&#34; alt=&#34;lighting&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
-have been happened in case of rain :-).&lt;/p&gt;
 </description>
     </item>
     
@@ -269,6 +234,41 @@ support on the middle term and hopefully longer, depending on the success it cou
 &lt;p&gt;As any other Open Source project, we&amp;rsquo;re nothing without a community: any help is appreciated, code of course but also
 docs, testing and any kind of feedback. &lt;a href=&#34;https://github.com/evonove/django-oauth-toolkit&#34;&gt;Fork the project&lt;/a&gt;,
 take a ride, fill some PRs!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DjangoCon Europe 2013 Wrap-up</title>
+      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
+      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
+it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/circus.jpg&#34; alt=&#34;circus&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
+I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/food.jpg&#34; alt=&#34;food&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
+happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
+&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
+places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
+inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; who arranged
+a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/lighting.jpg&#34; alt=&#34;lighting&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
+have been happened in case of rain :-).&lt;/p&gt;
 </description>
     </item>
     

@@ -10,6 +10,26 @@
     <updated>Mon, 01 Jan 0001 00:00:00 UTC</updated>
     
     <item>
+      <title>Qt</title>
+      <link>http://localhost:1313/expertise/qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/qt/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/qt-logo.jpg&#34; alt=&#34;qtlogo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
+interfaces for desktop, embedded and mobile platforms. Qt also provides
+support for network programming, multi threading, database access.&lt;/p&gt;
+
+&lt;p&gt;Qt is our first choice when developing desktop applications or when high
+performances are a requirement. We have solid experience using Qt both in C++
+and Python programming languages and we can offer support even on existing
+projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Django</title>
       <link>http://localhost:1313/expertise/django/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -30,19 +50,19 @@ an open source license and participating in several open source projects.&lt;/p&
 data and logic needed to add OAuth2 capabilities to your Django projects.
 Django OAuth Toolkit makes extensive use of the excellent OAuthLib, so that
 everything is rfc-compliant.
-Read the docs: &lt;code&gt;&amp;lt;https://django-oauth-toolkit.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+&lt;a href=&#34;https://django-oauth-toolkit.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;toc_1&#34;&gt;Django Stored Messages&lt;/h2&gt;
 
 &lt;p&gt;The app integrates smoothly with Django&amp;rsquo;s messages framework (django.contrib.messages),
 but users can decide which messages have to be stored on the database backend and kept
 available over sessions.
-Read the docs: &lt;code&gt;&amp;lt;https://django-stored-messages.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+&lt;a href=&#34;https://django-stored-messages.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;toc_2&#34;&gt;Django Money Rates&lt;/h2&gt;
 
 &lt;p&gt;Currency conversion utilities for money.
-Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
+&lt;a href=&#34;https://django-money-rates.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -73,35 +93,7 @@ screens. Through this technique we can add value to shapes and surfaces,
 perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
 
 &lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
-Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-
-&lt;p&gt;.. vimeo:: 40283798
-   :align: center
-   :height: 375
-   :width: 500
-   :noportrait:
-   :nobyline:
-   :notitle:&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Qt</title>
-      <link>http://localhost:1313/expertise/qt/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/qt/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/qt-logo.jpg&#34; alt=&#34;qtlogo&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
-interfaces for desktop, embedded and mobile platforms. Qt also provides
-support for network programming, multi threading, database access.&lt;/p&gt;
-
-&lt;p&gt;Qt is our first choice when developing desktop applications or when high
-performances are a requirement. We have solid experience using Qt both in C++
-and Python programming languages and we can offer support even on existing
-projects.&lt;/p&gt;
+Some of our works can be found on &lt;a href=&#34;http://veedea.it&#34;&gt;veedea.it&lt;/a&gt; and our &lt;a href=&#34;http://vimeo.com/user11262087&#34;&gt;Vimeo pages&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

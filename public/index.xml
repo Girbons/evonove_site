@@ -35,9 +35,11 @@ existing software systems.&lt;/p&gt;
 &lt;h2 id=&#34;toc_2&#34;&gt;Software Configuration Management&lt;/h2&gt;
 
 &lt;p&gt;We offer support for every aspect of SCM: our main tool for revision control is
-Git but we can help handle and migrate from and to other system like Mercurial
-or SVN.
-&lt;img src=&#34;/img/rhce.png&#34; alt=&#34;RHCE&#34; /&gt;
+Git but we can help handle and migrate from and to other system like Mercurial or SVN.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/rhce.png&#34; alt=&#34;RHCE&#34; /&gt;
 &lt;/p&gt;
 </description>
     </item>
@@ -74,7 +76,42 @@ the adoption of bleeding edge technologies.&lt;/p&gt;
 &lt;h2 id=&#34;toc_3&#34;&gt;Sponsorships&lt;/h2&gt;
 
 &lt;p&gt;Evonove endorses small projects in the open source world, in particular
-the &lt;code&gt;Python User Group of Perugia &amp;lt;http://pypg.org&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
+the &lt;a href=&#34;http://pypg.org&#34;&gt;Python User Group of Perugia&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DjangoCon Europe 2013 Wrap-up</title>
+      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
+      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
+
+&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
+it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/circus.jpg&#34; alt=&#34;circus&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
+I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/food.jpg&#34; alt=&#34;food&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
+happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
+&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
+places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
+inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; who arranged
+a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2013/lighting.jpg&#34; alt=&#34;lighting&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
+have been happened in case of rain :-).&lt;/p&gt;
 </description>
     </item>
     
@@ -223,129 +260,6 @@ are complex and not always well defined as they are in this case.&lt;/p&gt;
     </item>
     
     <item>
-      <title>DjangoCon Europe 2013 Wrap-up</title>
-      <link>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2013/djangocon-europe-2013-wrap-up/</guid>
-      <description>&lt;p&gt;Seriously, a circus? That perfectly fits the quote &lt;em&gt;And now for something completely different&lt;/em&gt;!&lt;/p&gt;
-
-&lt;p&gt;Just got back from the latest DjangoCon Europe - I usually write a sort of log of the conferences I attend, this time
-it&amp;rsquo;ll be just a matter of thanks.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/circus.jpg&#34; alt=&#34;circus&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Thanks to the organizers&lt;/strong&gt;, they possibly delivered the craziest tech conference I ever attended. Thanks for the &lt;strong&gt;food&lt;/strong&gt;,
-I much appreciated the veg option (I arrived in Warsaw prepared to starve, likely I gained weight).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/food.jpg&#34; alt=&#34;food&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Thanks for the &lt;strong&gt;free and fresh beverages&lt;/strong&gt; constantly available for the attendees. Thanks for the &lt;strong&gt;free beer&lt;/strong&gt; (don&amp;rsquo;t now if and when it&amp;rsquo;ll
-happen again&amp;hellip;). Thanks for the &lt;strong&gt;free ice creams&lt;/strong&gt;, again, constantly available during the conference. Thanks for the
-&lt;strong&gt;goodies&lt;/strong&gt; (hammoks, blankets, cushions, deckchairs and so on&amp;hellip;). Thanks for bringing me to &lt;strong&gt;Warsaw&lt;/strong&gt;: nice people, nice
-places, good food - it totally worths, even for a short weekend. Thanks to the &lt;strong&gt;speakers&lt;/strong&gt;, some of them were very
-inspiring and the amount of lighting talk was ridicolously huge! Thanks to &lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; who arranged
-a very fun (and informative!) lighting talk in a few hours.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2013/lighting.jpg&#34; alt=&#34;lighting&#34; /&gt;
-&lt;/p&gt;
-
-&lt;p&gt;And thanks to the &lt;strong&gt;weather&lt;/strong&gt;, really don&amp;rsquo;t know what could
-have been happened in case of rain :-).&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>DroidCon 2014, all aboard!</title>
-      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
-      <description>&lt;p&gt;After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
-&lt;a href=&#34;http://droidcon.com/&#34;&gt;Droidcon&lt;/a&gt; arrives in Italy, &lt;a href=&#34;http://it.droidcon.com/2014/&#34;&gt;in Turin&lt;/a&gt;.
-It&amp;rsquo;ll be two days of talks, workshops, showcases and even an Hackaton dedicated to one of the most
-widespread operating system in the world: Android.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;/img/2014/droidcon.jpg&#34; alt=&#34;droidcon&#34; /&gt;
-
-At Droidcon you can see Android in action in every field of application: mobile devices, of course,
-but even TV, cars, gaming and embedded systems. And we&amp;rsquo;ll be there just to cover the latter: with
-a &lt;a href=&#34;http://www.udoo.org/&#34;&gt;Udoo board&lt;/a&gt; attached to a custom motorized rover,
-&lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; is going to show off Android&amp;rsquo;s potential pushing it beyond the
-comfort of mobile devices with the talk &lt;a href=&#34;http://it.droidcon.com/2014/lineup/&#34;&gt;Release the Kraken&lt;/a&gt;
-The Internet of Things seems to be very attractive these days, people want to get their hands dirty
-with the bare metal and media grasped the potential of the makers revolution, as you can see on
-&lt;a href=&#34;http://nova.ilsole24ore.com/esperienze/android-piu-open&#34;&gt;this article&lt;/a&gt;appeared on one of the
-most authoritative business newspaper (only available in italian).
-You can learn more on Emanuele&amp;rsquo;s adventure at the Droidcon in
-&lt;a href=&#34;http://www.techmate.it/droidcon/&#34;&gt;this interview&lt;/a&gt;(again, only in italian) published on the electronic
-magazine &lt;strong&gt;Techmate&lt;/strong&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Callout</title>
-      <link>http://localhost:1313/callout/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/callout/</guid>
-      <description>
-
-&lt;p&gt;.. |callout| image:: /img/tofu_logo.png&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;&lt;code&gt;Tofu, file storage made easy &amp;lt;http://tofu.st/&amp;gt;&lt;/code&gt;_&lt;/h1&gt;
-
-&lt;p&gt;|callout| Tofu is a file storage solution based on evonove&amp;rsquo;s own customers
-requirements. You can try the service and get 1Gb of disk space for your personal
-files, for free.&lt;/p&gt;
-
-&lt;p&gt;.. raw:: html&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot; target=&amp;quot;_blank&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;icon-shopping-cart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Get an account now&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Django</title>
-      <link>http://localhost:1313/expertise/django/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/django/</guid>
-      <description>
-
-&lt;p&gt;Django is a full stack, open source web framework written in Python
-finalized to the development of complex web applications.&lt;/p&gt;
-
-&lt;p&gt;Evonove can help customers on planning and developing Django projects
-and is active in the community by releasing the most of the code with
-an open source license and participating in several open source projects.&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_0&#34;&gt;Django OAuth Toolkit&lt;/h2&gt;
-
-&lt;p&gt;Django OAuth Toolkit can help you providing out of the box all the endpoints,
-data and logic needed to add OAuth2 capabilities to your Django projects.
-Django OAuth Toolkit makes extensive use of the excellent OAuthLib, so that
-everything is rfc-compliant.
-Read the docs: &lt;code&gt;&amp;lt;https://django-oauth-toolkit.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;Django Stored Messages&lt;/h2&gt;
-
-&lt;p&gt;The app integrates smoothly with Django&amp;rsquo;s messages framework (django.contrib.messages),
-but users can decide which messages have to be stored on the database backend and kept
-available over sessions.
-Read the docs: &lt;code&gt;&amp;lt;https://django-stored-messages.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
-
-&lt;h2 id=&#34;toc_2&#34;&gt;Django Money Rates&lt;/h2&gt;
-
-&lt;p&gt;Currency conversion utilities for money.
-Read the docs: &lt;code&gt;&amp;lt;https://django-money-rates.readthedocs.org/&amp;gt;&lt;/code&gt;_&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Europython 2013 Wrap-up</title>
       <link>http://localhost:1313/blog/2013/europython-2013/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -402,6 +316,34 @@ and a lightning talk. We also managed to make a code sprint for
     </item>
     
     <item>
+      <title>DroidCon 2014, all aboard!</title>
+      <link>http://localhost:1313/blog/2014/droidcon-2014/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/blog/2014/droidcon-2014/</guid>
+      <description>&lt;p&gt;After Amsterdam, Bangalore, Berlin, Brussels, London, Murcia and Tunis the
+&lt;a href=&#34;http://droidcon.com/&#34;&gt;Droidcon&lt;/a&gt; arrives in Italy, &lt;a href=&#34;http://it.droidcon.com/2014/&#34;&gt;in Turin&lt;/a&gt;.
+It&amp;rsquo;ll be two days of talks, workshops, showcases and even an Hackaton dedicated to one of the most
+widespread operating system in the world: Android.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/img/2014/droidcon.jpg&#34; alt=&#34;droidcon&#34; /&gt;
+
+At Droidcon you can see Android in action in every field of application: mobile devices, of course,
+but even TV, cars, gaming and embedded systems. And we&amp;rsquo;ll be there just to cover the latter: with
+a &lt;a href=&#34;http://www.udoo.org/&#34;&gt;Udoo board&lt;/a&gt; attached to a custom motorized rover,
+&lt;a href=&#34;/staff/palazzem&#34;&gt;Emanuele&lt;/a&gt; is going to show off Android&amp;rsquo;s potential pushing it beyond the
+comfort of mobile devices with the talk &lt;a href=&#34;http://it.droidcon.com/2014/lineup/&#34;&gt;Release the Kraken&lt;/a&gt;
+The Internet of Things seems to be very attractive these days, people want to get their hands dirty
+with the bare metal and media grasped the potential of the makers revolution, as you can see on
+&lt;a href=&#34;http://nova.ilsole24ore.com/esperienze/android-piu-open&#34;&gt;this article&lt;/a&gt;appeared on one of the
+most authoritative business newspaper (only available in italian).
+You can learn more on Emanuele&amp;rsquo;s adventure at the Droidcon in
+&lt;a href=&#34;http://www.techmate.it/droidcon/&#34;&gt;this interview&lt;/a&gt;(again, only in italian) published on the electronic
+magazine &lt;strong&gt;Techmate&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Contacts</title>
       <link>http://localhost:1313/contacts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -433,6 +375,86 @@ and a lightning talk. We also managed to make a code sprint for
     </item>
     
     <item>
+      <title>Callout</title>
+      <link>http://localhost:1313/callout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/callout/</guid>
+      <description>
+
+&lt;p&gt;.. |callout| image:: /img/tofu_logo.png&lt;/p&gt;
+
+&lt;h1 id=&#34;toc_0&#34;&gt;&lt;code&gt;Tofu, file storage made easy &amp;lt;http://tofu.st/&amp;gt;&lt;/code&gt;_&lt;/h1&gt;
+
+&lt;p&gt;|callout| Tofu is a file storage solution based on evonove&amp;rsquo;s own customers
+requirements. You can try the service and get 1Gb of disk space for your personal
+files, for free.&lt;/p&gt;
+
+&lt;p&gt;.. raw:: html&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot; target=&amp;quot;_blank&amp;quot; class=&amp;quot;btn btn-warning&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;icon-shopping-cart&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Get an account now&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Qt</title>
+      <link>http://localhost:1313/expertise/qt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/qt/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;/img/qt-logo.jpg&#34; alt=&#34;qtlogo&#34; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
+interfaces for desktop, embedded and mobile platforms. Qt also provides
+support for network programming, multi threading, database access.&lt;/p&gt;
+
+&lt;p&gt;Qt is our first choice when developing desktop applications or when high
+performances are a requirement. We have solid experience using Qt both in C++
+and Python programming languages and we can offer support even on existing
+projects.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Django</title>
+      <link>http://localhost:1313/expertise/django/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
+      
+      <guid>http://localhost:1313/expertise/django/</guid>
+      <description>
+
+&lt;p&gt;Django is a full stack, open source web framework written in Python
+finalized to the development of complex web applications.&lt;/p&gt;
+
+&lt;p&gt;Evonove can help customers on planning and developing Django projects
+and is active in the community by releasing the most of the code with
+an open source license and participating in several open source projects.&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_0&#34;&gt;Django OAuth Toolkit&lt;/h2&gt;
+
+&lt;p&gt;Django OAuth Toolkit can help you providing out of the box all the endpoints,
+data and logic needed to add OAuth2 capabilities to your Django projects.
+Django OAuth Toolkit makes extensive use of the excellent OAuthLib, so that
+everything is rfc-compliant.
+&lt;a href=&#34;https://django-oauth-toolkit.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_1&#34;&gt;Django Stored Messages&lt;/h2&gt;
+
+&lt;p&gt;The app integrates smoothly with Django&amp;rsquo;s messages framework (django.contrib.messages),
+but users can decide which messages have to be stored on the database backend and kept
+available over sessions.
+&lt;a href=&#34;https://django-stored-messages.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;toc_2&#34;&gt;Django Money Rates&lt;/h2&gt;
+
+&lt;p&gt;Currency conversion utilities for money.
+&lt;a href=&#34;https://django-money-rates.readthedocs.org/&#34;&gt;Read the docs&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Molecular Visualization</title>
       <link>http://localhost:1313/expertise/molecular-visualization/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
@@ -459,100 +481,46 @@ screens. Through this technique we can add value to shapes and surfaces,
 perfectly fulfilling advertising and entertaining needs.&lt;/p&gt;
 
 &lt;p&gt;We are specialized in mapping small and medium surfaces, goods and furnitures.
-Some of our works can be found on &lt;code&gt;veedea.it &amp;lt;http://veedea.it&amp;gt;&lt;/code&gt;_ and our &lt;code&gt;Vimeo pages &amp;lt;http://vimeo.com/user11262087&amp;gt;&lt;/code&gt;_.&lt;/p&gt;
-
-&lt;p&gt;.. vimeo:: 40283798
-   :align: center
-   :height: 375
-   :width: 500
-   :noportrait:
-   :nobyline:
-   :notitle:&lt;/p&gt;
+Some of our works can be found on &lt;a href=&#34;http://veedea.it&#34;&gt;veedea.it&lt;/a&gt; and our &lt;a href=&#34;http://vimeo.com/user11262087&#34;&gt;Vimeo pages&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Qt</title>
-      <link>http://localhost:1313/expertise/qt/</link>
+      <title>Footer About</title>
+      <link>http://localhost:1313/footer_about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/expertise/qt/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;/img/qt-logo.jpg&#34; alt=&#34;qtlogo&#34; /&gt;
-&lt;/p&gt;
+      <guid>http://localhost:1313/footer_about/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
 
-&lt;p&gt;|qtlogo| Qt is a development framework for the creation of applications and user
-interfaces for desktop, embedded and mobile platforms. Qt also provides
-support for network programming, multi threading, database access.&lt;/p&gt;
-
-&lt;p&gt;Qt is our first choice when developing desktop applications or when high
-performances are a requirement. We have solid experience using Qt both in C++
-and Python programming languages and we can offer support even on existing
-projects.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h4 class=&amp;quot;center-title&amp;quot;&amp;gt;About E9&amp;lt;/h4&amp;gt;
+&amp;lt;dl class=&amp;quot;dl-horizontal&amp;quot;&amp;gt;
+    &amp;lt;dt&amp;gt;Sector&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software and IT Infrastructures.&amp;lt;/dd&amp;gt;
+    &amp;lt;dt&amp;gt;Services&amp;lt;/dt&amp;gt;
+    &amp;lt;dd&amp;gt;Software development, consultancy, formation, coworking, workshops, internships&amp;lt;/dd&amp;gt;
+&amp;lt;/dl&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
     <item>
-      <title>Home</title>
-      <link>http://localhost:1313/homepage/</link>
+      <title>Footer Navigation</title>
+      <link>http://localhost:1313/footer_navmenu/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
       
-      <guid>http://localhost:1313/homepage/</guid>
-      <description>
+      <guid>http://localhost:1313/footer_navmenu/</guid>
+      <description>&lt;p&gt;.. raw:: html&lt;/p&gt;
 
-&lt;h1 id=&#34;toc_0&#34;&gt;Say Hello to Evonove!&lt;/h1&gt;
-
-&lt;h2 id=&#34;toc_1&#34;&gt;IT consulting for small and medium enterprises.&lt;/h2&gt;
-
-&lt;p&gt;We help our customers to build quality IT systems by designing and developing
-software, planning and managing infrastructures, training. We try to actively
-involve our customers in every step when delivering a project, from the design
-of the application to the final test. Companies with their own technical staff
-can temporarily hire part of our staff when specific know-how is needed during
-the development of a project.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Rich Web Applications</title>
-      <link>http://localhost:1313/expertise/webapps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 UTC</pubDate>
-      
-      <guid>http://localhost:1313/expertise/webapps/</guid>
-      <description>
-
-&lt;p&gt;We make modern web applications with upstream technologies, leveraging HTML5 to
-build responsive layouts, suitable for desktops and mobile devices.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_0&#34;&gt;Java Backend&lt;/h1&gt;
-
-&lt;p&gt;We choose &lt;strong&gt;Seam&lt;/strong&gt; among the moltitude of Java framework for its original
-approach to the MVC pattern. Seam respects EJB3 specification and it encourage
-annotations over XML configurations, still using well known development tools
-like JSF, JPA/Hibernate and JAAS. Even if it&amp;rsquo;s basically a web framework, Seam
-glues together serveral technologies making the development of CRUD applications
-quick, easy and attractive. We like to call Seam the &lt;em&gt;autoframework&lt;/em&gt;: you write
-the models, she does the pleasure.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_1&#34;&gt;Backend Python&lt;/h1&gt;
-
-&lt;p&gt;When building lightweight applications or RESTful APIs we use &lt;strong&gt;Flask&lt;/strong&gt;, a wsgi
-compliant, open source micro-framework extremely flexible, perfect for agile
-development.&lt;/p&gt;
-
-&lt;p&gt;For complex web applications we prefer &lt;strong&gt;Django&lt;/strong&gt;, a full stack web framework
-which comes with a number of tools that can satisfy almost every software
-requirement.&lt;/p&gt;
-
-&lt;p&gt;For developing intranets, DMS or complex web portals with specific requirements
-about user and roles management we use &lt;strong&gt;Plone&lt;/strong&gt;, an open source, enterprise
-level CMS particularly useful in such application fields.&lt;/p&gt;
-
-&lt;h1 id=&#34;toc_2&#34;&gt;Frontend&lt;/h1&gt;
-
-&lt;p&gt;We follow the living standard of HTML5 to build effective, modern and good looking
-web applications. When needed, we make use of MVC Javascript frameworks like
-&lt;strong&gt;EmberJS&lt;/strong&gt; and &lt;strong&gt;AngularJS&lt;/strong&gt; in conjunction with RESTful web services on the
-backend.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;h3 class=&amp;quot;center-title&amp;quot;&amp;gt;Links&amp;lt;/h3&amp;gt;
+&amp;lt;ul class=&amp;quot;footer-navigate&amp;quot;&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;https://github.com/evonove&amp;quot;&amp;gt;Evonove on GitHub&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://wiki.evonove.it&amp;quot;&amp;gt;EvoWiki&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;http://tofu.st&amp;quot;&amp;gt;Tofu&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+    &amp;lt;li&amp;gt;&amp;lt;a href=&amp;quot;/contacts/&amp;quot;&amp;gt;Contact&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
